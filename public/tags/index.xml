@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Academic</title>
-    <link>/tags/</link>
+    <link>/lsbjordao/academic/tags/</link>
     <description>Recent content in Tags on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Apr 2019 00:00:00 -0300</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/lsbjordao/academic/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Source Themes</title>
-      <link>/tags/source-themes/</link>
+      <link>/lsbjordao/academic/tags/source-themes/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 -0300</pubDate>
       
-      <guid>/tags/source-themes/</guid>
+      <guid>/lsbjordao/academic/tags/source-themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>/tags/deep-learning/</link>
+      <link>/lsbjordao/academic/tags/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
       
-      <guid>/tags/deep-learning/</guid>
+      <guid>/lsbjordao/academic/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo</title>
-      <link>/tags/demo/</link>
+      <link>/lsbjordao/academic/tags/demo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
       
-      <guid>/tags/demo/</guid>
+      <guid>/lsbjordao/academic/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic</title>
-      <link>/tags/academic/</link>
+      <link>/lsbjordao/academic/tags/academic/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
       
-      <guid>/tags/academic/</guid>
+      <guid>/lsbjordao/academic/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
+      <link>/lsbjordao/academic/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>/lsbjordao/academic/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plot</title>
-      <link>/tags/plot/</link>
+      <link>/lsbjordao/academic/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>/lsbjordao/academic/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>/tags/regression/</link>
+      <link>/lsbjordao/academic/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>/lsbjordao/academic/tags/regression/</guid>
       <description></description>
     </item>
     
