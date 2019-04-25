@@ -21,13 +21,13 @@ subtitle = ""
   description = "50%"
   
 [[feature]]
-  icon = "fa-python"
+  icon = "python"
   icon_pack = "fab"
   name = "Python"
   description = "30%"
 
 [[feature]]
-  icon = "fa-git-square"
+  icon = "git-square"
   icon_pack = "fab"
   name = "git"
   description = "80%"  
