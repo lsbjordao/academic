@@ -19,33 +19,53 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro"
+  organization_url = ""
+  title = "Educação, Ambiente e Sociedade"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = ""
+  date_start = "2014-08-01"
+  date_end = "2014-10-01"
+  description = "40h"
+
+[[item]]
+  organization = "Academia do Concurso"
+  organization_url = ""
+  title = "Básico Ambiental"
+  url = "https://www.academiadoconcurso.com.br"
+  certificate_url = ""
+  date_start = "2011-02-01"
+  date_end = ""
+  description = "356h"
+  
+[[item]]
+  organization = "Fundação Planetário da Cidade do Rio de Janeiro"
+  organization_url = "http://planeta.rio"
+  title = "História da Astronomia"
+  url = ""
+  certificate_url = ""
+  date_start = "2010-08-01"
   date_end = ""
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Fundação Verde Herbert Daniel"
+  organization_url = "http://fundacaoverde.org.br"
+  title = "Formação de Lideranças Verdes"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  certificate_url = ""
+  date_start = "2009-06-01"
+  date_end = "2009-08-01"
+  description = "64h"
+
+[[item]]
+  organization = "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro"
+  organization_url = "http://fundacaoverde.org.br"
+  title = "O Nome das Plantas: Princípios e Regras"
+  url = ""
+  certificate_url = ""
+  date_start = "2009-05-01"
+  date_end = ""
+  description = "15h"
 
 +++
