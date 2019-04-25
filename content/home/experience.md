@@ -35,11 +35,11 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Internship and visiting researcher"
-  company = "New York Botanical Garden"
-  company_url = ""
+  company = "William & Lynda Steere Herbarium at New York Botanical Garden"
+  company_url = "http://sweetgum.nybg.org/science/vh/"
   location = "New York/NY, USA"
   date_start = "2016-03-01"
   date_end = "2017-03-01"
-  description = """Digitizer at William & Lynda Steere Herbarium by REFLORA Project/Fundação Flora de Apoio à Botânica and visiting researcher."""
+  description = """Digitizer of REFLORA Project/Fundação Flora de Apoio à Botânica and PhD visiting researcher."""
 
 +++
