@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Brasília/DF, Brazil"
   date_start = "2018-03"
   date_end = "2019-03"
-  description = ""
+  description = """
   Responsibilities include:
   
   * DNA extraction
