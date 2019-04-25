@@ -18,18 +18,19 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Doctoral Internship"
+  company = "Embrapa Recursos Genéticos e Biotecnologia (CENARGEN)"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  location = "Brasília/DF, Brazil"
+  date_start = "2018-03-01"
+  date_end = "2019-03-01"
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * DNA extraction
+  * PCR amplification
+  * Eletrophoresis
+  * Sanger sequencing
   """
 
 [[experience]]
