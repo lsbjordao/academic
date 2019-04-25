@@ -11,14 +11,22 @@ education:
   - course: Master's in Botany
     institution: Museu Nacional/UFRJ
     year: 2013
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Lic.Phil. in Biological Sciences
+    institution: Universidade Santa Úrsula
+    year: 2009
+  - course: BSc in Biological Sciences
+    institution: Universidade Santa Úrsula
+    year: 2007
 email: ""
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Phylogenetic Systematics and Evolution
+- Biogeography
+- Taxonomy and Nomenclature
+- Niche modelling
+- Biodiversity management
+- Global and Brazilian Environmental History
+- Environmental Education
+- Brazilian Environmental Legislation
 name: Lucas Jordão
 organizations:
 - name: Stanford University
@@ -43,6 +51,6 @@ user_groups:
 - Visitors
 ---
 
-Lucas Jordão is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Lucas Jordão has experience and interest in teaching and research. He was a teacher of Scince and Biology... Regarding research, he is a specialist it the genus Mimosa (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. During his master research, he develops taxonomic studies of Mimosa in the state of Rio de Janeiro/RJ, Brazil. During his PhD research, he carried out phylogenetic studies using molecular data and taxonomical revision of four series within Mimosa.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Lorem ipsum dolor sit amet. 
