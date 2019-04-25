@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Doctoral Internship"
   company = "Embrapa Recursos Genéticos e Biotecnologia (CENARGEN)"
-  company_url = ""
+  company_url = "https://www.embrapa.br/recursos-geneticos-e-biotecnologia"
   location = "Brasília/DF, Brazil"
   date_start = "2018-03-01"
   date_end = "2019-03-01"
@@ -34,12 +34,12 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Internship and visiting researcher"
+  company = "New York Botanical Garden"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "New York/NY, USA"
+  date_start = "2016-03-01"
+  date_end = "2017-03-01"
+  description = """Digitizer at William & Lynda Steere Herbarium by REFLORA Project/Fundação Flora de Apoio à Botânica and visiting researcher."""
 
 +++
