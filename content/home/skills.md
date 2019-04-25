@@ -18,7 +18,7 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "50%"
+  description = "65%"
   
 [[feature]]
   icon = "python"
@@ -30,12 +30,24 @@ subtitle = ""
   icon = "git-square"
   icon_pack = "fab"
   name = "git"
-  description = "80%"  
+  description = "70%"  
+
+[[feature]]
+  icon = "linux"
+  icon_pack = "fab"
+  name = "Linux"
+  description = "40%"  
+
+[[feature]]
+  icon = "dna"
+  icon_pack = "fas"
+  name = "Phylogenetic tools"
+  description = "60%"  
 
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "40%"  
+  description = "35%"  
   
 +++
