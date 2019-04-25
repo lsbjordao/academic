@@ -22,8 +22,8 @@ date_format = "Jan 2006"
   company = "Embrapa Recursos Genéticos e Biotecnologia (CENARGEN)"
   company_url = "https://www.embrapa.br/recursos-geneticos-e-biotecnologia"
   location = "Brasília/DF, Brazil"
-  date_start = "Mar 2018"
-  date_end = "Mar 2019"
+  date_start = ""
+  date_end = ""
   description = """
   Responsibilities include:
   
