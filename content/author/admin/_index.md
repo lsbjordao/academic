@@ -5,12 +5,12 @@ bio: My research interests include distributed robotics, mobile computing and pr
   matter.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
+  - course: PhD in Botany
+    institution: Instituto de Pesquisas Jardim Botânico do Rio de Janeiro
+    year: 2019
+  - course: Master's in Botany
+    institution: Museu Nacional/UFRJ
+    year: 2013
   - course: BSc in Artificial Intelligence
     institution: Massachusetts Institute of Technology
     year: 2008
@@ -23,7 +23,7 @@ name: Lucas Jordão
 organizations:
 - name: Stanford University
   url: ""
-role: PhD and Master in Botany
+role: PhD and Master's in Botany
 social:
 - icon: envelope
   icon_pack: fas
