@@ -20,7 +20,8 @@ education:
 email: ""
 interests:
 - Phylogenetic Systematics and Evolution
-- Biogeography
+- Phyloinformatics and Bioinformatics
+- Biogeography and Ecology
 - Taxonomy and Nomenclature
 - Niche modelling
 - Biodiversity management
@@ -29,7 +30,7 @@ interests:
 - Brazilian Environmental Legislation
 name: Lucas Jordão
 organizations:
-- name: Stanford University
+- name: ""
   url: ""
 role: PhD and Master's in Botany
 social:
@@ -44,7 +45,7 @@ social:
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/lsbjordao/academic
 superuser: true
 user_groups:
 - Researchers
