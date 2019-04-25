@@ -17,7 +17,7 @@ education:
   - course: BSc in Biological Sciences
     institution: Universidade Santa Úrsula
     year: 2007
-email: "tucarj@gmail.com"
+email: ""
 interests:
 - Phylogenetic Systematics and Evolution
 - Biogeography
@@ -28,26 +28,29 @@ interests:
 - Environmental Education
 - Brazilian Environmental Legislation
 name: Lucas Jordão
+organizations:
+- name: Stanford University
+  url: ""
 role: PhD and Master's in Botany
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: Facebook
+- icon: twitter
   icon_pack: fab
-  link: https://https://www.facebook.com/lucas.jordao.12935
+  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/lsbjordao
+  link: https://github.com/gcushen
 superuser: true
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Lucas Jordão has experience and interest in teaching and research. He was a teacher of Scince and Biology... Regarding research, he is a specialist it the genus Mimosa (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. During his master research, he developed taxonomic studies of Mimosa in the state of Rio de Janeiro/RJ, Brazil. During his PhD research, he carried out phylogenetic studies using molecular data and taxonomical revision of four series within Mimosa.
+Lucas Jordão has experience and interest in teaching and research. He was a teacher of Scince and Biology... Regarding research, he is a specialist it the genus Mimosa (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. During his master research, he develops taxonomic studies of Mimosa in the state of Rio de Janeiro/RJ, Brazil. During his PhD research, he carried out phylogenetic studies using molecular data and taxonomical revision of four series within Mimosa.
 
 Lorem ipsum dolor sit amet. 
