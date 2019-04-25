@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Doctoral Internship"
   company = "Embrapa Recursos Genéticos e Biotecnologia (CENARGEN)"
-  company_url = "www.embrapa.br/recursos-geneticos-e-biotecnologia"
+  company_url = "https://www.embrapa.br/recursos-geneticos-e-biotecnologia"
   location = "Brasília/DF, Brazil"
   date_start = "Mar 2018"
   date_end = "Mar 2019"
