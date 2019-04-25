@@ -40,9 +40,9 @@ social:
 - icon: facebook-square
   icon_pack: fab
   link: https://www.facebook.com/lucas.jordao.12935
-- icon: google-scholar
+- icon: orcid
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://orcid.org/0000-0002-9501-0548
 - icon: github
   icon_pack: fab
   link: https://github.com/lsbjordao/academic
