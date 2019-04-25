@@ -52,7 +52,7 @@ Welcome to my **personal academic site**.
 **[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
 
 {{% alert note %}}
-This homepage is based on the theme **[Academic](https://themes.gohugo.io/academic/)** for **[Hugo](https://gohugo.io)**, developed by **[George Cushen](https://georgecushen.com)**.
+This homepage is based on the **[Academic](https://themes.gohugo.io/academic/)** theme for **[Hugo](https://gohugo.io)**, developed by **[George Cushen](https://georgecushen.com)**.
 
 **Over 100,000 [Amazing Websites](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
 
