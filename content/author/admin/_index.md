@@ -3,7 +3,6 @@ authors:
 - admin
 bio: My research interests include distributed robotics, mobile computing and programmable
   matter.
-organizations = []
 education:
   courses:
   - course: PhD in Botany
