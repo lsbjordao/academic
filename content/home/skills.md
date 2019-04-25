@@ -38,10 +38,4 @@ subtitle = ""
   name = "Statistics"
   description = "40%"  
   
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "20%"
-
 +++

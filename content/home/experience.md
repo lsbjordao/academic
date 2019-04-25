@@ -42,4 +42,40 @@ date_format = "Jan 2006"
   date_end = "2017-03-01"
   description = """Digitizer of REFLORA Project/Fundação Flora de Apoio à Botânica and PhD visiting researcher."""
 
+[[experience]]
+  title = "Teacher of Environmental Education"
+  company = "Horto-Escola-Artesanal"
+  company_url = ""
+  location = "São Pedro da Aldeia/RJ, Brazil"
+  date_start = "2014-03-01"
+  date_end = "2014-12-01"
+  description = """Secretary of Education of the Municipality of São Pedro de Aldeia."""
+
+[[experience]]
+  title = "Teacher of Biology"
+  company = "Secretariat of Education of the State of Rio de Janeiro"
+  company_url = ""
+  location = "Belford Roxo/RJ, Brazil"
+  date_start = "2013-10-01"
+  date_end = "2016-03-01"
+  description = """High school."""
+
+[[experience]]
+  title = "Scholarship for Technological and Industrial Development of CNPQ"
+  company = "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro"
+  company_url = "http://www.jbrj.gov.br"
+  location = "Rio de Janeiro/RJ, Brazil"
+  date_start = "2011-08-01"
+  date_end = "2012-02-01"
+  description = """Digitizer of REFLORA project."""
+
+[[experience]]
+  title = "Teacher of Science"
+  company = "Sociedade Educacional Laranjeiras LTDA"
+  company_url = ""
+  location = "Rio de Janeiro/RJ, Brazil"
+  date_start = "2010-04-01"
+  date_end = "2012-03-01"
+  description = """Digitizer of REFLORA project."""
+  
 +++
