@@ -37,15 +37,19 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: facebook-square
-  icon_pack: fab
-  link: https://www.facebook.com/lucas.jordao.12935
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-9501-0548
 - icon: github
   icon_pack: fab
   link: https://github.com/lsbjordao/academic
+- icon: facebook-square
+  icon_pack: fab
+  link: https://www.facebook.com/lucas.jordao.12935
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/lucas-jordão-0349b616/
+
 superuser: true
 user_groups:
 - Researchers
