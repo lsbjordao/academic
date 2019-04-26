@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 
 [[item]]
   organization = "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro"
-  organization_url = ""
+  organization_url = "http://jbrj.gov.br"
   title = "Educação, Ambiente e Sociedade"
   url = ""
   certificate_url = ""
