@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 
 [[item]]
   organization = "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro"
-  organization_url = "http://jbrj.gov.br"
+  organization_url = "http://www.jbrj.gov.br"
   title = "Educação, Ambiente e Sociedade"
   url = ""
   certificate_url = ""
@@ -30,9 +30,9 @@ date_format = "Jan 2006"
 
 [[item]]
   organization = "Systematic Botany 43(1): 162–197"
-  organization_url = "https://doi.org/10.1600/036364418X696905"
+  organization_url = ""
   title = "Toward a Census of *Mimosa* (Leguminosae) in the Atlantic Domain, Southeastern Brazil"
-  url = ""
+  url = "https://doi.org/10.1600/036364418X696905"
   certificate_url = ""
   date_start = "2018-04-18"
   date_end = ""
@@ -40,9 +40,9 @@ date_format = "Jan 2006"
   
 [[item]]
   organization = "Phytotaxa 312(2): 237–246"
-  organization_url = http://dx.doi.org/10.11646/phytotaxa.312.2.6"
+  organization_url = ""
   title = "A new species of *Mimosa* (Leguminosae) endemic to the Brazilian Cerrado"
-  url = ""
+  url = "http://dx.doi.org/10.11646/phytotaxa.312.2.6"
   certificate_url = ""
   date_start = "2017-07-07"
   date_end = ""
