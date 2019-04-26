@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+title = "Articles;published"
 subtitle = ""
 
 # Date format
@@ -25,47 +25,37 @@ date_format = "Jan 2006"
   url = ""
   certificate_url = ""
   date_start = "2014-08-01"
-  date_end = "2014-10-01"
-  description = "40h"
-
-[[item]]
-  organization = "Academia do Concurso"
-  organization_url = "https://www.academiadoconcurso.com.br"
-  title = "Básico Ambiental"
-  url = ""
-  certificate_url = ""
-  date_start = "2011-02-01"
-  date_end = ""
-  description = "356h"
-  
-[[item]]
-  organization = "Fundação Planetário da Cidade do Rio de Janeiro"
-  organization_url = "http://planeta.rio"
-  title = "História da Astronomia"
-  url = ""
-  certificate_url = ""
-  date_start = "2010-08-01"
   date_end = ""
   description = ""
 
 [[item]]
-  organization = "Fundação Verde Herbert Daniel"
-  organization_url = "http://fundacaoverde.org.br"
-  title = "Formação de Lideranças Verdes"
+  organization = "Systematic Botany 43(1): 162–197"
+  organization_url = "https://doi.org/10.1600/036364418X696905"
+  title = "Toward a Census of *Mimosa* (Leguminosae) in the Atlantic Domain, Southeastern Brazil"
   url = ""
   certificate_url = ""
-  date_start = "2009-06-01"
-  date_end = "2009-08-01"
-  description = "64h"
+  date_start = "2018-04-18"
+  date_end = ""
+  description = ""
+  
+[[item]]
+  organization = "Phytotaxa 312(2): 237–246"
+  organization_url = http://dx.doi.org/10.11646/phytotaxa.312.2.6"
+  title = "A new species of *Mimosa* (Leguminosae) endemic to the Brazilian Cerrado"
+  url = ""
+  certificate_url = ""
+  date_start = "2017-07-07"
+  date_end = ""
+  description = ""
 
 [[item]]
-  organization = "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro"
-  organization_url = "http://fundacaoverde.org.br"
-  title = "O Nome das Plantas: Princípios e Regras"
-  url = ""
+  organization = "Phytotaxa 184(3): 131–138"
+  organization_url = ""
+  title = "A new species of *Mimosa* (Leguminosae) from Brazil"
+  url = "http://dx.doi.org/10.11646/phytotaxa.184.3.2"
   certificate_url = ""
-  date_start = "2009-05-01"
+  date_start = "2014-11-05"
   date_end = ""
-  description = "15h"
+  description = ""
 
 +++
