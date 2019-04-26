@@ -76,6 +76,6 @@ date_format = "Jan 2006"
   location = "Rio de Janeiro/RJ, Brazil"
   date_start = "2010-04-01"
   date_end = "2012-03-01"
-  description = """Digitizer of REFLORA project."""
+  description = """Elementary school."""
   
 +++
