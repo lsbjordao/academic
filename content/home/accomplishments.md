@@ -30,9 +30,9 @@ date_format = "Jan 2006"
 
 [[item]]
   organization = "Academia do Concurso"
-  organization_url = ""
+  organization_url = "https://www.academiadoconcurso.com.br"
   title = "Básico Ambiental"
-  url = "https://www.academiadoconcurso.com.br"
+  url = ""
   certificate_url = ""
   date_start = "2011-02-01"
   date_end = ""
