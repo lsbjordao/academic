@@ -49,6 +49,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/lucas-jordão-0349b616/
+- icon: twitter-square
+  icon_pack: fab
+  link: https://twitter.com/LucasJordo18
 
 superuser: true
 user_groups:
