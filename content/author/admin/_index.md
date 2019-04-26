@@ -7,7 +7,7 @@ education:
   - course: PhD in Botany
     institution: Instituto de Pesquisas Jardim Botânico do Rio de Janeiro
     year: 2019
-  - course: Master's in Botany
+  - course: MSc in Botany
     institution: Museu Nacional/UFRJ
     year: 2013
   - course: Lic.Phil. in Biological Sciences
@@ -58,6 +58,6 @@ user_groups:
 - Visitors
 ---
 
-Lucas Jordão has experience and interest in teaching and research. He was a teacher of Science and Biology... Regarding research, he is a specialist it the genus *Mimosa* (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. During his master research, he developed taxonomic studies of *Mimosa* in the state of Rio de Janeiro/RJ, Brazil. During his PhD research, he carried out phylogenetic studies using molecular data and taxonomical revision of four series within *Mimosa*.
+Lucas Jordão has experience and interest in teaching and research. He worked as a teacher of Science and Biology in elementary and high school for four years and four months. In addition, he worked as facilitator of environmental education for ten months. Regarding research, he is a specialist in the genus *Mimosa* (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. In his master research, he developed floristic and taxonomic studies of *Mimosa* in the state of Rio de Janeiro/RJ, Brazil. In his PhD research, he carried out phylogenetic studies using molecular data and taxonomical revision of four series within *Mimosa*.
 
-Lorem ipsum dolor sit amet. 
+PhotoShop, CorelDraw, ArcGIS, QuantumGIS, Google for Education, Quizziz, Kahoot!, Cmaptools.
