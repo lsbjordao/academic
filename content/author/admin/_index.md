@@ -1,8 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My research interests include systematics, phylogeny, and taxonomy of *Mimosa* (Leguminosae).
 education:
   courses:
   - course: PhD in Botany
