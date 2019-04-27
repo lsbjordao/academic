@@ -37,5 +37,5 @@
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
   name = "CV"
-  url = "https://github.com/lsbjordao/academic/blob/master/static/CV%20Lucas%20Jord%C3%A3o%202019.pdf"
+  url = "files/cv.pdf"
   weight = 70
