@@ -19,14 +19,14 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro"
-  organization_url = "http://www.jbrj.gov.br"
-  title = "Educação, Ambiente e Sociedade"
-  url = ""
+  organization = "Rodriguésia 69(4): 1513-1527"
+  organization_url = ""
+  title = "Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC)"
+  url = "http://dx.doi.org/10.1590/2175-7860201869402"
   certificate_url = ""
-  date_start = "2014-08-01"
+  date_start = "2018-02-01"
   date_end = ""
-  description = ""
+  description = "The Brazil Flora Group(BFG); Jordão, L.S.B."
 
 [[item]]
   organization = "Systematic Botany 43(1): 162–197"
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2018-04-18"
   date_end = ""
-  description = ""
+  description = "Jordão, L.S.B., Morim, M.P. & Baumgratz, J.F.A."
   
 [[item]]
   organization = "Phytotaxa 312(2): 237–246"
@@ -46,7 +46,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2017-07-07"
   date_end = ""
-  description = ""
+  description = "Jordão, L.S.B., Morim, M.P., Baumgratz, J.F.A. & Simon, M.F."
 
 [[item]]
   organization = "Phytotaxa 184(3): 131–138"
@@ -56,6 +56,6 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2014-11-05"
   date_end = ""
-  description = ""
+  description = "Jordão, L.S.B., Morim, M.P. & Baumgratz, J.F.A."
 
 +++
