@@ -4,6 +4,12 @@ authors:
 bio: My research interests include systematics, phylogeny, and taxonomy of *Mimosa* (Leguminosae).
 education:
   courses:
+  - course: Postdoctoral research
+    institution: Instituto de Pesquisas Jardim Botânico do Rio de Janeiro
+    year: 2019
+  - course: PhD in Botany
+    institution: Instituto de Pesquisas Jardim Botânico do Rio de Janeiro
+    year: 2019
   - course: MSc in Botany
     institution: Museu Nacional/UFRJ
     year: 2013
