@@ -15,20 +15,31 @@ image:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Hi there! I'm glad you here!
-### This is my first post.
-### It's fantastic to use R programming languange in HTML.
+> Hi there! I'm glad you here!  
+> This is my first post.  
+> It's fantastic to use R programming languange in HTML.  
 
-Take a look in these two packages for newbies in R...
+---
 
-* [Cowsay package](https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html)
-```{r cowsay, warning=FALSE}
+> Take a look in these two packages for newbies in R...  
+
+* [Cowsay package](https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html) - Speaking animals
+```{r cowsay, echo=TRUE, warning=FALSE}
 library(cowsay)
 say("Hello world!", "cow")
+say("Hello you!", "monkey")
 ```
 
 * [Fortunes package](https://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf) - Collected Wisdom in R
-```{r}
+```{r echo=FALSE, warning=FALSE}
 library(fortunes)
-fortune()
+fortune(6)
+
+fortune(68)
+
+fortune(92)
+
+fortune(192)
+
+fortune(326)
 ```

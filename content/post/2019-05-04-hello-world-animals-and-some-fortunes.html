@@ -12,17 +12,17 @@ image:
   focal_point: ''
 ---
 
-<div id="hi-there-im-glad-you-here" class="section level3">
-<h3>Hi there! I’m glad you here!</h3>
-</div>
-<div id="this-is-my-first-post." class="section level3">
-<h3>This is my first post.</h3>
-</div>
-<div id="its-fantastic-to-use-r-programming-languange-in-html." class="section level3">
-<h3>It’s fantastic to use R programming languange in HTML.</h3>
+<blockquote>
+<p>Hi there! I’m glad you here!<br />
+This is my first post.<br />
+It’s fantastic to use R programming languange in HTML.</p>
+</blockquote>
+<hr />
+<blockquote>
 <p>Take a look in these two packages for newbies in R…</p>
+</blockquote>
 <ul>
-<li><a href="https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html">Cowsay package</a></li>
+<li><a href="https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html">Cowsay package</a> - Speaking animals</li>
 </ul>
 <pre class="r"><code>library(cowsay)
 say(&quot;Hello world!&quot;, &quot;cow&quot;)</code></pre>
@@ -36,16 +36,51 @@ say(&quot;Hello world!&quot;, &quot;cow&quot;)</code></pre>
 ##         (__)\         )\ /\ 
 ##              ||------w|
 ##              ||      ||</code></pre>
+<pre class="r"><code>say(&quot;Hello you!&quot;, &quot;monkey&quot;)</code></pre>
+<pre><code>## Colors cannot be applied in this environment :( Try using a terminal or RStudio.</code></pre>
+<pre><code>## 
+## 
+##  ------------- 
+## Hello you! 
+##  -------------- 
+##               \   
+##                \  
+##                 \
+## 
+##                   .=&quot;=.
+##                 _/.-.-.\_     _
+##                ( ( o o ) )    ))
+##                 |/  &quot;  \|    //
+##                  \&#39;---&#39;/    //
+##            jgs   /`&quot;&quot;&quot;`\\  ((
+##                 / /_,_\ \\  \\
+##                 \_\_&#39;__/  \  ))
+##                 /`  /`~\   |//
+##                /   /    \  /
+##           ,--`,--&#39;\/\    /
+##           &#39;-- &quot;--&#39;  &#39;--&#39;</code></pre>
 <ul>
 <li><a href="https://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf">Fortunes package</a> - Collected Wisdom in R</li>
 </ul>
-<pre class="r"><code>library(fortunes)</code></pre>
-<pre><code>## Warning: package &#39;fortunes&#39; was built under R version 3.5.2</code></pre>
-<pre class="r"><code>fortune()</code></pre>
 <pre><code>## 
-## [...] (damn... my shift key just broke as well...)
-## bill venables.
-##    -- Bill Venables (answering a message that lacked upper case letters)
-##       R-help (April 2005)</code></pre>
-</div>
+## It is good to look around at what is available, but one shouldn&#39;t miss
+## what is under one&#39;s nose either.
+##    -- Robert Gentleman
+##       bioconductor (September 2003)</code></pre>
+<pre><code>## 
+## Soon, they&#39;ll be speaking R on the subway.
+##    -- Michael Rennie (giving &#39;Kudos to the R support team&#39;)
+##       R-help (July 2004)</code></pre>
+<pre><code>## 
+## If you don&#39;t go with R now, you will someday.
+##    -- David Kane (on whether to use R or S-PLUS)
+##       R-SIG-Finance (November 2004)</code></pre>
+<pre><code>## 
+## RAM is cheap and thinking hurts.
+##    -- Uwe Ligges (about memory requirements in R)
+##       R-help (June 2007)</code></pre>
+<pre><code>## 
+## I think, therefore I R.
+##    -- William B. King (in his R tutorials)
+##       http://ww2.coastal.edu/kingw/statistics/R-tutorials/ (July 2010)</code></pre>
 
