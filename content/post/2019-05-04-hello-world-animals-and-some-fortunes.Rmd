@@ -19,9 +19,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ### This is my first post.
 ### It's fantastic to use R programming languange in HTML.
 
-Take a look in these two packages for newbies in R...  
+Take a look in these two packages for newbies in R...
+
 * [Cowsay package](https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html)
-```{r cowsay, message=FALSE, warning=FALSE}
+```{r cowsay, warning=FALSE}
 library(cowsay)
 say("Hello world!", "cow")
 ```
