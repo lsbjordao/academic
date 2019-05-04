@@ -1,5 +1,5 @@
 ---
-title: Hello world, animals, and some fortunes
+title: Hello world, speaking animals, and some fortunes
 author: Lucas Jordão
 output:
   html_fragment: default
