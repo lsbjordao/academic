@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## This is my first post.
 Post the R programming language in HTML... that's amazing!
 
-```{r cowsay}
+```{r cowsay, warning=FALSE}
 library(cowsay)
 say("Hello world!", "shark")
 ```
