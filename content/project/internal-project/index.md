@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/LucasJordo18
 slides: example-slides
-summary: An example of using the in-built project page.
+summary: Meet the megadiverse Neotropical genus.
 tags:
 - Genus Mimosa
 title: What is Mimosa?
