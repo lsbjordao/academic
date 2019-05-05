@@ -9,6 +9,7 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/LucasJordo18
+slides: example-slides
 summary: Meet the megadiverse Neotropical genus.
 tags:
 - Genus Mimosa
