@@ -28,13 +28,13 @@ library(cowsay)
 library(emo)
 ```
 
-* [Cowsay package](https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html) - Speaking animals ``emo::ji("rodent")``
+* [Cowsay package](https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html) - Speaking animals :smile:
 ```{r cowsay, echo=TRUE, warning=FALSE}
 say("Hello world!", "cow")
 say("Hello you!", "monkey")
 ```
 
-* [Fortunes package](https://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf) - Collected Wisdom in R ``emo::ji("smile")``
+* [Fortunes package](https://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf) - Collected Wisdom in R :smile:
 ```{r echo=FALSE, warning=FALSE}
 library(fortunes)
 fortune(6)
