@@ -9,7 +9,6 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/LucasJordo18
-slides: example-slides
 summary: Meet the megadiverse Neotropical genus.
 tags:
 - Genus Mimosa
@@ -21,4 +20,3 @@ url_video: ""
 ---
 
 *Mimosa* L. is monophyletic ([Simon et al. 2011](https://doi.org/10.3732/ajb.1000520)) and belongs to Mimosoid clade, within the family Leguminosae ([LPWG 2017](https://doi.org/10.12705/661.3)). *Mimosa* is a megadiverse Neotropical genus, with about 700 species, with ca. 40 species in Old World, but several species became pantropical.
-
