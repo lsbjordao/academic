@@ -20,6 +20,6 @@ url_slides: ""
 url_video: ""
 ---
 
-**Mimosa** L. orem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+*Mimosa* L. is belongs to Mimosoid clade (Leguminosae, Caesalpinoideae) and is one of the most diverse genera of the family Leguminosae Juss. ([LPWG 2017](https://doi.org/10.12705/661.3)).
 
 Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea 
