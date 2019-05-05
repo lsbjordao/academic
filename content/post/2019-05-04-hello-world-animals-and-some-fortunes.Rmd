@@ -34,7 +34,7 @@ say("Hello world!", "cow")
 say("Hello you!", "monkey")
 ```
 
-* [Fortunes package](https://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf) - Collected Wisdom in R :bulb:
+* [Fortunes package](https://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf) - Collected Wisdom :bulb: in <i class="fab fa-r-project" style="color:blue">
 ```{r echo=FALSE, warning=FALSE}
 library(fortunes)
 fortune(6)
