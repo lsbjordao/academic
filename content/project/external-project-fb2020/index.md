@@ -4,7 +4,7 @@ external_link: http://floradobrasil.jbrj.gov.br
 image:
   caption: JBRJ/REFLORA
   focal_point: Smart
-summary: Author of genus *Mimosa* `external link`.
+summary: Author of part of the genus *Mimosa* `external link`.
 tags:
 - List of species
 title: Flora do Brasil 2020
