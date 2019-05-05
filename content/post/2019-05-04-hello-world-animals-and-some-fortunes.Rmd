@@ -23,14 +23,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 > Take a look in these two packages for newbies in R...  
 
-* [Cowsay package](https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html) - Speaking animals
-```{r cowsay, echo=TRUE, warning=FALSE}
+```{r packages, include=FALSE}
 library(cowsay)
+library(emo)
+```
+
+* [Cowsay package](https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html) - Speaking animals emo::ji("rodent")
+```{r cowsay, echo=TRUE, warning=FALSE}
 say("Hello world!", "cow")
 say("Hello you!", "monkey")
 ```
 
-* [Fortunes package](https://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf) - Collected Wisdom in R
+* [Fortunes package](https://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf) - Collected Wisdom in R emo::ji("smile")
 ```{r echo=FALSE, warning=FALSE}
 library(fortunes)
 fortune(6)
