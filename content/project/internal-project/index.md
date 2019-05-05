@@ -2,7 +2,7 @@
 date: "2019-05-05T00:00:00-03:00"
 external_link: ""
 image:
-  caption: **Mimosa osmarii** L. Jordão et al.
+  caption: Mimosa osmarii L. Jordão et al.
   focal_point: Smart
 links:
 - icon: twitter
