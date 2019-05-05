@@ -8,12 +8,12 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/LucasJordo18
 slides: example-slides
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
-title: Internal Project
+- Genus Mimosa
+title: What is Mimosa?
 url_code: ""
 url_pdf: ""
 url_slides: ""
