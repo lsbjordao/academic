@@ -60,7 +60,9 @@ user_groups:
 - Researchers
 - Visitors
 ---
-<i class="fas fa-bicycle" style="color:black"></i>
----
 
 Lucas Jordão has experience and interest in teaching and research. He worked as a teacher of Science and Biology in elementary and high school for four years and four months. In addition, he worked as facilitator of environmental education for ten months. Regarding research, he is a specialist in the genus *Mimosa* (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. In his master research, he developed floristic and taxonomic studies of *Mimosa* in the state of Rio de Janeiro/RJ, Brazil. In his PhD research, he carried out phylogenetic studies using molecular data and taxonomical revision of four series within *Mimosa*.
+
+---
+
+<i class="fas fa-bicycle" style="color:blue"></i> 
