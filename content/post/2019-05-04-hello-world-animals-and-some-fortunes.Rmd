@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ---
 
-> Take a :eyes: in these two packages for newbies in R...
+> Take a :eyes: in these two packages for newbies in <i class="fab fa-r-project"></i>...
 
 ```{r packages, include=FALSE}
 library(cowsay)
