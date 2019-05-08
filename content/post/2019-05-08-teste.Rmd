@@ -1,0 +1,24 @@
+---
+title: teste
+author: Lucas
+date: '2019-05-08'
+output:
+   html_fragment: default
+slug: teste
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+```{r mimosa}
+library(leaflet)
+prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?'
+style = 'style=classic.poly&bin=hex&hexPerTile=100'
+taxonKey = 'taxonKey=2969235'
+tile = paste0(prefix,style,'&',taxonKey)
+leaflet() %>%
+  setView(lng = 20, lat = 20, zoom = 01) %>%
+  addTiles() %>%  
+  addTiles(urlTemplate=tile)
+```

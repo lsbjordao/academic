@@ -1,0 +1,27 @@
+---
+title: teste
+author: Lucas
+date: '2019-05-08'
+output:
+   html_fragment: default
+slug: teste
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+<pre class="r"><code>library(leaflet)</code></pre>
+<pre><code>## Warning: package &#39;leaflet&#39; was built under R version 3.5.3</code></pre>
+<pre class="r"><code>prefix = &#39;https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?&#39;
+style = &#39;style=classic.poly&amp;bin=hex&amp;hexPerTile=100&#39;
+taxonKey = &#39;taxonKey=2969235&#39;
+tile = paste0(prefix,style,&#39;&amp;&#39;,taxonKey)
+leaflet() %&gt;%
+  setView(lng = 20, lat = 20, zoom = 01) %&gt;%
+  addTiles() %&gt;%  
+  addTiles(urlTemplate=tile)</code></pre>
+<div id="htmlwidget-8027d1bf0a89699d1daa" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8027d1bf0a89699d1daa">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,20],1,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?style=classic.poly&bin=hex&hexPerTile=100&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+
