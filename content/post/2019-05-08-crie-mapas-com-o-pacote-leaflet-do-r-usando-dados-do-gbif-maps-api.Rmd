@@ -14,8 +14,8 @@ image:
 - Visite:
   - o [site oficial](https://rstudio.github.io/leaflet/) do `Leaflet` para R;
   - o [manual](https://www.rdocumentation.org/packages/leaflet/versions/2.0.2) do pacote `Leaflet` na página de documentos oficial do R, onde constam todas as suas funções e exemplos;
-  - [GBIF Maps API](https://www.gbif.org/developer/maps);
-  - Escolha um mapa base ('basemap') no [Leaflet-providers](http://leaflet-extras.github.io/leaflet-providers/preview/)
+  - A página do [GBIF Maps API](https://www.gbif.org/developer/maps) para entender entender a ferramenta Web API do GBIF;
+  - A página [Leaflet-providers](http://leaflet-extras.github.io/leaflet-providers/preview/) com previews de basemap.
 
 ---
 
