@@ -18,7 +18,7 @@ style = 'style=classic.poly&bin=hex&hexPerTile=100'
 taxonKey = 'taxonKey=2969235'
 tile = paste0(prefix,style,'&',taxonKey)
 leaflet() %>%
-  setView(lng = 20, lat = 20, zoom = 01) %>%
+  setView(lng = 20, lat = 20, zoom = 02) %>%
   addTiles() %>%  
   addTiles(urlTemplate=tile)
 ```
