@@ -29,7 +29,7 @@ leaflet() %>%
 ```{r}
 library(leaflet)
 prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?'
-style = 'style=classic.poly&bin=hex&hexPerTile=70'
+style = 'style=classic.poly&bin=hex&hexPerTile=40'
 taxonKey = 'taxonKey=2969235'
 tile = paste0(prefix,style,'&',taxonKey)
 leaflet() %>%
@@ -43,7 +43,7 @@ leaflet() %>%
 ```{r}
 library(leaflet)
 prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?'
-style = 'style=classic.poly&bin=hex&hexPerTile=70'
+style = 'style=classic.poly&bin=hex&hexPerTile=30'
 taxonKey = 'taxonKey=2969235'
 tile = paste0(prefix,style,'&',taxonKey)
 leaflet() %>%
