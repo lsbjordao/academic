@@ -22,7 +22,7 @@ url_video: ""
 
 
 - *Mimosa* is a megadiverse Neotropical genus, with about 700 species, and ca. 40 species in Old World, but several species became pantropical.  
-  - See the [post]() showing the Leaflet R package ([Cheng et al. 2018](https://cran.r-project.org/web/packages/leaflet/leaflet.pdf)).  
+  - See the [post](https://lsbjordao.netlify.com/post/crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api/) showing the Leaflet R package ([Cheng et al. 2018](https://cran.r-project.org/web/packages/leaflet/leaflet.pdf)).  
 
 
 - *Mimosa* L. belongs to clade Mimosoid, within the family Leguminosae ([LPWG 2017](https://onlinelibrary.wiley.com/doi/abs/10.12705/661.3)).  
