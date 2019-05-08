@@ -1,0 +1,53 @@
+---
+title: Crie mapas com o pacote 'Leaflet' do R usando dados do GBIF Maps API
+author: Lucas Jordão
+date: '2019-05-08'
+slug: crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+Escolha um mapa base: [Leaflet-providers](http://leaflet-extras.github.io/leaflet-providers/preview/)
+
+```{r}
+library(leaflet)
+prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?'
+style = 'style=classic.poly&bin=hex&hexPerTile=70'
+taxonKey = 'taxonKey=2969235'
+tile = paste0(prefix,style,'&',taxonKey)
+leaflet() %>%
+  setView(lng = 20, lat = 20, zoom = 02) %>%
+  addTiles() %>%  
+  addTiles(urlTemplate=tile)
+```
+
+---
+
+```{r}
+library(leaflet)
+prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?'
+style = 'style=classic.poly&bin=hex&hexPerTile=40'
+taxonKey = 'taxonKey=2969235'
+tile = paste0(prefix,style,'&',taxonKey)
+leaflet() %>%
+  setView(lng = 20, lat = 20, zoom = 02) %>%
+  addProviderTiles(providers$Stamen.Toner) %>%  
+  addTiles(urlTemplate=tile)
+```
+
+---
+
+```{r}
+library(leaflet)
+prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?'
+style = 'style=classic.poly&bin=hex&hexPerTile=30'
+taxonKey = 'taxonKey=2969235'
+tile = paste0(prefix,style,'&',taxonKey)
+leaflet() %>%
+  setView(lng = 20, lat = 20, zoom = 02) %>%
+  addProviderTiles(providers$CartoDB.DarkMatter) %>%  
+  addTiles(urlTemplate=tile)
+```
