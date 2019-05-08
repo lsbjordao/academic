@@ -10,16 +10,33 @@ image:
   focal_point: ''
 ---
 
-Escolha um mapa base: [Leaflet-providers](http://leaflet-extras.github.io/leaflet-providers/preview/)
+- Instale o pacote `Leaflet` do R.
+- Visite:
+  - o [site oficial](https://rstudio.github.io/leaflet/) do `Leaflet` para R;
+  - a página de documentos oficial do R, onde constam todas as funções;
+  - [GBIF Maps API](https://www.gbif.org/developer/maps);
+  - Escolha um mapa base ('basemap') no [Leaflet-providers](http://leaflet-extras.github.io/leaflet-providers/preview/)
+
+---
+
+# **Distribuição do gênero *Mimosa***
+O gênero *Mimosa* é originário dos Neotrópicos, provavelmente da América do Sul. Cerca de 40 espécies ocorrem no Velho Mundo, enquanto outras espécies originárias dos Neotrópicos se tornaram extremamente invasoras nas regiões tropicais do Velho Mundo.
+
+---
+
+```{r warning=FALSE}
+library(leaflet) # Carregue o pacote Leaflet no workspace do R.
+prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?' # URL para obtenção do 'map tile' da ocorrência das espécies.
+style = 'style=classic.poly&bin=hex&hexPerTile=70' # estilo do 'map tiles' do GBIF e argumentos para configuração das ocorrências.
+taxonKey = 'taxonKey=2969235' # 2969235 = ID do gênero Mimosa no GBIF.
+```
+
+---
 
 ```{r}
-library(leaflet)
-prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?'
-style = 'style=classic.poly&bin=hex&hexPerTile=70'
-taxonKey = 'taxonKey=2969235'
 tile = paste0(prefix,style,'&',taxonKey)
 leaflet() %>%
-  setView(lng = 20, lat = 20, zoom = 02) %>%
+  setView(lng = -20, lat = 20, zoom = 02) %>%
   addTiles() %>%  
   addTiles(urlTemplate=tile)
 ```
@@ -27,27 +44,43 @@ leaflet() %>%
 ---
 
 ```{r}
-library(leaflet)
-prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?'
-style = 'style=classic.poly&bin=hex&hexPerTile=40'
-taxonKey = 'taxonKey=2969235'
+style = 'style=orange.marker'
 tile = paste0(prefix,style,'&',taxonKey)
 leaflet() %>%
-  setView(lng = 20, lat = 20, zoom = 02) %>%
-  addProviderTiles(providers$Stamen.Toner) %>%  
+  setView(lng = -20, lat = 20, zoom = 02) %>%
+  addProviderTiles(providers$Stamen.Toner) %>%  # 'Basemap'
   addTiles(urlTemplate=tile)
 ```
 
 ---
 
 ```{r}
-library(leaflet)
-prefix = 'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@4x.png?'
-style = 'style=classic.poly&bin=hex&hexPerTile=30'
-taxonKey = 'taxonKey=2969235'
+style = 'style=blueHeat.point'
 tile = paste0(prefix,style,'&',taxonKey)
 leaflet() %>%
-  setView(lng = 20, lat = 20, zoom = 02) %>%
+  setView(lng = -20, lat = 20, zoom = 02) %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%  
+  addTiles(urlTemplate=tile)
+```
+
+---
+
+```{r}
+style = 'style=iNaturalist.poly&bin=hex&hexPerTile=50'
+tile = paste0(prefix,style,'&',taxonKey)
+leaflet() %>%
+  setView(lng = -20, lat = 20, zoom = 02) %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%  
+  addTiles(urlTemplate=tile)
+```
+
+---
+
+```{r}
+style = 'style=classic-noborder.poly&bin=hex&hexPerTile=30'
+tile = paste0(prefix,style,'&',taxonKey)
+leaflet() %>%
+  setView(lng = -20, lat = 20, zoom = 02) %>%
+  addProviderTiles(providers$Stamen.Watercolor) %>%  
   addTiles(urlTemplate=tile)
 ```
