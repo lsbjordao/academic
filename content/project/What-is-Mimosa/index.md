@@ -20,8 +20,10 @@ url_slides: ""
 url_video: ""
 ---
 
-*Mimosa* L. is monophyletic and belongs to clade Mimosoid, within the family Leguminosae ([LPWG 2017](https://onlinelibrary.wiley.com/doi/abs/10.12705/661.3)).  
+*Mimosa* L. belongs to clade Mimosoid, within the family Leguminosae ([LPWG 2017](https://onlinelibrary.wiley.com/doi/abs/10.12705/661.3)).  
+
+The most comprehensive phylogenetic study of Mimosa proved its monophyletic status [Simon et al. (2011)](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520).   
 
 *Mimosa* is a megadiverse Neotropical genus, with about 700 species, and ca. 40 species in Old World, but several species became pantropical.  
 
-The last taxonomic revision of the genus was performed by [Barneby (1991)](http://antbase.org/ants/publications/nybg/Mimosa%20NY-Botanical_gardens_Vol.%2065%20-%20Copy.pdf) and the most comprehensive phylogenetic study was perfomed by [Simon et al. (2011)](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520), in which ca. 259 species were included, proving the monophyletic status of the genus.
+The last taxonomic revision of the genus was performed by [Barneby (1991)](http://antbase.org/ants/publications/nybg/Mimosa%20NY-Botanical_gardens_Vol.%2065%20-%20Copy.pdf).
