@@ -2,6 +2,8 @@
 title: Crie mapas com o pacote 'Leaflet' do R usando dados do GBIF Maps API
 author: Lucas Jordão
 date: '2019-05-08'
+customjs:
+ - http://code.jquery.com/jquery-v1.12.4.min.js
 slug: crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api
 categories: []
 tags: []
@@ -14,15 +16,18 @@ image:
 - Visite:
   - o [site oficial](https://rstudio.github.io/leaflet/) do `Leaflet` para R;
   - o [manual](https://www.rdocumentation.org/packages/leaflet/versions/2.0.2) do pacote `Leaflet` na página de documentos oficial do R, onde constam todas as suas funções e exemplos;
-  - A página do [GBIF Maps API](https://www.gbif.org/developer/maps) para entender entender a ferramenta Web API do GBIF;
-  - A página [Leaflet-providers](http://leaflet-extras.github.io/leaflet-providers/preview/) com previews de basemap.
+  - A página [Leaflet-providers](http://leaflet-extras.github.io/leaflet-providers/preview/) com previews de basemap que podem ser utilizados no pacote `Leaflet`;   - A página do [GBIF Maps API](https://www.gbif.org/developer/maps) para entender entender a ferramenta Web API do GBIF.
+  
 
 ---
 
-# **Distribuição do gênero *Mimosa***
+# **Distribuição do gênero *Mimosa***  
+
 O gênero *Mimosa* é originário dos Neotrópicos, provavelmente da América do Sul. Cerca de 40 espécies ocorrem no Velho Mundo, enquanto outras espécies originárias dos Neotrópicos se tornaram extremamente invasoras nas regiões tropicais do Velho Mundo.
 
 ---
+
+## Passo-a-passo
 
 ```{r warning=FALSE}
 library(leaflet) # Carregue o pacote Leaflet no workspace do R.
