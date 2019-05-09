@@ -1,8 +1,8 @@
 ---
 title: Crie mapas com o pacote 'Leaflet' do R usando dados do GBIF Maps API
 author: Lucas Jordão
-date: '2019-05-08'
 output: html_document
+date: '2019-05-08'
 slug: crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api
 categories: []
 tags: []
@@ -5001,14 +5001,15 @@ $(document).ready(function () {
 
 
 
+
+
 <ul>
 <li>Instale o pacote <code>Leaflet</code> do R.</li>
 <li>Visite:
 <ul>
 <li>o <a href="https://rstudio.github.io/leaflet/">site oficial</a> do <code>Leaflet</code> para R;</li>
 <li>o <a href="https://www.rdocumentation.org/packages/leaflet/versions/2.0.2">manual</a> do pacote <code>Leaflet</code> na página de documentos oficial do R, onde constam todas as suas funções e exemplos;</li>
-<li>A página do <a href="https://www.gbif.org/developer/maps">GBIF Maps API</a> para entender entender a ferramenta Web API do GBIF;</li>
-<li>A página <a href="http://leaflet-extras.github.io/leaflet-providers/preview/">Leaflet-providers</a> com previews de basemap.</li>
+<li>A página <a href="http://leaflet-extras.github.io/leaflet-providers/preview/">Leaflet-providers</a> com previews de basemap que podem ser utilizados no pacote <code>Leaflet</code>; - A página do <a href="https://www.gbif.org/developer/maps">GBIF Maps API</a> para entender entender a ferramenta Web API do GBIF.</li>
 </ul></li>
 </ul>
 <hr />
@@ -5016,6 +5017,8 @@ $(document).ready(function () {
 <h1><strong>Distribuição do gênero <em>Mimosa</em></strong></h1>
 <p>O gênero <em>Mimosa</em> é originário dos Neotrópicos, provavelmente da América do Sul. Cerca de 40 espécies ocorrem no Velho Mundo, enquanto outras espécies originárias dos Neotrópicos se tornaram extremamente invasoras nas regiões tropicais do Velho Mundo.</p>
 <hr />
+<div id="passo-a-passo" class="section level2">
+<h2>Passo-a-passo</h2>
 <pre class="r"><code>library(leaflet) # Carregue o pacote Leaflet no workspace do R.
 prefix = &#39;https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?&#39; # URL para obtenção do &#39;map tile&#39; da ocorrência das espécies.
 style = &#39;style=classic.poly&amp;bin=hex&amp;hexPerTile=70&#39; # estilo do &#39;map tiles&#39; do GBIF e argumentos para configuração das ocorrências.
@@ -5026,8 +5029,8 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addTiles() %&gt;%  
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-3e13921444a33c21a1d1" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3e13921444a33c21a1d1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=classic.poly&bin=hex&hexPerTile=70&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-fbccec7d82fd0426090e" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fbccec7d82fd0426090e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=classic.poly&bin=hex&hexPerTile=70&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
 <hr />
 <pre class="r"><code>style = &#39;style=orange.marker&#39;
 tile = paste0(prefix,style,&#39;&amp;&#39;,taxonKey)
@@ -5035,8 +5038,8 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addProviderTiles(providers$Stamen.Toner) %&gt;%  # &#39;Basemap&#39;
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-3ca5ce6b6c3e0e375eb7" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3ca5ce6b6c3e0e375eb7">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Stamen.Toner",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=orange.marker&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-87ab00ff03f431b6a079" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-87ab00ff03f431b6a079">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Stamen.Toner",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=orange.marker&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
 <hr />
 <pre class="r"><code>style = &#39;style=blueHeat.point&#39;
 tile = paste0(prefix,style,&#39;&amp;&#39;,taxonKey)
@@ -5044,8 +5047,8 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addProviderTiles(providers$CartoDB.DarkMatter) %&gt;%  
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-76a61ccf647f11331b9c" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-76a61ccf647f11331b9c">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["CartoDB.DarkMatter",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=blueHeat.point&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-11f77023aab5ac7a078c" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-11f77023aab5ac7a078c">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["CartoDB.DarkMatter",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=blueHeat.point&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
 <hr />
 <pre class="r"><code>style = &#39;style=iNaturalist.poly&amp;bin=hex&amp;hexPerTile=50&#39;
 tile = paste0(prefix,style,&#39;&amp;&#39;,taxonKey)
@@ -5053,8 +5056,8 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addProviderTiles(providers$Esri.WorldImagery) %&gt;%  
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-067681c4e0743af6046a" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-067681c4e0743af6046a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=iNaturalist.poly&bin=hex&hexPerTile=50&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-26e214d9b36b73c68701" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-26e214d9b36b73c68701">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=iNaturalist.poly&bin=hex&hexPerTile=50&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
 <hr />
 <pre class="r"><code>style = &#39;style=classic-noborder.poly&amp;bin=hex&amp;hexPerTile=30&#39;
 tile = paste0(prefix,style,&#39;&amp;&#39;,taxonKey)
@@ -5062,8 +5065,9 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addProviderTiles(providers$Stamen.Watercolor) %&gt;%  
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-19213e8b241fab9757ed" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-19213e8b241fab9757ed">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Stamen.Watercolor",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=classic-noborder.poly&bin=hex&hexPerTile=30&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-3568f6c4b571da7f8f66" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3568f6c4b571da7f8f66">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Stamen.Watercolor",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=classic-noborder.poly&bin=hex&hexPerTile=30&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+</div>
 </div>
 
 
