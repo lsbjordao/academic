@@ -30,3 +30,5 @@ url_video: ""
 - The most comprehensive phylogenetic study of Mimosa proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
 
 - The last taxonomic revision of the genus was performed by [Barneby (1991)](http://antbase.org/ants/publications/nybg/Mimosa%20NY-Botanical_gardens_Vol.%2065%20-%20Copy.pdf).
+
+- *Mimosa* is characterized by its bipinnate and paripinnate leaves, 3–6-merous flowers, iso- or diplostemonous, and articulated or non-articulated craspedium fruit, and differs from other similar mimosoids by the 6-12 stamens and  absence of glands on the anthers (Barneby 1991, [Barroso et al. 1999](https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=2ahUKEwjMwqH9q43iAhWXGrkGHXW-AhIQFjAIegQICRAB&url=http%3A%2F%2Fwww.scielo.br%2Fscielo.php%3Fscript%3Dsci_nlinks%26ref%3D000094%26pid%3DS0101-3122200800020001800001%26lng%3Dpt&usg=AOvVaw3LSkJeELCWqgqe7bpP5Bx6)).
