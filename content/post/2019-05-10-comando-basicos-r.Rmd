@@ -102,7 +102,7 @@ Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com c
 
 ---
 
-# Primeiros passos no <i class="fab fa-r-project" style="color:blue"></i>
+# Primeiros passos
 
 ```{r}
 R.Version() # mostra a versão
