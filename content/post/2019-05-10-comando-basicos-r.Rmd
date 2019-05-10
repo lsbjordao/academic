@@ -1,6 +1,8 @@
 ---
 title: Introdução ao R e comandos básicos
 author: Lucas Jordão
+output:
+  html_fragment: default
 date: '2019-05-10'
 slug: comando-basicos-r
 categories: []
@@ -10,14 +12,14 @@ image:
   focal_point: ''
 ---
 
-# Introdução ao <i class="fab fa-r-project" style="color:blue">
+# Introdução ao R
 
 <i class="fab fa-r-project" style="color:blue"></i> é um projeto cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
 
 O atual <i class="fab fa-r-project" style="color:blue"></i> é o resultado de um esforço colaborativo com contribuições de todo o mundo.
 
 
-## Autores do <i class="fab fa-r-project" style="color:blue">
+## Autores do R
 
 <i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
 
