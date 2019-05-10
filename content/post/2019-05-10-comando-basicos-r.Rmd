@@ -54,7 +54,7 @@ Adicionalmente...
 - Seth Falcon até Agosto de 2015  
 - Duncan Murdoch até Setembro de 2017  
 
-O <i class="fab fa-r-project" style="color:blue"> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:
+O <i class="fab fa-r-project" style="color:blue"></i> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:
 
 Valerio Aimale, Suharto Anggono, Thomas Baier, Henrik Bengtsson, Roger Bivand,
 Ben Bolker, David Brahm, G"oran Brostr"om, Patrick Burns, Vince Carey,
@@ -72,7 +72,7 @@ Terry Therneau, Rolf Turner, Bill Venables, Gregory R. Warnes,
 Andreas Weingessel, Morten Welinder, James Wettenhall, Simon Wood, and
 Achim Zeileis.
 
-Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"> e são reconhecidos nos arquivos de código, incluindo:
+Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"></i> e são reconhecidos nos arquivos de código, incluindo:
 
 J. D. Beasley, David J. Best, Richard Brent, Kevin Buhr, Michael
 A. Covington, Bill Cleveland, Robert Cleveland,, G. W. Cran,
