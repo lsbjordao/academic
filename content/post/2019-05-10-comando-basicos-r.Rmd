@@ -1,5 +1,5 @@
 ---
-title: Comando básicos R
+title: Introdução ao R e comandos básicos
 author: Lucas Jordão
 output:
   html_fragment: default
@@ -12,7 +12,103 @@ image:
   focal_point: ''
 ---
 
-(provisório)
+# Introdução ao <i class="fab fa-r-project" style="color:blue">
+
+<i class="fab fa-r-project" style="color:blue"></i> é um projeto cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
+
+O atual <i class="fab fa-r-project" style="color:blue"></i> é o resultado de um esforço colaborativo com contribuições de todo o mundo.
+
+
+## Autores do <i class="fab fa-r-project" style="color:blue">
+
+<i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
+
+## Contribuidores
+
+A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i> passou a trabalhar nesse projeto desde então...
+
+- Douglas Bates  
+- John Chambers  
+- Peter Dalgaard  
+- Kurt Hornik  
+- Tomas Kalibera  
+- Michael Lawrence  
+- Friedrich Leisch  
+- Uwe Ligges  
+- Thomas Lumley  
+- Martin Maechler  
+- Martin Morgan  
+- Paul Murrell  
+- Martyn Plummer  
+- Brian Ripley  
+- Deepayan Sarkar  
+- Duncan Temple Lang  
+- Luke Tierney  
+- Simon Urbanek  
+
+Adicionalmente...  
+
+- Heiner Schwarte até outubro de 1999  
+- Guido Masarotto até junho de 2003  
+- Stefano Iacus até julho de 2014  
+- Seth Falcon até Agosto de 2015  
+- Duncan Murdoch até Setembro de 2017  
+
+<i class="fab fa-r-project" style="color:blue"> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:
+
+Valerio Aimale, Suharto Anggono, Thomas Baier, Henrik Bengtsson, Roger Bivand,
+Ben Bolker, David Brahm, G"oran Brostr"om, Patrick Burns, Vince Carey,
+Saikat DebRoy, Matt Dowle, Brian D'Urso, Lyndon Drake, Dirk Eddelbuettel,
+Claus Ekstrom, Sebastian Fischmeister, John Fox, Paul Gilbert,
+Yu Gong, Gabor Grothendieck, Frank E Harrell Jr, Peter M. Haverty,
+Torsten Hothorn, Robert King, Kjetil Kjernsmo, Roger Koenker, Philippe Lambert,
+Jan de Leeuw, Jim Lindsey, Patrick Lindsey, Catherine Loader,
+Gordon Maclean, John Maindonald, David Meyer, Ei-ji Nakama,
+Jens Oehlschaegel, Steve Oncley, Richard O'Keefe, Hubert Palme,
+Roger D. Peng, Jose' C. Pinheiro, Tony Plate, Anthony Rossini,
+Jonathan Rougier, Petr Savicky, Guenther Sawitzki, Marc Schwartz,
+Arun Srinivasan, Detlef Steuer, Bill Simpson, Gordon Smyth, Adrian Trapletti,
+Terry Therneau, Rolf Turner, Bill Venables, Gregory R. Warnes,
+Andreas Weingessel, Morten Welinder, James Wettenhall, Simon Wood, and
+Achim Zeileis.
+
+Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"> e são reconhecidos nos arquivos de código, incluindo:
+
+J. D. Beasley, David J. Best, Richard Brent, Kevin Buhr, Michael
+A. Covington, Bill Cleveland, Robert Cleveland,, G. W. Cran,
+C. G. Ding, Ulrich Drepper, Paul Eggert, J. O. Evans, David M. Gay,
+H. Frick, G. W. Hill, Richard H. Jones, Eric Grosse, Shelby Haberman,
+Bruno Haible, John Hartigan, Andrew Harvey, Trevor Hastie, Min Long
+Lam, George Marsaglia, K. J. Martin, Gordon Matzigkeit,
+C. R. Mckenzie, Jean McRae, Cyrus Mehta, Fionn Murtagh, John C. Nash,
+Finbarr O'Sullivan, R. E. Odeh, William Patefield, Nitin Patel, Alan
+Richardson, D. E. Roberts, Patrick Royston, Russell Lenth, Ming-Jen
+Shyu, Richard C. Singleton, S. G. Springer, Supoj Sutanthavibul, Irma
+Terpenning, G. E. Thomas, Rob Tibshirani, Wai Wan Tsang, Berwin
+Turlach, Gary V. Vaughan, Michael Wichura, Jingbo Wang, M. A. Wong,
+e a Free Software Foundation (pelo *autoconf code* e *utilities*).
+
+Muitos mais, numerosos demais para mencionar, contribuíram enviando relatórios de bugs e sugerindo várias melhorias.
+
+Simon Davies, na Universidade de Auckland, escreveu a versão original do glm ().
+
+Julian Harris e Wing Kwong (Tiki) Wan, na Universidade de
+Auckland, ajudou Ross Ihaka com versão para Macintosh.
+
+R foi inspirado no ambiente S, que tem sido principalmente
+desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.
+
+Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de R e, mais tarde, tornou-se membro da equipe principal.
+
+---
+
+# Primeiros passos no <i class="fab fa-r-project" style="color:blue"></i>
+
+```{r}
+R.Version() # mostra a versão
+license() # informações sobre a licença
+contributors() # autores e contribuidores
+```
 
 ## Operadores simples e funções matemáticas
 ```{r}
@@ -34,6 +130,20 @@ gamma(10) # função gama
 lgamma(10) # log natural gama
 round(10.342545, digits=2) # arredondamento de números decimais
 ```
+
+## Funções trigonométricas
+```{r}
+cos(10) # coseno
+sin(10) # seno
+tan(10) # tangente
+acos(0.1) # transformação trigonométrica inversa
+asin(1) # transformação trigonométrica inversa
+atan(1) #transformação trigonométrica inversa
+acosh(10) #transformação hiperbólica inversa
+asinh(0.1) #transformação hiperbólica inversa
+atanh(0.1) #transformação hiperbólica inversa
+```
+
 
 ## Sequências
 ```{r}
@@ -65,6 +175,19 @@ sort(letters, decreasing=TRUE)
 
 ---
 
+# Cria um vetor com cinco n?meros inteiros
+c(1, 2, 3, 4, 5)
+
+# Cria o objeto "x" armazenando os dados
+x <- 1:5
+x
+y <- 10
+y
+z <- x + y
+z
+
+---
+
 ## TIPOS DE DADOS
 
 ### numerical
@@ -83,6 +206,7 @@ FALSE
 TRUE | FALSE # logical 'ou'= |
 TRUE & FALSE # logical 'e' = &
 !TRUE # logical 'não' = !
+!FALSE
 ```
 
 ### factor

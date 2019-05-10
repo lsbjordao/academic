@@ -1,5 +1,5 @@
 ---
-title: Comando básicos R
+title: Introdução ao R e comandos básicos
 author: Lucas Jordão
 output:
   html_fragment: default
@@ -13,7 +13,143 @@ image:
 ---
 
 
-<p>(provisório)</p>
+<div id="introducao-ao" class="section level1">
+<h1>Introdução ao <i class="fab fa-r-project" style="color:blue"></h1>
+<p><i class="fab fa-r-project" style="color:blue"></i> é um projeto cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.</p>
+<p>O atual <i class="fab fa-r-project" style="color:blue"></i> é o resultado de um esforço colaborativo com contribuições de todo o mundo.</p>
+<div id="autores-do" class="section level2">
+<h2>Autores do <i class="fab fa-r-project" style="color:blue"></h2>
+<p><i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por <strong>Robert Gentleman</strong> e <strong>Ross Ihaka</strong> — conhecidos como “R &amp; R” do Departamento de Estatística da Universidade de Auckland.</p>
+</div>
+<div id="contribuidores" class="section level2">
+<h2>Contribuidores</h2>
+<p>A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i> passou a trabalhar nesse projeto desde então…</p>
+<ul>
+<li>Douglas Bates<br />
+</li>
+<li>John Chambers<br />
+</li>
+<li>Peter Dalgaard<br />
+</li>
+<li>Kurt Hornik<br />
+</li>
+<li>Tomas Kalibera<br />
+</li>
+<li>Michael Lawrence<br />
+</li>
+<li>Friedrich Leisch<br />
+</li>
+<li>Uwe Ligges<br />
+</li>
+<li>Thomas Lumley<br />
+</li>
+<li>Martin Maechler<br />
+</li>
+<li>Martin Morgan<br />
+</li>
+<li>Paul Murrell<br />
+</li>
+<li>Martyn Plummer<br />
+</li>
+<li>Brian Ripley<br />
+</li>
+<li>Deepayan Sarkar<br />
+</li>
+<li>Duncan Temple Lang<br />
+</li>
+<li>Luke Tierney<br />
+</li>
+<li>Simon Urbanek</li>
+</ul>
+<p>Adicionalmente…</p>
+<ul>
+<li>Heiner Schwarte até outubro de 1999<br />
+</li>
+<li>Guido Masarotto até junho de 2003<br />
+</li>
+<li>Stefano Iacus até julho de 2014<br />
+</li>
+<li>Seth Falcon até Agosto de 2015<br />
+</li>
+<li>Duncan Murdoch até Setembro de 2017</li>
+</ul>
+<p><i class="fab fa-r-project" style="color:blue"> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:</p>
+<p>Valerio Aimale, Suharto Anggono, Thomas Baier, Henrik Bengtsson, Roger Bivand, Ben Bolker, David Brahm, G“oran Brostr”om, Patrick Burns, Vince Carey, Saikat DebRoy, Matt Dowle, Brian D’Urso, Lyndon Drake, Dirk Eddelbuettel, Claus Ekstrom, Sebastian Fischmeister, John Fox, Paul Gilbert, Yu Gong, Gabor Grothendieck, Frank E Harrell Jr, Peter M. Haverty, Torsten Hothorn, Robert King, Kjetil Kjernsmo, Roger Koenker, Philippe Lambert, Jan de Leeuw, Jim Lindsey, Patrick Lindsey, Catherine Loader, Gordon Maclean, John Maindonald, David Meyer, Ei-ji Nakama, Jens Oehlschaegel, Steve Oncley, Richard O’Keefe, Hubert Palme, Roger D. Peng, Jose’ C. Pinheiro, Tony Plate, Anthony Rossini, Jonathan Rougier, Petr Savicky, Guenther Sawitzki, Marc Schwartz, Arun Srinivasan, Detlef Steuer, Bill Simpson, Gordon Smyth, Adrian Trapletti, Terry Therneau, Rolf Turner, Bill Venables, Gregory R. Warnes, Andreas Weingessel, Morten Welinder, James Wettenhall, Simon Wood, and Achim Zeileis.</p>
+<p>Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"> e são reconhecidos nos arquivos de código, incluindo:</p>
+<p>J. D. Beasley, David J. Best, Richard Brent, Kevin Buhr, Michael A. Covington, Bill Cleveland, Robert Cleveland,, G. W. Cran, C. G. Ding, Ulrich Drepper, Paul Eggert, J. O. Evans, David M. Gay, H. Frick, G. W. Hill, Richard H. Jones, Eric Grosse, Shelby Haberman, Bruno Haible, John Hartigan, Andrew Harvey, Trevor Hastie, Min Long Lam, George Marsaglia, K. J. Martin, Gordon Matzigkeit, C. R. Mckenzie, Jean McRae, Cyrus Mehta, Fionn Murtagh, John C. Nash, Finbarr O’Sullivan, R. E. Odeh, William Patefield, Nitin Patel, Alan Richardson, D. E. Roberts, Patrick Royston, Russell Lenth, Ming-Jen Shyu, Richard C. Singleton, S. G. Springer, Supoj Sutanthavibul, Irma Terpenning, G. E. Thomas, Rob Tibshirani, Wai Wan Tsang, Berwin Turlach, Gary V. Vaughan, Michael Wichura, Jingbo Wang, M. A. Wong, e a Free Software Foundation (pelo <em>autoconf code</em> e <em>utilities</em>).</p>
+<p>Muitos mais, numerosos demais para mencionar, contribuíram enviando relatórios de bugs e sugerindo várias melhorias.</p>
+<p>Simon Davies, na Universidade de Auckland, escreveu a versão original do glm ().</p>
+<p>Julian Harris e Wing Kwong (Tiki) Wan, na Universidade de Auckland, ajudou Ross Ihaka com versão para Macintosh.</p>
+<p>R foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.</p>
+<p>Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de R e, mais tarde, tornou-se membro da equipe principal.</p>
+<hr />
+</div>
+</div>
+<div id="primeiros-passos-no" class="section level1">
+<h1>Primeiros passos no <i class="fab fa-r-project" style="color:blue"></i></h1>
+<pre class="r"><code>R.Version() # mostra a versão</code></pre>
+<pre><code>## $platform
+## [1] &quot;x86_64-w64-mingw32&quot;
+## 
+## $arch
+## [1] &quot;x86_64&quot;
+## 
+## $os
+## [1] &quot;mingw32&quot;
+## 
+## $system
+## [1] &quot;x86_64, mingw32&quot;
+## 
+## $status
+## [1] &quot;&quot;
+## 
+## $major
+## [1] &quot;3&quot;
+## 
+## $minor
+## [1] &quot;5.0&quot;
+## 
+## $year
+## [1] &quot;2018&quot;
+## 
+## $month
+## [1] &quot;04&quot;
+## 
+## $day
+## [1] &quot;23&quot;
+## 
+## $`svn rev`
+## [1] &quot;74626&quot;
+## 
+## $language
+## [1] &quot;R&quot;
+## 
+## $version.string
+## [1] &quot;R version 3.5.0 (2018-04-23)&quot;
+## 
+## $nickname
+## [1] &quot;Joy in Playing&quot;</code></pre>
+<pre class="r"><code>license() # informações sobre a licença</code></pre>
+<pre><code>## 
+## This software is distributed under the terms of the GNU General
+## Public License, either Version 2, June 1991 or Version 3, June 2007.
+## The terms of version 2 of the license are in a file called COPYING
+## which you should have received with
+## this software and which can be displayed by RShowDoc(&quot;COPYING&quot;).
+## Version 3 of the license can be displayed by RShowDoc(&quot;GPL-3&quot;).
+## 
+## Copies of both versions 2 and 3 of the license can be found
+## at https://www.R-project.org/Licenses/.
+## 
+## A small number of files (the API header files listed in
+## R_DOC_DIR/COPYRIGHTS) are distributed under the
+## LESSER GNU GENERAL PUBLIC LICENSE, version 2.1 or later.
+## This can be displayed by RShowDoc(&quot;LGPL-2.1&quot;),
+## or obtained at the URI given.
+## Version 3 of the license can be displayed by RShowDoc(&quot;LGPL-3&quot;).
+## 
+## &#39;Share and Enjoy.&#39;</code></pre>
+<pre class="r"><code>contributors() # autores e contribuidores</code></pre>
 <div id="operadores-simples-e-funcoes-matematicas" class="section level2">
 <h2>Operadores simples e funções matemáticas</h2>
 <pre class="r"><code>2+3 # + = adição</code></pre>
@@ -48,6 +184,27 @@ image:
 <pre><code>## [1] 12.80183</code></pre>
 <pre class="r"><code>round(10.342545, digits=2) # arredondamento de números decimais</code></pre>
 <pre><code>## [1] 10.34</code></pre>
+</div>
+<div id="funcoes-trigonometricas" class="section level2">
+<h2>Funções trigonométricas</h2>
+<pre class="r"><code>cos(10) # coseno</code></pre>
+<pre><code>## [1] -0.8390715</code></pre>
+<pre class="r"><code>sin(10) # seno</code></pre>
+<pre><code>## [1] -0.5440211</code></pre>
+<pre class="r"><code>tan(10) # tangente</code></pre>
+<pre><code>## [1] 0.6483608</code></pre>
+<pre class="r"><code>acos(0.1) # transformação trigonométrica inversa</code></pre>
+<pre><code>## [1] 1.470629</code></pre>
+<pre class="r"><code>asin(1) # transformação trigonométrica inversa</code></pre>
+<pre><code>## [1] 1.570796</code></pre>
+<pre class="r"><code>atan(1) #transformação trigonométrica inversa</code></pre>
+<pre><code>## [1] 0.7853982</code></pre>
+<pre class="r"><code>acosh(10) #transformação hiperbólica inversa</code></pre>
+<pre><code>## [1] 2.993223</code></pre>
+<pre class="r"><code>asinh(0.1) #transformação hiperbólica inversa</code></pre>
+<pre><code>## [1] 0.09983408</code></pre>
+<pre class="r"><code>atanh(0.1) #transformação hiperbólica inversa</code></pre>
+<pre><code>## [1] 0.1003353</code></pre>
 </div>
 <div id="sequencias" class="section level2">
 <h2>Sequências</h2>
@@ -94,6 +251,15 @@ image:
 ## [18] &quot;i&quot; &quot;h&quot; &quot;g&quot; &quot;f&quot; &quot;e&quot; &quot;d&quot; &quot;c&quot; &quot;b&quot; &quot;a&quot;</code></pre>
 <hr />
 </div>
+</div>
+<div id="cria-um-vetor-com-cinco-nmeros-inteiros" class="section level1">
+<h1>Cria um vetor com cinco n?meros inteiros</h1>
+<p>c(1, 2, 3, 4, 5)</p>
+</div>
+<div id="cria-o-objeto-x-armazenando-os-dados" class="section level1">
+<h1>Cria o objeto “x” armazenando os dados</h1>
+<p>x &lt;- 1:5 x y &lt;- 10 y z &lt;- x + y z</p>
+<hr />
 <div id="tipos-de-dados" class="section level2">
 <h2>TIPOS DE DADOS</h2>
 <div id="numerical" class="section level3">
@@ -117,10 +283,13 @@ x</code></pre>
 <pre><code>## [1] FALSE</code></pre>
 <pre class="r"><code>!TRUE # logical &#39;não&#39; = !</code></pre>
 <pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>!FALSE</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 </div>
 <div id="factor" class="section level3">
 <h3>factor</h3>
 <p>(continua…)</p>
+</div>
 </div>
 </div>
 
