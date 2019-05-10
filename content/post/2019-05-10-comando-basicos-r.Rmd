@@ -12,14 +12,12 @@ image:
   focal_point: ''
 ---
 
-# Introdução ao R
-
 <i class="fab fa-r-project" style="color:blue"></i> é um projeto cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
 
 O atual <i class="fab fa-r-project" style="color:blue"></i> é o resultado de um esforço colaborativo com contribuições de todo o mundo.
 
 
-## Autores do R
+## Autores
 
 <i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
 
@@ -95,10 +93,9 @@ Simon Davies, na Universidade de Auckland, escreveu a versão original do glm ()
 Julian Harris e Wing Kwong (Tiki) Wan, na Universidade de
 Auckland, ajudou Ross Ihaka com versão para Macintosh.
 
-R foi inspirado no ambiente S, que tem sido principalmente
-desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.
+<i class="fab fa-r-project" style="color:blue"></i> foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.
 
-Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de R e, mais tarde, tornou-se membro da equipe principal.
+Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i> e, mais tarde, tornou-se membro da equipe principal.
 
 ---
 
