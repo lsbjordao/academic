@@ -21,6 +21,13 @@ O atual <i class="fab fa-r-project" style="color:blue"></i> é o resultado de um
 
 <i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
 
+## Inspiração
+
+O <i class="fab fa-r-project" style="color:blue"></i> foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.
+
+Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i> e, mais tarde, tornou-se membro da equipe principal.
+
+
 ## Contribuidores
 
 A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i> passou a trabalhar nesse projeto desde então...
@@ -86,16 +93,12 @@ Terpenning, G. E. Thomas, Rob Tibshirani, Wai Wan Tsang, Berwin
 Turlach, Gary V. Vaughan, Michael Wichura, Jingbo Wang, M. A. Wong,
 e a Free Software Foundation (pelo *autoconf code* e *utilities*).
 
-Muitos mais, numerosos demais para mencionar, contribuíram enviando relatórios de bugs e sugerindo várias melhorias.
+Muitos outros, contudo numerosos demais para mencionar, contribuíram enviando relatórios de bugs e sugerindo várias melhorias.
 
 Simon Davies, na Universidade de Auckland, escreveu a versão original do glm ().
 
 Julian Harris e Wing Kwong (Tiki) Wan, na Universidade de
 Auckland, ajudou Ross Ihaka com versão para Macintosh.
-
-<i class="fab fa-r-project" style="color:blue"></i> foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.
-
-Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i> e, mais tarde, tornou-se membro da equipe principal.
 
 ---
 
