@@ -12,14 +12,14 @@ image:
   focal_point: ''
 ---
 
-<i class="fab fa-r-project" style="color:blue"></i> é um projeto cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
+O <i class="fab fa-r-project" style="color:blue"></i> é um projeto cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
 
 O atual <i class="fab fa-r-project" style="color:blue"></i> é o resultado de um esforço colaborativo com contribuições de todo o mundo.
 
 
 ## Autores
 
-<i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
+O <i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
 
 ## Inspiração
 
@@ -30,7 +30,7 @@ Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com c
 
 ## Contribuidores
 
-A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i> passou a trabalhar nesse projeto desde então...
+A partir de meados de 1997, um grupo central de desenvolvedores com acesso à escrita fonte do <i class="fab fa-r-project" style="color:blue"></i> passou a trabalhar nesse projeto desde então:
 
 - Douglas Bates  
 - John Chambers  
@@ -53,11 +53,11 @@ A partir de meados de 1997, um grupo central de desenvolvedores com acesso à es
 
 Adicionalmente...  
 
-- Heiner Schwarte até outubro de 1999  
-- Guido Masarotto até junho de 2003  
-- Stefano Iacus até julho de 2014  
-- Seth Falcon até Agosto de 2015  
-- Duncan Murdoch até Setembro de 2017  
+- Heiner Schwarte (até outubro de 1999)  
+- Guido Masarotto (até junho de 2003)  
+- Stefano Iacus (até julho de 2014)  
+- Seth Falcon (até Agosto de 2015)  
+- Duncan Murdoch (até Setembro de 2017)  
 
 O <i class="fab fa-r-project" style="color:blue"></i> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:
 
@@ -98,7 +98,7 @@ Muitos outros, contudo numerosos demais para mencionar, contribuíram enviando r
 Simon Davies, na Universidade de Auckland, escreveu a versão original do glm ().
 
 Julian Harris e Wing Kwong (Tiki) Wan, na Universidade de
-Auckland, ajudou Ross Ihaka com versão para Macintosh.
+Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.
 
 ---
 
