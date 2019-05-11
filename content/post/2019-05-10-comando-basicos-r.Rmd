@@ -136,10 +136,10 @@ sin(10) # seno
 tan(10) # tangente
 acos(0.1) # transformação trigonométrica inversa
 asin(1) # transformação trigonométrica inversa
-atan(1) #transformação trigonométrica inversa
-acosh(10) #transformação hiperbólica inversa
-asinh(0.1) #transformação hiperbólica inversa
-atanh(0.1) #transformação hiperbólica inversa
+atan(1) # transformação trigonométrica inversa
+acosh(10) # transformação hiperbólica inversa
+asinh(0.1) # transformação hiperbólica inversa
+atanh(0.1) # transformação hiperbólica inversa
 ```
 
 
