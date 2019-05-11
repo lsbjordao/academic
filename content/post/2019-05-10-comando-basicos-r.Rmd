@@ -101,10 +101,11 @@ Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com c
 
 # Primeiros passos
 
+## Primeiras funções
+
 ```{r}
 R.Version() # mostra a versão
 license() # informações sobre a licença
-contributors() # autores e contribuidores
 ```
 
 ## Operadores simples e funções matemáticas
@@ -170,18 +171,22 @@ sort(letters)
 sort(letters, decreasing=TRUE)
 ```
 
+## Criando um vetor com números inteiros
+```{r}
+c(1, 2, 3, 3, 10)
+```
+
 ---
 
-# Cria um vetor com cinco n?meros inteiros
-c(1, 2, 3, 4, 5)
-
-# Cria o objeto "x" armazenando os dados
+## Armazenando dados em objetos
+```{r}
 x <- 1:5
 x
 y <- 10
 y
 z <- x + y
 z
+```
 
 ---
 
