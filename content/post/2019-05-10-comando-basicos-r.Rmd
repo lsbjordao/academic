@@ -56,8 +56,8 @@ Adicionalmente...
 - Heiner Schwarte (até outubro de 1999)  
 - Guido Masarotto (até junho de 2003)  
 - Stefano Iacus (até julho de 2014)  
-- Seth Falcon (até Agosto de 2015)  
-- Duncan Murdoch (até Setembro de 2017)  
+- Seth Falcon (até agosto de 2015)  
+- Duncan Murdoch (até setembro de 2017)  
 
 O <i class="fab fa-r-project" style="color:blue"></i> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:
 
