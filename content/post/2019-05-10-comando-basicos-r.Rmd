@@ -129,15 +129,15 @@ round(10.342545, digits=2)  # arredondamento de números decimais
 
 ## Funções trigonométricas
 ```{r}
-cos(10)                     # coseno
+cos(10)                     # cosseno
 sin(10)                     # seno
 tan(10)                     # tangente
-acos(0.1)                   # transformação trigonométrica inversa
-asin(1)                     # transformação trigonométrica inversa
-atan(1)                     # transformação trigonométrica inversa
-acosh(10)                   # transformação hiperbólica inversa
-asinh(0.1)                  # transformação hiperbólica inversa
-atanh(0.1)                  # transformação hiperbólica inversa
+acos(0.1)                   # arco cosseno
+asin(1)                     # arco seno
+atan(1)                     # arco tangente
+acosh(10)                   # arco cosseno hiperbólico
+asinh(0.1)                  # arco seno hiperbólico
+atanh(0.1)                  # arco tangente hiperbólico
 ```
 
 
