@@ -1,6 +1,7 @@
 ---
 output:
-  html_fragment: default
+  html_document:
+    highlight: zenburn
 categories: []
 tags: []
 image:
