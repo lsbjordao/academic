@@ -176,7 +176,7 @@ c(1, 2, 3, 3, 10)
 
 ---
 
-# **O <i class="fab fa-r-project" style="color:blue"></i> é uma linguagem de POO (Programação Orientada a Objetos)**
+## **O <i class="fab fa-r-project" style="color:blue"></i> é uma linguagem de POO (Programação Orientada a Objetos)**
 
 ## Armazenando dados em objetos
 ```{r}
