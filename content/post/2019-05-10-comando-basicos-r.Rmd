@@ -111,8 +111,8 @@ license()                   # informações sobre a licença
 2+3                         # + = adição
 7-5                         # * = subtração
 4*5                         # * = multiplicação
-6/3                         # / = divisão
-9%%2                        # resto da divisão
+9/2                         # / = divisão
+9%%2                        # resto da divisão inteira
 9%/%2                       # resultado inteiro da divisão
 4^4                         # ^ = potência
 
@@ -154,7 +154,7 @@ rep (5.3, 17)                    # Repete o valor 5.3, 17 vezes
 rep (1:6, rep(3))                # Repete a sequência 1 a 6, 3 vezes
 ```
 
-## Constantes do R
+## Constantes do <i class="fab fa-r-project" style="color:blue"></i>
 ```{r}
 LETTERS
 letters
@@ -173,6 +173,10 @@ sort(letters, decreasing=TRUE)
 ```{r}
 c(1, 2, 3, 3, 10)
 ```
+
+---
+
+# O <i class="fab fa-r-project" style="color:blue"></i> é uma linguagem POO (Programação Orientada a Objetos).
 
 ---
 
