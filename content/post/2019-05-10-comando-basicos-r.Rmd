@@ -16,7 +16,6 @@ O <i class="fab fa-r-project" style="color:blue"></i> é um projeto cujo objetiv
 
 O atual <i class="fab fa-r-project" style="color:blue"></i> é o resultado de um esforço colaborativo com contribuições de todo o mundo.
 
-
 ## Autores
 
 O <i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito por **Robert Gentleman** e **Ross Ihaka** — conhecidos como "R & R" do Departamento de Estatística da Universidade de Auckland.
@@ -25,7 +24,7 @@ O <i class="fab fa-r-project" style="color:blue"></i> foi idealizado e escrito p
 
 O <i class="fab fa-r-project" style="color:blue"></i> foi inspirado no ambiente S, que tem sido principalmente desenvolvido por John Chambers, com contribuições substanciais de Douglas Bates, Rick Becker, Bill Cleveland, Trevor Hastie, Daryl Pregibon e Allan Wilks.
 
-Uma dívida especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i> e, mais tarde, tornou-se membro da equipe principal.
+Uma alusão especial é devida a John Chambers, que gentilmente contribuiu com conselhos e encorajamento nos primeiros dias de <i class="fab fa-r-project" style="color:blue"></i> e, mais tarde, tornou-se membro da equipe principal.
 
 
 ## Contribuidores
@@ -94,8 +93,6 @@ Turlach, Gary V. Vaughan, Michael Wichura, Jingbo Wang, M. A. Wong,
 e a Free Software Foundation (pelo *autoconf code* e *utilities*).
 
 Muitos outros, contudo numerosos demais para mencionar, contribuíram enviando relatórios de bugs e sugerindo várias melhorias.
-
-Simon Davies, na Universidade de Auckland, escreveu a versão original do glm ().
 
 Julian Harris e Wing Kwong (Tiki) Wan, na Universidade de
 Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.
