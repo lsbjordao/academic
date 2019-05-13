@@ -12,9 +12,7 @@ image:
   focal_point: ''
 ---
 
-O <i class="fab fa-r-project" style="color:blue"></i> é um projeto cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
-
-O atual <i class="fab fa-r-project" style="color:blue"></i> é o resultado de um esforço colaborativo com contribuições de todo o mundo.
+O <i class="fab fa-r-project" style="color:blue"></i> é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
 
 ## Autores
 
