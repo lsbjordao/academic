@@ -1,3 +1,16 @@
+---
+output:
+  html_document:
+    highlight: pygments
+date: '2019-05-10'
+slug: comando-basicos-r
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
 O <i class="fab fa-r-project" style="color:blue"></i> é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
 
 ## Autores
