@@ -5,6 +5,8 @@ date: '2019-05-10'
 output: 
   html_document:
     highlight: pygments
+    toc: TRUE
+    toc_float: yes
 categories: []
 tags: []
 image:
