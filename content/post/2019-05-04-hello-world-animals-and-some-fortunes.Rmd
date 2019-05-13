@@ -1,16 +1,3 @@
----
-title: Hello world, speaking animals, and some fortunes
-author: Lucas Jordão
-output:
-  html_fragment: default
-date: '2019-05-04'
-slug: hello-world-animals-and-some-fortunes
-categories: []
-tags: []
-image:
-  caption: ''
-  focal_point: ''
----
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
