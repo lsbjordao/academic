@@ -129,29 +129,29 @@ round(10.342545, digits=2)  # arredondamento de números decimais
 
 ## Funções trigonométricas
 ```{r}
-cos(10) # coseno
-sin(10) # seno
-tan(10) # tangente
-acos(0.1) # transformação trigonométrica inversa
-asin(1) # transformação trigonométrica inversa
-atan(1) # transformação trigonométrica inversa
-acosh(10) # transformação hiperbólica inversa
-asinh(0.1) # transformação hiperbólica inversa
-atanh(0.1) # transformação hiperbólica inversa
+cos(10)                     # coseno
+sin(10)                     # seno
+tan(10)                     # tangente
+acos(0.1)                   # transformação trigonométrica inversa
+asin(1)                     # transformação trigonométrica inversa
+atan(1)                     # transformação trigonométrica inversa
+acosh(10)                   # transformação hiperbólica inversa
+asinh(0.1)                  # transformação hiperbólica inversa
+atanh(0.1)                  # transformação hiperbólica inversa
 ```
 
 
 ## Sequências
 ```{r}
-seq (1:20) # Gera uma sequência de 1 a 20
-seq (1, 20, 2) # Gera uma sequência de 1 a 20, de 2 em 2
-seq (from=5, by=-1, along=1:20) # Gera uma sequência iniciando em 5 e subtraindo -1, 20 vezes
+seq (1:20)                       # Gera uma sequência de 1 a 20
+seq (1, 20, 2)                   # Gera uma sequência de 1 a 20, de 2 em 2
+seq (from=5, by=-1, along=1:20)  # Gera uma sequência iniciando em 5 e subtraindo -1, 20 vezes
 ```
 
 ## Repetições
 ```{r}
-rep (5.3, 17) # Repete o valor 5.3, 17 vezes
-rep (1:6, rep(3)) # Repete a sequência 1 a 6, 3 vezes
+rep (5.3, 17)                    # Repete o valor 5.3, 17 vezes
+rep (1:6, rep(3))                # Repete a sequência 1 a 6, 3 vezes
 ```
 
 ## Constantes do R
@@ -203,9 +203,9 @@ x
 ```{r}
 TRUE
 FALSE
-TRUE | FALSE # logical 'ou'= |
-TRUE & FALSE # logical 'e' = &
-!TRUE # logical 'não' = !
+TRUE | FALSE     # logical 'ou'= |
+TRUE & FALSE     # logical 'e' = &
+!TRUE            # logical 'não' = !
 !FALSE
 ```
 
