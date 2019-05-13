@@ -102,29 +102,29 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.
 ## Primeiras funções
 
 ```{r}
-R.Version() # mostra a versão
-license() # informações sobre a licença
+R.Version()                 # mostra a versão
+license()                   # informações sobre a licença
 ```
 
 ## Operadores simples e funções matemáticas
 ```{r}
-2+3 # + = adição
-7-5 # * = subtração
-4*5 # * = multiplicação
-6/3 # / = divisão
-9%%2 # resto da divisão
-9%/%2 # resultado inteiro da divisão
-4^4 # ^ = potência
+2+3                         # + = adição
+7-5                         # * = subtração
+4*5                         # * = multiplicação
+6/3                         # / = divisão
+9%%2                        # resto da divisão
+9%/%2                       # resultado inteiro da divisão
+4^4                         # ^ = potência
 
-sqrt(81) # raiz quadrada
-exp(12) # função exponencial
-log(3) # logaritmo natural de 3
-log(3, 10) # logaritmo de 3 na base 10
-abs(-6.45) # retorna o valor absoluto
-factorial(5) # fatorial de 5 = 5x4x3x2x1
-gamma(10) # função gama
-lgamma(10) # log natural gama
-round(10.342545, digits=2) # arredondamento de números decimais
+sqrt(81)                    # raiz quadrada
+exp(12)                     # função exponencial
+log(3)                      # logaritmo natural de 3
+log(3, 10)                  # logaritmo de 3 na base 10
+abs(-6.45)                  # retorna o valor absoluto
+factorial(5)                # fatorial de 5 = 5x4x3x2x1
+gamma(10)                   # função gama
+lgamma(10)                  # log natural gama
+round(10.342545, digits=2)  # arredondamento de números decimais
 ```
 
 ## Funções trigonométricas
