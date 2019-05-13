@@ -6,7 +6,6 @@ output:
   html_document:
     highlight: tango
     toc: TRUE
-    toc_float: TRUE
 categories: []
 tags: []
 image:
