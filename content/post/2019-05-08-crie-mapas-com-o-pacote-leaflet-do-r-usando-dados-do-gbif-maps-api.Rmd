@@ -2,8 +2,6 @@
 title: Crie mapas com o pacote 'Leaflet' do R usando dados do GBIF Maps API
 author: Lucas Jordão
 date: '2019-05-08'
-customjs:
- - http://code.jquery.com/jquery-v1.12.4.min.js
 slug: crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api
 categories: []
 tags: []

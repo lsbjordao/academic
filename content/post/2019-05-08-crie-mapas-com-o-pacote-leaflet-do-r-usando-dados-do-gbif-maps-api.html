@@ -2,8 +2,6 @@
 title: Crie mapas com o pacote 'Leaflet' do R usando dados do GBIF Maps API
 author: Lucas Jordão
 date: '2019-05-08'
-customjs:
- - http://code.jquery.com/jquery-v1.12.4.min.js
 slug: crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api
 categories: []
 tags: []
@@ -5002,6 +5000,20 @@ $(document).ready(function () {
 <body>
 
 
+<div class="container-fluid main-container">
+
+
+
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Crie mapas com o pacote ‘Leaflet’ do R usando dados do GBIF Maps API</h1>
+<h4 class="author">Lucas Jordão</h4>
+<h4 class="date">2019-05-08</h4>
+
+</div>
 
 
 <ul>
@@ -5010,7 +5022,8 @@ $(document).ready(function () {
 <ul>
 <li>o <a href="https://rstudio.github.io/leaflet/">site oficial</a> do <code>Leaflet</code> para R;</li>
 <li>o <a href="https://www.rdocumentation.org/packages/leaflet/versions/2.0.2">manual</a> do pacote <code>Leaflet</code> na página de documentos oficial do R, onde constam todas as suas funções e exemplos;</li>
-<li>A página <a href="http://leaflet-extras.github.io/leaflet-providers/preview/">Leaflet-providers</a> com previews de basemap que podem ser utilizados no pacote <code>Leaflet</code>;</li>
+<li>A página <a href="http://leaflet-extras.github.io/leaflet-providers/preview/">Leaflet-providers</a> com previews de basemap que podem ser utilizados no pacote <code>Leaflet</code>;<br />
+</li>
 <li>A página do <a href="https://www.gbif.org/developer/maps">GBIF Maps API</a> para entender a ferramenta Web API do GBIF.</li>
 </ul></li>
 </ul>
@@ -5031,8 +5044,8 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addTiles() %&gt;%  
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-6c0742bad9246c4e3a2d" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6c0742bad9246c4e3a2d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=classic.poly&bin=hex&hexPerTile=70&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-8b173c7f1894e18f8d18" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8b173c7f1894e18f8d18">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=classic.poly&bin=hex&hexPerTile=70&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
 <hr />
 <pre class="r"><code>style = &#39;style=orange.marker&#39;
 tile = paste0(prefix,style,&#39;&amp;&#39;,taxonKey)
@@ -5040,8 +5053,8 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addProviderTiles(providers$Stamen.Toner) %&gt;%  # &#39;Basemap&#39;
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-54283d8291928f2f81fb" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-54283d8291928f2f81fb">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Stamen.Toner",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=orange.marker&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-6b18888dfc42995e17a3" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6b18888dfc42995e17a3">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Stamen.Toner",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=orange.marker&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
 <hr />
 <pre class="r"><code>style = &#39;style=blueHeat.point&#39;
 tile = paste0(prefix,style,&#39;&amp;&#39;,taxonKey)
@@ -5049,8 +5062,8 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addProviderTiles(providers$CartoDB.DarkMatter) %&gt;%  
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-1a68b45a8aac863e8404" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1a68b45a8aac863e8404">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["CartoDB.DarkMatter",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=blueHeat.point&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-2c32d18224223199a1a6" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2c32d18224223199a1a6">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["CartoDB.DarkMatter",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=blueHeat.point&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
 <hr />
 <pre class="r"><code>style = &#39;style=iNaturalist.poly&amp;bin=hex&amp;hexPerTile=50&#39;
 tile = paste0(prefix,style,&#39;&amp;&#39;,taxonKey)
@@ -5058,8 +5071,8 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addProviderTiles(providers$Esri.WorldImagery) %&gt;%  
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-d70386898bebec13a1d7" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-d70386898bebec13a1d7">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=iNaturalist.poly&bin=hex&hexPerTile=50&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-47bc1d073a1b29b8ef26" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-47bc1d073a1b29b8ef26">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=iNaturalist.poly&bin=hex&hexPerTile=50&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
 <hr />
 <pre class="r"><code>style = &#39;style=classic-noborder.poly&amp;bin=hex&amp;hexPerTile=30&#39;
 tile = paste0(prefix,style,&#39;&amp;&#39;,taxonKey)
@@ -5067,8 +5080,8 @@ leaflet() %&gt;%
   setView(lng = -20, lat = 20, zoom = 02) %&gt;%
   addProviderTiles(providers$Stamen.Watercolor) %&gt;%  
   addTiles(urlTemplate=tile)</code></pre>
-<div id="htmlwidget-28572cd0b1e3ab9740fd" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-28572cd0b1e3ab9740fd">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Stamen.Watercolor",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=classic-noborder.poly&bin=hex&hexPerTile=30&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-e5e30dda9fe5e513fef3" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e5e30dda9fe5e513fef3">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[20,-20],2,[]],"calls":[{"method":"addProviderTiles","args":["Stamen.Watercolor",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addTiles","args":["https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?style=classic-noborder.poly&bin=hex&hexPerTile=30&taxonKey=2969235",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false}]}]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
