@@ -4,9 +4,9 @@ author: Lucas Jordão
 date: '2019-05-10'
 output: 
   html_document:
-    highlight: pygments
+    highlight: tango
     toc: TRUE
-    toc_float: yes
+    toc_float: TRUE
 categories: []
 tags: []
 image:
@@ -156,7 +156,7 @@ rep(5.3, 17)                    # Repete o valor 5.3, 17 vezes
 rep(1:6, rep(3))                # Repete a sequência 1 a 6, 3 vezes
 ```
 
-## Constantes do <i class="fab fa-r-project" style="color:blue"></i>
+## Constantes do R
 ```{r}
 LETTERS
 letters
@@ -178,7 +178,7 @@ c(1, 2, 3, 3, 10)
 
 ---
 
-## **O <i class="fab fa-r-project" style="color:blue"></i> é uma linguagem de POO (Programação Orientada a Objetos)**
+## **O R é uma linguagem de POO (Programação Orientada a Objetos)**
 
 ## Armazenando dados em objetos
 ```{r}
