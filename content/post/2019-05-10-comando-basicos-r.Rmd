@@ -1,7 +1,6 @@
 ---
 title: Introdução ao R e comandos básicos
 author: Lucas Jordão
-output: html_document_base
 date: '2019-05-10'
 slug: comando-basicos-r
 categories: []
@@ -9,6 +8,7 @@ tags: []
 image:
   caption: ''
   focal_point: ''
+exclude_jquery: true
 ---
 
 O <i class="fab fa-r-project" style="color:blue"></i> é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
@@ -142,15 +142,15 @@ atanh(0.1)                  # arco tangente hiperbólico
 
 ## Sequências
 ```{r}
-seq (1:20)                       # Gera uma sequência de 1 a 20
-seq (1, 20, 2)                   # Gera uma sequência de 1 a 20, de 2 em 2
-seq (from=5, by=-1, along=1:20)  # Gera uma sequência iniciando em 5 e subtraindo -1, 20 vezes
+seq(1:20)                       # Gera uma sequência de 1 a 20
+seq(1, 20, 2)                   # Gera uma sequência de 1 a 20, de 2 em 2
+seq(from=5, by=-1, along=1:20)  # Gera uma sequência iniciando em 5 e subtraindo -1, 20 vezes
 ```
 
 ## Repetições
 ```{r}
-rep (5.3, 17)                    # Repete o valor 5.3, 17 vezes
-rep (1:6, rep(3))                # Repete a sequência 1 a 6, 3 vezes
+rep(5.3, 17)                    # Repete o valor 5.3, 17 vezes
+rep(1:6, rep(3))                # Repete a sequência 1 a 6, 3 vezes
 ```
 
 ## Constantes do <i class="fab fa-r-project" style="color:blue"></i>
