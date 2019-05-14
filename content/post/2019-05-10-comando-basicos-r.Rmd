@@ -3,10 +3,8 @@ title: Introdução ao R e comandos básicos
 author: Lucas Jordão
 date: '2019-05-10'
 output: 
-  html_document:
-    highlight: tango
-    toc: TRUE
-    toc_float: TRUE
+    blogdown::html_page:
+       toc: true
 categories: []
 tags: []
 image:
@@ -178,7 +176,11 @@ c(1, 2, 3, 3, 10)
 
 ---
 
-## **O R é uma linguagem de POO (Programação Orientada a Objetos)**
+{{% alert note %}}
+O R é uma linguagem de POO (Programação Orientada a Objetos)
+{{% /alert %}}
+
+
 
 ## Armazenando dados em objetos
 ```{r}
