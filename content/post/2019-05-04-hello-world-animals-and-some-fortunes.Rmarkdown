@@ -1,4 +1,7 @@
 ---
+title: Hello world, speaking animals, and some fortunes
+author: Lucas Jordão
+date: '2019-05-04'
 slug: hello-world-animals-and-some-fortunes
 categories: []
 tags: []
@@ -25,12 +28,14 @@ library(emo)
 ```
 
 * [Cowsay package](https://cran.r-project.org/web/packages/cowsay/vignettes/cowsay_tutorial.html) - Speaking animals :cow: :monkey:
+
 ```{r cowsay, echo=TRUE, warning=FALSE}
 say("Hello world!", "cow")
 say("Hello you!", "monkey")
 ```
 
 * [Fortunes package](https://cran.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf) - Collected Wisdom :bulb: in <i class="fab fa-r-project" style="color:blue">
+
 ```{r echo=FALSE, warning=FALSE}
 library(fortunes)
 fortune(6)
