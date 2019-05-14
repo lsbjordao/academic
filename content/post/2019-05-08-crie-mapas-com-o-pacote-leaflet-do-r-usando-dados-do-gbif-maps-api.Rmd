@@ -1,5 +1,8 @@
 ---
 slug: crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api
+output:
+  html_document:
+    highlight: tango
 categories: []
 tags: []
 image:
