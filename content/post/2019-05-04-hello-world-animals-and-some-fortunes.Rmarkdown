@@ -1,5 +1,5 @@
 ---
-output: html_document
+output: html_fragment
 slug: hello-world-animals-and-some-fortunes
 categories: []
 tags: []

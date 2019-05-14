@@ -1,9 +1,8 @@
 ---
 slug: comando-basicos-r
 output: 
-    html_document:
+    html_fragment:
        toc: true
-       highlight: tango
 categories: []
 tags: []
 image:
