@@ -1,5 +1,5 @@
 ---
-slug: comandos-basicos-r
+slug: comando-basicos-r
 output: 
     html_document:
        toc: true
