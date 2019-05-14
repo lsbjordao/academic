@@ -1,4 +1,7 @@
 ---
+title: Introdução ao R e comandos básicos
+author: Lucas Jordão
+date: '2019-05-10'
 slug: comando-basicos-r
 output: 
     html_document:
