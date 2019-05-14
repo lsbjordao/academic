@@ -2,6 +2,7 @@
 title: "Creating a Shiny app with Google login"
 author: "Leslie Myint"
 date: 2017-01-01 18:24:29+00:00
+output: blogdown::html_page
 slug: shiny-app-with-google-login
 categories: ["R"]
 tags: ["Shiny", "OAuth"]
@@ -9,8 +10,6 @@ header:
   caption: ''
   image: ''
 ---
-
-
 
 <p>Creating a Shiny application that enables user login can be useful for tailoring individual user experience and for analyzing user actions with profile-type data. With basic file I/O functions, it is possible to create a simple but insecure app that stores login names and passwords in text files. A much more secure alternative is to use an existing authentication system to handle login. I’m sure many of you have seen websites that allow you to login via Google or Facebook. I will outline here the steps needed to setup a “Login with Google” functionality on your Shiny app.</p>
 <div id="step-1-install-packages" class="section level1">
@@ -26,7 +25,7 @@ devtools::install_github(&quot;MarkEdmondson1234/googleID&quot;)</code></pre>
 <h2>Setup a Google API project</h2>
 <ol style="list-style-type: decimal">
 <li>Make sure that you are logged into Google and visit the <a href="https://console.developers.google.com/iam-admin/projects">Google APIs project page</a>.</li>
-<li>Click the “Create Project” link at the top and enter a name for the project (e.g. “myShinyApp”). After a few seconds, you will be redirected to the Google API manager.</li>
+<li>Click the “Create Project” link at the top and enter a name for the project (e.g. “myShinyApp”). After a few seconds, you will be redirected to the Google API manager.</li>
 <li>Click on the <a href="https://console.developers.google.com/apis/api/plus/overview">Google+ API link</a> under “Social APIs” and click the “Enable” link at the top to activate the Google+ API.</li>
 </ol>
 </div>
@@ -40,11 +39,10 @@ devtools::install_github(&quot;MarkEdmondson1234/googleID&quot;)</code></pre>
 <li>On the “Create Credentials” dropdown menu, select “OAuth client ID” and select “Web application” for the application type.</li>
 <li>Fill in any descriptive name for this authentication client.</li>
 <li>In the redirect URLs field, fill in
-<ul>
-<li>the URL for your Shiny app (e.g. <a href="https://yourdomain.shinyapps.io/appName" class="uri">https://yourdomain.shinyapps.io/appName</a>)</li>
-<li><a href="http://127.0.0.1:1221" class="uri">http://127.0.0.1:1221</a> This is to facilitate local development and testing of your app.<br />
+* the URL for your Shiny app (e.g. <a href="https://yourdomain.shinyapps.io/appName" class="uri">https://yourdomain.shinyapps.io/appName</a>)
+* <a href="http://127.0.0.1:1221" class="uri">http://127.0.0.1:1221</a>
+This is to facilitate local development and testing of your app.<br />
 </li>
-</ul></li>
 <li>After saving this information, a client ID and secret will pop up. Copy and paste these for use in your code later.</li>
 </ol>
 </div>
@@ -76,13 +74,11 @@ options(&quot;googleAuthR.webapp.client_secret&quot; = &quot;YOUR_CLIENT_SECRET&
         p(&quot;Layout for tab 2&quot;)
     )
 )
-
 server &lt;- function(input, output, session) {
     ## Global variables needed throughout the app
     rv &lt;- reactiveValues(
         login = FALSE
     )
-
     ## Authentication
     accessToken &lt;- callModule(googleAuth, &quot;gauth_login&quot;,
         login_class = &quot;btn btn-primary&quot;,
@@ -94,7 +90,6 @@ server &lt;- function(input, output, session) {
         rv$login &lt;- TRUE
         with_shiny(get_user_info, shiny_access_token = accessToken())
     })
-
     ## Display user&#39;s Google display name after successful login
     output$display_username &lt;- renderText({
         validate(
@@ -102,7 +97,6 @@ server &lt;- function(input, output, session) {
         )
         userDetails()$displayName
     })
-
     ## Workaround to avoid shinyaps.io URL problems
     observe({
         if (rv$login) {
@@ -111,7 +105,6 @@ server &lt;- function(input, output, session) {
         }
     })
 }
-
 shinyApp(ui = ui, server = server)</code></pre>
 <p>The login/logout button is created as part of the UI by calling the <code>googleAuthUI</code> function and supplying an ID:</p>
 <pre class="r"><code>googleAuthUI(&quot;gauth_login&quot;)</code></pre>
