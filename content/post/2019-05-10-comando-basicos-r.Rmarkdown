@@ -175,8 +175,8 @@ c(1, 2, 3, 3, 10)
 
 ---
 
- {{% alert note %}}
-## O R é uma linguagem de POO (Programação Orientada a Objetos)
+## {{% alert note %}}
+O R é uma linguagem de POO (Programação Orientada a Objetos)
 {{% /alert %}}
 
 
