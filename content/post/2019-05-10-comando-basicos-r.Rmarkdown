@@ -1,7 +1,8 @@
 ---
 slug: comando-basicos-r
 output: 
-    html_fragment
+    blogdown::html_page:
+      toc: true
 categories: []
 tags: []
 image:

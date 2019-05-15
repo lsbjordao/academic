@@ -10,6 +10,31 @@ image:
   focal_point: ''
 ---
 
+<div id="TOC">
+<ul>
+<li><a href="#autores">Autores</a></li>
+<li><a href="#inspiracao">Inspiração</a></li>
+<li><a href="#contribuidores">Contribuidores</a></li>
+<li><a href="#primeiros-passos">Primeiros passos…</a><ul>
+<li><a href="#primeiras-funcoes">Primeiras funções</a></li>
+<li><a href="#operadores-simples-e-funcoes-matematicas">Operadores simples e funções matemáticas</a></li>
+<li><a href="#funcoes-trigonometricas">Funções trigonométricas</a></li>
+<li><a href="#sequencias">Sequências</a></li>
+<li><a href="#repeticoes">Repetições</a></li>
+<li><a href="#constantes-do-r">Constantes do R</a></li>
+<li><a href="#ordenando-valores">Ordenando valores</a></li>
+<li><a href="#criando-um-vetor-com-numeros-inteiros">Criando um vetor com números inteiros</a></li>
+<li><a href="#armazenando-dados-em-objetos">Armazenando dados em objetos</a></li>
+<li><a href="#tipos-de-dados">TIPOS DE DADOS</a><ul>
+<li><a href="#numerical">numerical</a></li>
+<li><a href="#character">character</a></li>
+<li><a href="#valores-logicos">valores lógicos</a></li>
+<li><a href="#factor">factor</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+
 <p>O <i class="fab fa-r-project" style="color:blue"></i> é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.</p>
 <div id="autores" class="section level2">
 <h2>Autores</h2>
@@ -73,11 +98,38 @@ image:
 <li>Duncan Murdoch (até setembro de 2017)</li>
 </ul>
 <p>O <i class="fab fa-r-project" style="color:blue"></i> não seria o que é hoje sem a ajuda inestimável de pessoas fora da equipe principal do R, que contribuíram doando código, correções de bugs e documentação:</p>
-<p>Valerio Aimale, Suharto Anggono, Thomas Baier, Henrik Bengtsson, Roger Bivand, Ben Bolker, David Brahm, G“oran Brostr”om, Patrick Burns, Vince Carey, Saikat DebRoy, Matt Dowle, Brian D’Urso, Lyndon Drake, Dirk Eddelbuettel, Claus Ekstrom, Sebastian Fischmeister, John Fox, Paul Gilbert, Yu Gong, Gabor Grothendieck, Frank E Harrell Jr, Peter M. Haverty, Torsten Hothorn, Robert King, Kjetil Kjernsmo, Roger Koenker, Philippe Lambert, Jan de Leeuw, Jim Lindsey, Patrick Lindsey, Catherine Loader, Gordon Maclean, John Maindonald, David Meyer, Ei-ji Nakama, Jens Oehlschaegel, Steve Oncley, Richard O’Keefe, Hubert Palme, Roger D. Peng, Jose’ C. Pinheiro, Tony Plate, Anthony Rossini, Jonathan Rougier, Petr Savicky, Guenther Sawitzki, Marc Schwartz, Arun Srinivasan, Detlef Steuer, Bill Simpson, Gordon Smyth, Adrian Trapletti, Terry Therneau, Rolf Turner, Bill Venables, Gregory R. Warnes, Andreas Weingessel, Morten Welinder, James Wettenhall, Simon Wood, and Achim Zeileis.</p>
+<p>Valerio Aimale, Suharto Anggono, Thomas Baier, Henrik Bengtsson, Roger Bivand,
+Ben Bolker, David Brahm, G“oran Brostr”om, Patrick Burns, Vince Carey,
+Saikat DebRoy, Matt Dowle, Brian D’Urso, Lyndon Drake, Dirk Eddelbuettel,
+Claus Ekstrom, Sebastian Fischmeister, John Fox, Paul Gilbert,
+Yu Gong, Gabor Grothendieck, Frank E Harrell Jr, Peter M. Haverty,
+Torsten Hothorn, Robert King, Kjetil Kjernsmo, Roger Koenker, Philippe Lambert,
+Jan de Leeuw, Jim Lindsey, Patrick Lindsey, Catherine Loader,
+Gordon Maclean, John Maindonald, David Meyer, Ei-ji Nakama,
+Jens Oehlschaegel, Steve Oncley, Richard O’Keefe, Hubert Palme,
+Roger D. Peng, Jose’ C. Pinheiro, Tony Plate, Anthony Rossini,
+Jonathan Rougier, Petr Savicky, Guenther Sawitzki, Marc Schwartz,
+Arun Srinivasan, Detlef Steuer, Bill Simpson, Gordon Smyth, Adrian Trapletti,
+Terry Therneau, Rolf Turner, Bill Venables, Gregory R. Warnes,
+Andreas Weingessel, Morten Welinder, James Wettenhall, Simon Wood, and
+Achim Zeileis.</p>
 <p>Outros escreveram códigos que foram adotados no <i class="fab fa-r-project" style="color:blue"></i> e são reconhecidos nos arquivos de código, incluindo:</p>
-<p>J. D. Beasley, David J. Best, Richard Brent, Kevin Buhr, Michael A. Covington, Bill Cleveland, Robert Cleveland,, G. W. Cran, C. G. Ding, Ulrich Drepper, Paul Eggert, J. O. Evans, David M. Gay, H. Frick, G. W. Hill, Richard H. Jones, Eric Grosse, Shelby Haberman, Bruno Haible, John Hartigan, Andrew Harvey, Trevor Hastie, Min Long Lam, George Marsaglia, K. J. Martin, Gordon Matzigkeit, C. R. Mckenzie, Jean McRae, Cyrus Mehta, Fionn Murtagh, John C. Nash, Finbarr O’Sullivan, R. E. Odeh, William Patefield, Nitin Patel, Alan Richardson, D. E. Roberts, Patrick Royston, Russell Lenth, Ming-Jen Shyu, Richard C. Singleton, S. G. Springer, Supoj Sutanthavibul, Irma Terpenning, G. E. Thomas, Rob Tibshirani, Wai Wan Tsang, Berwin Turlach, Gary V. Vaughan, Michael Wichura, Jingbo Wang, M. A. Wong, e a Free Software Foundation (pelo <em>autoconf code</em> e <em>utilities</em>).</p>
+<p>J. D. Beasley, David J. Best, Richard Brent, Kevin Buhr, Michael
+A. Covington, Bill Cleveland, Robert Cleveland,, G. W. Cran,
+C. G. Ding, Ulrich Drepper, Paul Eggert, J. O. Evans, David M. Gay,
+H. Frick, G. W. Hill, Richard H. Jones, Eric Grosse, Shelby Haberman,
+Bruno Haible, John Hartigan, Andrew Harvey, Trevor Hastie, Min Long
+Lam, George Marsaglia, K. J. Martin, Gordon Matzigkeit,
+C. R. Mckenzie, Jean McRae, Cyrus Mehta, Fionn Murtagh, John C. Nash,
+Finbarr O’Sullivan, R. E. Odeh, William Patefield, Nitin Patel, Alan
+Richardson, D. E. Roberts, Patrick Royston, Russell Lenth, Ming-Jen
+Shyu, Richard C. Singleton, S. G. Springer, Supoj Sutanthavibul, Irma
+Terpenning, G. E. Thomas, Rob Tibshirani, Wai Wan Tsang, Berwin
+Turlach, Gary V. Vaughan, Michael Wichura, Jingbo Wang, M. A. Wong,
+e a Free Software Foundation (pelo <em>autoconf code</em> e <em>utilities</em>).</p>
 <p>Muitos outros, contudo numerosos demais para mencionar, contribuíram enviando relatórios de bugs e sugerindo várias melhorias.</p>
-<p>Julian Harris e Wing Kwong (Tiki) Wan, na Universidade de Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
+<p>Julian Harris e Wing Kwong (Tiki) Wan, na Universidade de
+Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 <hr />
 </div>
 <div id="primeiros-passos" class="section level1">
@@ -169,7 +221,7 @@ image:
 ## cite it when using it for data analysis. See also
 ## &#39;citation(&quot;pkgname&quot;)&#39; for citing R packages.</code></pre>
 <pre class="r"><code>Sys.time()                  # obtém data e hora exata do sistema</code></pre>
-<pre><code>## [1] &quot;2019-05-15 00:00:13 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-15 00:03:08 -03&quot;</code></pre>
 </div>
 <div id="operadores-simples-e-funcoes-matematicas" class="section level2">
 <h2>Operadores simples e funções matemáticas</h2>
@@ -276,7 +328,9 @@ image:
 <pre class="r"><code>c(1, 2, 3, 3, 10)</code></pre>
 <pre><code>## [1]  1  2  3  3 10</code></pre>
 <hr />
-<p>{{% alert note %}} <strong>O R é uma linguagem de POO (Programação Orientada a Objetos)</strong> {{% /alert %}}</p>
+<p>{{% alert note %}}
+<strong>O R é uma linguagem de POO (Programação Orientada a Objetos)</strong>
+{{% /alert %}}</p>
 </div>
 <div id="armazenando-dados-em-objetos" class="section level2">
 <h2>Armazenando dados em objetos</h2>
@@ -323,4 +377,3 @@ x</code></pre>
 </div>
 </div>
 </div>
-
