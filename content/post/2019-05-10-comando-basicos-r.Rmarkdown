@@ -176,8 +176,11 @@ c(1, 2, 3, 3, 10)
 
 ---
 
+# Tudo no R é objeto
+
 {{% alert note %}}
 **O R é uma linguagem de POO (Programação Orientada a Objetos)**
+Todo objeto possui uma **CLASSE**
 {{% /alert %}}
 
 ## Armazenando dados em objetos
