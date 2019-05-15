@@ -29,7 +29,7 @@ logo = ""
 highlight = true
 highlight_languages = ["r"]  # Add support for highlighting additional languages
 highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
-highlightjsVersion = "9.12.0"
+highlightjsVersion = "9.15.6"
 highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
 
 # Enable global LaTeX math rendering?
