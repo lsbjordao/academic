@@ -210,7 +210,10 @@ w[c(1,4)]
 a <- c(1:10)
 a
 a[(a>8) | (a<5)]
-# Como funciona...
+```
+
+Como funciona...
+```{r}
 a > 8
 a < 5
 a > 8 | x < 5
