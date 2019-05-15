@@ -101,6 +101,8 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.
 ```{r}
 R.Version()                 # mostra a versão
 license()                   # informações sobre a licença
+citation()                  # como citar
+Sys.time()                  # obtém data e hora exata do sistema
 ```
 
 ## Operadores simples e funções matemáticas
