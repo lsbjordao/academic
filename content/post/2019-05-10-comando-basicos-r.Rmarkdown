@@ -177,8 +177,6 @@ c(1, 2, 3, 3, 10)
 **O R é uma linguagem de POO (Programação Orientada a Objetos)**
 {{% /alert %}}
 
-
-
 ## Armazenando dados em objetos
 ```{r}
 x <- 1:5
