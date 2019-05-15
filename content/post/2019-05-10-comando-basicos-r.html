@@ -25,6 +25,8 @@ image:
 <li><a href="#ordenando-valores">Ordenando valores</a></li>
 <li><a href="#criando-um-vetor-com-numeros-inteiros">Criando um vetor com números inteiros</a></li>
 <li><a href="#armazenando-dados-em-objetos">Armazenando dados em objetos</a></li>
+<li><a href="#concatenar-varios-valores-e-atribui-los-a-um-objeto">Concatenar vários valores e atribuí-los a um objeto</a></li>
+<li><a href="#extrair-um-ou-varios-valores-de-um-objeto-a-partir-da-indexacao">Extrair um ou vários valores de um objeto a partir da indexação</a></li>
 <li><a href="#tipos-de-dados">TIPOS DE DADOS</a><ul>
 <li><a href="#numerical">numerical</a></li>
 <li><a href="#character">character</a></li>
@@ -221,13 +223,13 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 ## cite it when using it for data analysis. See also
 ## &#39;citation(&quot;pkgname&quot;)&#39; for citing R packages.</code></pre>
 <pre class="r"><code>Sys.time()                  # obtém data e hora exata do sistema</code></pre>
-<pre><code>## [1] &quot;2019-05-15 00:03:08 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-15 00:11:20 -03&quot;</code></pre>
 </div>
 <div id="operadores-simples-e-funcoes-matematicas" class="section level2">
 <h2>Operadores simples e funções matemáticas</h2>
 <pre class="r"><code>2+3                         # + = adição</code></pre>
 <pre><code>## [1] 5</code></pre>
-<pre class="r"><code>7-5                         # * = subtração</code></pre>
+<pre class="r"><code>7-5                         # - = subtração</code></pre>
 <pre><code>## [1] 2</code></pre>
 <pre class="r"><code>4*5                         # * = multiplicação</code></pre>
 <pre><code>## [1] 20</code></pre>
@@ -343,6 +345,17 @@ y</code></pre>
 <pre class="r"><code>z &lt;- x + y
 z</code></pre>
 <pre><code>## [1] 11 12 13 14 15</code></pre>
+</div>
+<div id="concatenar-varios-valores-e-atribui-los-a-um-objeto" class="section level2">
+<h2>Concatenar vários valores e atribuí-los a um objeto</h2>
+<pre class="r"><code>x &lt;- c(4,5,6,7,8)</code></pre>
+</div>
+<div id="extrair-um-ou-varios-valores-de-um-objeto-a-partir-da-indexacao" class="section level2">
+<h2>Extrair um ou vários valores de um objeto a partir da indexação</h2>
+<pre class="r"><code>x[3]</code></pre>
+<pre><code>## [1] 6</code></pre>
+<pre class="r"><code>x[c(1,4)]</code></pre>
+<pre><code>## [1] 4 7</code></pre>
 <hr />
 </div>
 <div id="tipos-de-dados" class="section level2">

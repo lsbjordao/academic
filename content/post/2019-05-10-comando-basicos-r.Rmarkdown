@@ -109,7 +109,7 @@ Sys.time()                  # obtém data e hora exata do sistema
 ## Operadores simples e funções matemáticas
 ```{r}
 2+3                         # + = adição
-7-5                         # * = subtração
+7-5                         # - = subtração
 4*5                         # * = multiplicação
 9/2                         # / = divisão
 9%%2                        # resto da divisão inteira
@@ -188,6 +188,17 @@ y <- 10
 y
 z <- x + y
 z
+```
+
+## Concatenar vários valores e atribuí-los a um objeto
+```{r}
+x <- c(4,5,6,7,8)
+```
+
+## Extrair um ou vários valores de um objeto a partir da indexação
+```{r}
+x[3]
+x[c(1,4)]
 ```
 
 ---
