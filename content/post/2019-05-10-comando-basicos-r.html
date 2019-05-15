@@ -25,8 +25,9 @@ image:
 <li><a href="#ordenando-valores">Ordenando valores</a></li>
 <li><a href="#criando-um-vetor-com-numeros-inteiros">Criando um vetor com números inteiros</a></li>
 <li><a href="#armazenando-dados-em-objetos">Armazenando dados em objetos</a></li>
-<li><a href="#concatenar-varios-valores-e-atribui-los-a-um-objeto">Concatenar vários valores e atribuí-los a um objeto</a></li>
-<li><a href="#extrair-um-ou-varios-valores-de-um-objeto-a-partir-da-indexacao">Extrair um ou vários valores de um objeto a partir da indexação</a></li>
+<li><a href="#concatenando-diversos-valores-e-atribuindo-os-a-um-objeto">Concatenando diversos valores e atribuindo-os a um objeto</a></li>
+<li><a href="#extraindo-um-ou-mais-valores-de-um-objeto-a-partir-da-indexacao">Extraindo um ou mais valores de um objeto a partir da indexação</a></li>
+<li><a href="#operadores-de-logica">Operadores de lógica</a></li>
 <li><a href="#tipos-de-dados">TIPOS DE DADOS</a><ul>
 <li><a href="#numerical">numerical</a></li>
 <li><a href="#character">character</a></li>
@@ -223,7 +224,7 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 ## cite it when using it for data analysis. See also
 ## &#39;citation(&quot;pkgname&quot;)&#39; for citing R packages.</code></pre>
 <pre class="r"><code>Sys.time()                  # obtém data e hora exata do sistema</code></pre>
-<pre><code>## [1] &quot;2019-05-15 00:11:20 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-15 00:20:42 -03&quot;</code></pre>
 </div>
 <div id="operadores-simples-e-funcoes-matematicas" class="section level2">
 <h2>Operadores simples e funções matemáticas</h2>
@@ -346,16 +347,33 @@ y</code></pre>
 z</code></pre>
 <pre><code>## [1] 11 12 13 14 15</code></pre>
 </div>
-<div id="concatenar-varios-valores-e-atribui-los-a-um-objeto" class="section level2">
-<h2>Concatenar vários valores e atribuí-los a um objeto</h2>
-<pre class="r"><code>x &lt;- c(4,5,6,7,8)</code></pre>
+<div id="concatenando-diversos-valores-e-atribuindo-os-a-um-objeto" class="section level2">
+<h2>Concatenando diversos valores e atribuindo-os a um objeto</h2>
+<pre class="r"><code>w &lt;- c(4,5,6,7,8)</code></pre>
 </div>
-<div id="extrair-um-ou-varios-valores-de-um-objeto-a-partir-da-indexacao" class="section level2">
-<h2>Extrair um ou vários valores de um objeto a partir da indexação</h2>
-<pre class="r"><code>x[3]</code></pre>
+<div id="extraindo-um-ou-mais-valores-de-um-objeto-a-partir-da-indexacao" class="section level2">
+<h2>Extraindo um ou mais valores de um objeto a partir da indexação</h2>
+<pre class="r"><code>w[3]</code></pre>
 <pre><code>## [1] 6</code></pre>
-<pre class="r"><code>x[c(1,4)]</code></pre>
+<pre class="r"><code>w[c(1,4)]</code></pre>
 <pre><code>## [1] 4 7</code></pre>
+</div>
+<div id="operadores-de-logica" class="section level2">
+<h2>Operadores de lógica</h2>
+<pre class="r"><code>a &lt;- c(1:10)
+a</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<pre class="r"><code>a[(a&gt;8) | (a&lt;5)]</code></pre>
+<pre><code>## [1]  1  2  3  4  9 10</code></pre>
+<pre class="r"><code># Como funciona...
+a &gt; 8</code></pre>
+<pre><code>##  [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE</code></pre>
+<pre class="r"><code>a &lt; 5</code></pre>
+<pre><code>##  [1]  TRUE  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE</code></pre>
+<pre class="r"><code>a &gt; 8 | x &lt; 5</code></pre>
+<pre><code>##  [1]  TRUE  TRUE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE</code></pre>
+<pre class="r"><code>a[c(T,T,T,T,F,F,F,F,T,T)]</code></pre>
+<pre><code>## [1]  1  2  3  4  9 10</code></pre>
 <hr />
 </div>
 <div id="tipos-de-dados" class="section level2">
