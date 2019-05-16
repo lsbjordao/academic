@@ -271,8 +271,8 @@ length(jim)
 
 ```{r}
 df <- data.frame(A = 1,
-                 B = as.Date("2013-01-02"),
-                 C = c("test","train","test","train"))
+                 B = as.Date("2019-04-05"),
+                 C = c("alfa","beta","gama","delta"))
 df
 mode(df)
 class(df)
@@ -399,26 +399,26 @@ sample(1:100, 4)  # Amostragem
 
 ## Histograma
 
-```{r}
+```{r, histograma, echo=TRUE}
 x <- rnorm(n=10000, mean=1, sd=1)
 hist(x, nclass = 40)
 ```
 
 ## Gráfico de dispersão
 
-```{r}
+```{r, plot, echo=TRUE}
 plot(x)
 ```
 
 ## Barplot
 
-```{r}
+```{r, barplot, echo=TRUE}
 barplot(x)
 ```
 
 ## Boxplot
 
-```{r}
+```{r, boxplot, echo=TRUE}
 boxplot(x)
 ```
 
