@@ -197,7 +197,7 @@ z <- x + y
 z
 ```
 
-## Concatenando diversos valores e armazenando-os a um objeto
+## Concatenando diversos valores e armazenando-os em um objeto
 ```{r}
 w <- c(4,5,6,7,8)
 w
@@ -390,6 +390,7 @@ sum(x)
 ---
 
 # Gerando números aleatórios e amostragem
+
 ```{r}
 runif(100)        # Gera números aleatórios entre 0 e 1 com distribuição uniforme
 rnorm(100)        # Gera números aleatórios com distribuição normal
@@ -397,26 +398,31 @@ sample(1:100, 4)  # Amostragem
 ```
 
 ## Histograma
+
 ```{r}
 x <- rnorm(n=10000, mean=1, sd=1)
 hist(x, nclass = 40)
 ```
 
 ## Gráfico de dispersão
+
 ```{r}
 plot(x)
 ```
 
 ## Barplot
+
 ```{r}
 barplot(x)
 ```
 
 ## Boxplot
+
 ```{r}
 boxplot(x)
 ```
 
 ## Torta
+
 pie(x)
 
