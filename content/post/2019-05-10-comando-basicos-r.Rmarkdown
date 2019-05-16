@@ -116,6 +116,10 @@ Sys.time()                  # obtém data e hora exata do sistema
 9%/%2                       # resultado inteiro da divisão
 4^4                         # ^ = potência
 
+3+4*2+6
+(3+4)*(2+6)
+(50+7)/(8*(6-6/2))
+
 sqrt(81)                    # raiz quadrada
 exp(12)                     # função exponencial
 log(3)                      # logaritmo natural de 3
@@ -125,14 +129,6 @@ factorial(5)                # fatorial de 5 = 5x4x3x2x1
 gamma(10)                   # função gama
 lgamma(10)                  # log natural gama
 round(10.342545, digits=2)  # arredondamento de números decimais
-```
-
-## Cálculos simples
-```{r}
-7 * 9 + 2 * 6
-2.5 * 4
-(50 + 7)/(8 * (3 - 5/2))
-3 ^ 4
 ```
 
 ## Funções trigonométricas
@@ -147,7 +143,6 @@ acosh(10)                   # arco cosseno hiperbólico
 asinh(0.1)                  # arco seno hiperbólico
 atanh(0.1)                  # arco tangente hiperbólico
 ```
-
 
 ## Sequências
 ```{r}
@@ -349,7 +344,7 @@ nrow(x)   #Número de linhas da matriz
 ncol(x)   #Número de colunas da matriz
 attr(x)
 
-## Funções `IF` e `ELSE`
+## Funções `if` e `else`
 ```{r}
 x <- 2
 if(x == 1) {         
@@ -361,7 +356,6 @@ if(x == 1) {
 }
 ```
 
-## ...outro exemplo
 ```{r}
 if(x < 0) {
   sinal <- "negativo"
@@ -395,20 +389,13 @@ hist(x, nclass = 40)
 ```
 
 ## Gráfico de dispers?o
-
 plot(x)
 
-
 ## Barplot
-
 barplot(x)
 
-
 ## Boxplot
-
 boxplot(x)
 
-
 ## Torta
-
 pie(x)
