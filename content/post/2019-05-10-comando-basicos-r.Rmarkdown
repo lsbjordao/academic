@@ -133,15 +133,15 @@ round(10.342545, digits=2)  # arredondamento de números decimais
 
 ## Funções trigonométricas
 ```{r}
-cos(10)                     # cosseno
-sin(10)                     # seno
-tan(10)                     # tangente
-acos(0.1)                   # arco cosseno
-asin(1)                     # arco seno
-atan(1)                     # arco tangente
-acosh(10)                   # arco cosseno hiperbólico
-asinh(0.1)                  # arco seno hiperbólico
-atanh(0.1)                  # arco tangente hiperbólico
+cos(30)         # cosseno
+sin(45)         # seno
+tan(90)         # tangente
+acos(45)        # arco cosseno
+asin(30)        # arco seno
+atan(60)        # arco tangente
+acosh(30)       # arco cosseno hiperbólico
+asinh(45)       # arco seno hiperbólico
+atanh(60)       # arco tangente hiperbólico
 ```
 
 ## Sequências
@@ -153,8 +153,8 @@ seq(from=5, by=-1, along=1:20)  # Gera uma sequência iniciando em 5 e subtraind
 
 ## Repetições
 ```{r}
-rep(5.3, 17)                    # Repete o valor 5.3, 17 vezes
-rep(1:6, rep(3))                # Repete a sequência 1 a 6, 3 vezes
+rep(5.3, 17)          # Repete o valor 5.3, 17 vezes
+rep(1:6, rep(3))      # Repete a sequência 1 a 6, 3 vezes
 ```
 
 ## Constantes do R
@@ -183,6 +183,7 @@ c(1, 2, 3, 3, 10)
 
 {{% alert note %}}
 O R é uma linguagem de **POO** (Programação Orientada a Objetos)  
+
 Todo objeto possui uma **CLASSE**
 {{% /alert %}}
 
@@ -196,7 +197,7 @@ z <- x + y
 z
 ```
 
-## Concatenando diversos valores e atribuindo-os a um objeto
+## Concatenando diversos valores e armazenando-os a um objeto
 ```{r}
 w <- c(4,5,6,7,8)
 w
@@ -208,27 +209,25 @@ w[3]
 w[c(1,4)]
 ```
 
-## Operadores de lógica
-```{r}
-a <- c(1:10)
-a
-a[(a>8) | (a<5)]
-```
-
-Como funciona...
-```{r}
-a > 8
-a < 5
-a > 8 | x < 5
-a[c(T,T,T,T,F,F,F,F,T,T)]
-```
-
 ---
 
-## TIPOS DE DADOS
+## PRINCIPAIS **TIPOS** DE OBJETOS
+
+### funções
+
+### vetor
+
+### matriz
+
+### dataframe
+
+### array
+
+### lista
+
+## PRINCIPAIS **CLASSES** DE OBJETOS
 
 ### numerical
-
 
 ### character
 ```{r}
@@ -257,13 +256,9 @@ mode(kids)
 
 (continua...)
 
-### vetor
 
-### lista
 
-### matriz
 
-### dataframe
 
 ```{r}
 jim <- list(height = 2.54 * 12 * 6/100, weight = 180/2.2, name = "James")
@@ -315,11 +310,6 @@ length(matrix)
 
 ---
 
-```{r}
-runif(100) # Gera números aleatórios entre 0 e 1 com distribuição uniforme
-rnorm(100) # Gera números aleatórios com distribuição normal
-sample(1:100, 4) # Amostragem
-```
 
 #Funções vetoriais
 max(x) # valor máximo em x
@@ -344,11 +334,26 @@ nrow(x)   #Número de linhas da matriz
 ncol(x)   #Número de colunas da matriz
 attr(x)
 
+## Operadores de lógica
+```{r}
+a <- c(1:10)
+a
+a[(a>8) | (a<5)]
+```
+
+Como funciona...
+```{r}
+a > 8
+a < 5
+a > 8 | x < 5
+a[c(T,T,T,T,F,F,F,F,T,T)]
+```
+
 ## Funções `if` e `else`
 ```{r}
 x <- 2
 if(x == 1) {         
-  Sys.time()      # Devolve a data/hora no momento da execu??o.
+  Sys.time()
 }
 x <- 1
 if(x == 1) {
@@ -369,7 +374,7 @@ sinal
 
 ## Função `for`
 ```{r}
-x <- 1:10   # Cria um vetor com a sequ?ncia 1, 2, ..., 10.
+x <- 1:10   # Cria um vetor com a sequência 1, 2, ..., 10.
 soma <- 0
 for(i in 1:10) {
   soma <- soma + x[i]
@@ -382,6 +387,15 @@ soma
 sum(x)
 ```
 
+---
+
+# Gerando números aleatórios e amostragem
+```{r}
+runif(100)        # Gera números aleatórios entre 0 e 1 com distribuição uniforme
+rnorm(100)        # Gera números aleatórios com distribuição normal
+sample(1:100, 4)  # Amostragem
+```
+
 ## Histograma
 ```{r}
 x <- rnorm(n=10000, mean=1, sd=1)
@@ -389,13 +403,21 @@ hist(x, nclass = 40)
 ```
 
 ## Gráfico de dispers?o
+```{r}
 plot(x)
+```
 
 ## Barplot
+```{r}
 barplot(x)
+```
 
 ## Boxplot
+```{r}
 boxplot(x)
+```
 
 ## Torta
+```{r}
 pie(x)
+```
