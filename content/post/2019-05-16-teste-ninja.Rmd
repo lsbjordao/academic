@@ -2,8 +2,6 @@
 title: Teste Ninja
 author: Lucas Jordão
 date: '2019-05-16'
-output:
-  html_fragment
 slug: teste-ninja
 categories: []
 tags: []
@@ -13,5 +11,5 @@ image:
 ---
 
 ```{r echo=FALSE}
-knitr::include_url('https://alison.rbind.io/slides/rladies-demo-slides.html#1')
+knitr::include_url('https://lsbjordao.netlify.com/slides/ninja_test.html#1')
 ```
