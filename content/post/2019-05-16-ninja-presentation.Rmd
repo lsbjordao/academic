@@ -1,14 +1,14 @@
 ---
-title: Teste Ninja
-author: Lucas Jordão
-date: '2019-05-16'
-slug: teste-ninja
+output: html_fragment
+slug: ninja-presentation
 categories: []
 tags: []
 image:
   caption: ''
   focal_point: ''
 ---
+
+Crie aprentações `Ninja` com o pacote [Xaringan](https://slides.yihui.name/xaringan/#1)
 
 ```{r echo=FALSE}
 knitr::include_url('https://lsbjordao.netlify.com/slides/ninja.html#1')
