@@ -3,7 +3,7 @@ title: Teste Ninja
 author: Lucas Jordão
 date: '2019-05-16'
 output:
-  blogdown::html_page
+  html_fragment
 slug: teste-ninja
 categories: []
 tags: []
@@ -12,6 +12,6 @@ image:
   focal_point: ''
 ---
 
-```{r, echo = FALSE}
+```{r echo=FALSE}
 knitr::include_url('https://alison.rbind.io/slides/rladies-demo-slides.html#1')
 ```
