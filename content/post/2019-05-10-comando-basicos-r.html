@@ -27,24 +27,30 @@ image:
 </ul></li>
 <li><a href="#tudo-no-r-e-objeto">Tudo no R é objeto</a><ul>
 <li><a href="#armazenando-dados-em-objetos">Armazenando dados em objetos</a></li>
-<li><a href="#concatenando-diversos-valores-e-atribuindo-os-a-um-objeto">Concatenando diversos valores e atribuindo-os a um objeto</a></li>
+<li><a href="#concatenando-diversos-valores-e-armazenando-os-a-um-objeto">Concatenando diversos valores e armazenando-os a um objeto</a></li>
 <li><a href="#extraindo-um-ou-mais-valores-de-um-objeto-a-partir-da-indexacao">Extraindo um ou mais valores de um objeto a partir da indexação</a></li>
-<li><a href="#operadores-de-logica">Operadores de lógica</a></li>
-<li><a href="#tipos-de-dados">TIPOS DE DADOS</a><ul>
+<li><a href="#principais-tipos-de-objetos">PRINCIPAIS <strong>TIPOS</strong> DE OBJETOS</a><ul>
+<li><a href="#funcoes">funções</a></li>
+<li><a href="#vetor">vetor</a></li>
+<li><a href="#matriz">matriz</a></li>
+<li><a href="#dataframe">dataframe</a></li>
+<li><a href="#array">array</a></li>
+<li><a href="#lista">lista</a></li>
+</ul></li>
+<li><a href="#principais-classes-de-objetos">PRINCIPAIS <strong>CLASSES</strong> DE OBJETOS</a><ul>
 <li><a href="#numerical">numerical</a></li>
 <li><a href="#character">character</a></li>
 <li><a href="#valores-logicos">valores lógicos</a></li>
 <li><a href="#factor">factor</a></li>
-<li><a href="#vetor">vetor</a></li>
-<li><a href="#lista">lista</a></li>
-<li><a href="#matriz">matriz</a></li>
-<li><a href="#dataframe">dataframe</a></li>
 </ul></li>
+<li><a href="#operadores-de-logica">Operadores de lógica</a></li>
 <li><a href="#funcoes-if-e-else">Funções <code>if</code> e <code>else</code></a></li>
 <li><a href="#funcao-for">Função <code>for</code></a></li>
 <li><a href="#ou">…ou</a></li>
+</ul></li>
+<li><a href="#gerando-numeros-aleatorios-e-amostragem">Gerando números aleatórios e amostragem</a><ul>
 <li><a href="#histograma">Histograma</a></li>
-<li><a href="#grafico-de-disperso">Gráfico de dispers?o</a></li>
+<li><a href="#grafico-de-dispersao">Gráfico de dispersão</a></li>
 <li><a href="#barplot">Barplot</a></li>
 <li><a href="#boxplot">Boxplot</a></li>
 <li><a href="#torta">Torta</a></li>
@@ -238,7 +244,7 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 ## cite it when using it for data analysis. See also
 ## &#39;citation(&quot;pkgname&quot;)&#39; for citing R packages.</code></pre>
 <pre class="r"><code>Sys.time()                  # obtém data e hora exata do sistema</code></pre>
-<pre><code>## [1] &quot;2019-05-16 00:40:16 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-16 12:05:01 -03&quot;</code></pre>
 </div>
 <div id="operadores-simples-e-funcoes-matematicas" class="section level2">
 <h2>Operadores simples e funções matemáticas</h2>
@@ -283,24 +289,27 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 </div>
 <div id="funcoes-trigonometricas" class="section level2">
 <h2>Funções trigonométricas</h2>
-<pre class="r"><code>cos(10)                     # cosseno</code></pre>
-<pre><code>## [1] -0.8390715</code></pre>
-<pre class="r"><code>sin(10)                     # seno</code></pre>
-<pre><code>## [1] -0.5440211</code></pre>
-<pre class="r"><code>tan(10)                     # tangente</code></pre>
-<pre><code>## [1] 0.6483608</code></pre>
-<pre class="r"><code>acos(0.1)                   # arco cosseno</code></pre>
-<pre><code>## [1] 1.470629</code></pre>
-<pre class="r"><code>asin(1)                     # arco seno</code></pre>
-<pre><code>## [1] 1.570796</code></pre>
-<pre class="r"><code>atan(1)                     # arco tangente</code></pre>
-<pre><code>## [1] 0.7853982</code></pre>
-<pre class="r"><code>acosh(10)                   # arco cosseno hiperbólico</code></pre>
-<pre><code>## [1] 2.993223</code></pre>
-<pre class="r"><code>asinh(0.1)                  # arco seno hiperbólico</code></pre>
-<pre><code>## [1] 0.09983408</code></pre>
-<pre class="r"><code>atanh(0.1)                  # arco tangente hiperbólico</code></pre>
-<pre><code>## [1] 0.1003353</code></pre>
+<pre class="r"><code>cos(30)         # cosseno</code></pre>
+<pre><code>## [1] 0.1542514</code></pre>
+<pre class="r"><code>sin(45)         # seno</code></pre>
+<pre><code>## [1] 0.8509035</code></pre>
+<pre class="r"><code>tan(90)         # tangente</code></pre>
+<pre><code>## [1] -1.9952</code></pre>
+<pre class="r"><code>acos(45)        # arco cosseno</code></pre>
+<pre><code>## Warning in acos(45): NaNs produzidos</code></pre>
+<pre><code>## [1] NaN</code></pre>
+<pre class="r"><code>asin(30)        # arco seno</code></pre>
+<pre><code>## Warning in asin(30): NaNs produzidos</code></pre>
+<pre><code>## [1] NaN</code></pre>
+<pre class="r"><code>atan(60)        # arco tangente</code></pre>
+<pre><code>## [1] 1.554131</code></pre>
+<pre class="r"><code>acosh(30)       # arco cosseno hiperbólico</code></pre>
+<pre><code>## [1] 4.094067</code></pre>
+<pre class="r"><code>asinh(45)       # arco seno hiperbólico</code></pre>
+<pre><code>## [1] 4.499933</code></pre>
+<pre class="r"><code>atanh(60)       # arco tangente hiperbólico</code></pre>
+<pre><code>## Warning in atanh(60): NaNs produzidos</code></pre>
+<pre><code>## [1] NaN</code></pre>
 </div>
 <div id="sequencias" class="section level2">
 <h2>Sequências</h2>
@@ -314,9 +323,9 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 </div>
 <div id="repeticoes" class="section level2">
 <h2>Repetições</h2>
-<pre class="r"><code>rep(5.3, 17)                    # Repete o valor 5.3, 17 vezes</code></pre>
+<pre class="r"><code>rep(5.3, 17)          # Repete o valor 5.3, 17 vezes</code></pre>
 <pre><code>##  [1] 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3 5.3</code></pre>
-<pre class="r"><code>rep(1:6, rep(3))                # Repete a sequência 1 a 6, 3 vezes</code></pre>
+<pre class="r"><code>rep(1:6, rep(3))      # Repete a sequência 1 a 6, 3 vezes</code></pre>
 <pre><code>##  [1] 1 2 3 4 5 6 1 2 3 4 5 6 1 2 3 4 5 6</code></pre>
 </div>
 <div id="constantes-do-r" class="section level2">
@@ -356,8 +365,8 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 <div id="tudo-no-r-e-objeto" class="section level1">
 <h1>Tudo no R é objeto</h1>
 <p>{{% alert note %}}
-O R é uma linguagem de <strong>POO</strong> (Programação Orientada a Objetos)<br />
-Todo objeto possui uma <strong>CLASSE</strong>
+O R é uma linguagem de <strong>POO</strong> (Programação Orientada a Objetos)</p>
+<p>Todo objeto possui uma <strong>CLASSE</strong>
 {{% /alert %}}</p>
 <div id="armazenando-dados-em-objetos" class="section level2">
 <h2>Armazenando dados em objetos</h2>
@@ -371,8 +380,8 @@ y</code></pre>
 z</code></pre>
 <pre><code>## [1] 11 12 13 14 15</code></pre>
 </div>
-<div id="concatenando-diversos-valores-e-atribuindo-os-a-um-objeto" class="section level2">
-<h2>Concatenando diversos valores e atribuindo-os a um objeto</h2>
+<div id="concatenando-diversos-valores-e-armazenando-os-a-um-objeto" class="section level2">
+<h2>Concatenando diversos valores e armazenando-os a um objeto</h2>
 <pre class="r"><code>w &lt;- c(4,5,6,7,8)
 w</code></pre>
 <pre><code>## [1] 4 5 6 7 8</code></pre>
@@ -383,27 +392,31 @@ w</code></pre>
 <pre><code>## [1] 6</code></pre>
 <pre class="r"><code>w[c(1,4)]</code></pre>
 <pre><code>## [1] 4 7</code></pre>
-</div>
-<div id="operadores-de-logica" class="section level2">
-<h2>Operadores de lógica</h2>
-<pre class="r"><code>a &lt;- c(1:10)
-a</code></pre>
-<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
-<pre class="r"><code>a[(a&gt;8) | (a&lt;5)]</code></pre>
-<pre><code>## [1]  1  2  3  4  9 10</code></pre>
-<p>Como funciona…</p>
-<pre class="r"><code>a &gt; 8</code></pre>
-<pre><code>##  [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE</code></pre>
-<pre class="r"><code>a &lt; 5</code></pre>
-<pre><code>##  [1]  TRUE  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE</code></pre>
-<pre class="r"><code>a &gt; 8 | x &lt; 5</code></pre>
-<pre><code>##  [1]  TRUE  TRUE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE</code></pre>
-<pre class="r"><code>a[c(T,T,T,T,F,F,F,F,T,T)]</code></pre>
-<pre><code>## [1]  1  2  3  4  9 10</code></pre>
 <hr />
 </div>
-<div id="tipos-de-dados" class="section level2">
-<h2>TIPOS DE DADOS</h2>
+<div id="principais-tipos-de-objetos" class="section level2">
+<h2>PRINCIPAIS <strong>TIPOS</strong> DE OBJETOS</h2>
+<div id="funcoes" class="section level3">
+<h3>funções</h3>
+</div>
+<div id="vetor" class="section level3">
+<h3>vetor</h3>
+</div>
+<div id="matriz" class="section level3">
+<h3>matriz</h3>
+</div>
+<div id="dataframe" class="section level3">
+<h3>dataframe</h3>
+</div>
+<div id="array" class="section level3">
+<h3>array</h3>
+</div>
+<div id="lista" class="section level3">
+<h3>lista</h3>
+</div>
+</div>
+<div id="principais-classes-de-objetos" class="section level2">
+<h2>PRINCIPAIS <strong>CLASSES</strong> DE OBJETOS</h2>
 <div id="numerical" class="section level3">
 <h3>numerical</h3>
 </div>
@@ -440,18 +453,6 @@ kids</code></pre>
 <pre class="r"><code>mode(kids)</code></pre>
 <pre><code>## [1] &quot;numeric&quot;</code></pre>
 <p>(continua…)</p>
-</div>
-<div id="vetor" class="section level3">
-<h3>vetor</h3>
-</div>
-<div id="lista" class="section level3">
-<h3>lista</h3>
-</div>
-<div id="matriz" class="section level3">
-<h3>matriz</h3>
-</div>
-<div id="dataframe" class="section level3">
-<h3>dataframe</h3>
 <pre class="r"><code>jim &lt;- list(height = 2.54 * 12 * 6/100, weight = 180/2.2, name = &quot;James&quot;)
 jim</code></pre>
 <pre><code>## $height
@@ -545,50 +546,6 @@ matrix</code></pre>
 <pre class="r"><code>length(matrix)</code></pre>
 <pre><code>## [1] 12</code></pre>
 <hr />
-<pre class="r"><code>runif(100) # Gera números aleatórios entre 0 e 1 com distribuição uniforme</code></pre>
-<pre><code>##   [1] 0.8873295109 0.9131463463 0.9363831126 0.3236426108 0.2068508908
-##   [6] 0.9138866141 0.9935081119 0.9784298572 0.8969238433 0.4201863534
-##  [11] 0.6530961702 0.6874217289 0.6223604665 0.9766138310 0.0900402269
-##  [16] 0.0051619299 0.9070598122 0.3184204614 0.7529286484 0.3960770736
-##  [21] 0.5720127875 0.7606621776 0.0369924824 0.8041898580 0.9657113913
-##  [26] 0.5596684483 0.2991447260 0.2349487063 0.1214449562 0.5782868525
-##  [31] 0.4962262507 0.3338150478 0.5939750602 0.8810042066 0.1438365683
-##  [36] 0.3792009465 0.8941506092 0.1711953434 0.3744596653 0.2820363517
-##  [41] 0.0003455218 0.4538308461 0.7634957053 0.6191116029 0.8940538184
-##  [46] 0.2969688131 0.2676801977 0.5710057192 0.3340058047 0.1555532461
-##  [51] 0.7130892049 0.5369954084 0.9102263395 0.8420072326 0.0798368461
-##  [56] 0.9967052385 0.8342100598 0.4553865283 0.7420275265 0.3043108678
-##  [61] 0.7950190625 0.1915188895 0.4974727363 0.5633286634 0.1848770774
-##  [66] 0.7636844546 0.7276212287 0.0982154850 0.7395755399 0.3271181602
-##  [71] 0.0999372192 0.5591167014 0.3270326634 0.9577630456 0.2030441810
-##  [76] 0.4183535585 0.3155397768 0.0726431387 0.5432731495 0.4245309632
-##  [81] 0.9037229060 0.4725517058 0.7878451950 0.1007448426 0.4780097369
-##  [86] 0.6007058762 0.5395689260 0.8490825163 0.1604597857 0.0242628243
-##  [91] 0.3790111227 0.5420017506 0.3500973326 0.1834478767 0.0337370902
-##  [96] 0.4047735152 0.3491395584 0.8650103284 0.4841578754 0.1775402264</code></pre>
-<pre class="r"><code>rnorm(100) # Gera números aleatórios com distribuição normal</code></pre>
-<pre><code>##   [1]  0.162131949  1.673123120  2.035505127 -0.377971104  0.518950499
-##   [6]  0.557857346 -1.404892088  0.627609703  2.029111035  0.026293848
-##  [11] -0.477998888  1.440135274  0.912397117  0.254027142 -0.803328136
-##  [16] -0.538083299 -1.254555417  1.706929384 -0.228950435  0.289924176
-##  [21] -0.606942951  0.766265725  1.162277912  1.268532732  0.432133549
-##  [26] -1.353529829 -0.947552988 -0.242688956  0.332814136  1.174053680
-##  [31] -0.439897585 -0.556624085 -0.727591258  0.966068707 -1.760733692
-##  [36] -0.080080033  0.224086876 -1.076474633 -1.297123469 -0.693354977
-##  [41] -0.793807509  1.340377071  0.341324213  0.767729505 -1.257976438
-##  [46] -0.739855220  1.322391848 -0.626104173  0.801680489 -0.535756463
-##  [51] -0.071695689 -0.232261362  0.232025133  0.435674307  0.441455002
-##  [56] -0.175360774 -1.552028368 -0.336766085 -2.568691983  2.179560632
-##  [61] -1.523430855 -0.709488354  2.006395271 -0.378403143 -0.660395481
-##  [66]  0.692669400 -0.561615587 -0.622423739 -0.662013239 -0.025664792
-##  [71]  1.010408909  1.595756366 -2.297893733  0.394567243 -1.340153549
-##  [76] -0.927804516  1.664832538 -1.100272551  1.221449006 -0.779876602
-##  [81]  2.337946840 -0.644779745 -0.805687139 -0.434966667 -0.066357195
-##  [86] -0.622706169  0.474719489  0.644952947  0.734770286 -0.337376138
-##  [91] -1.815855105 -0.697656195  1.599978779 -0.498202858 -0.813662642
-##  [96] -0.376399118  0.002126588  0.073807532 -2.338377033 -0.267045133</code></pre>
-<pre class="r"><code>sample(1:100, 4) # Amostragem</code></pre>
-<pre><code>## [1] 66 99 61 17</code></pre>
 <p>#Funções vetoriais
 max(x) # valor máximo em x
 min(x) # valor mínimo em x
@@ -611,17 +568,34 @@ ncol(x) #Número de colunas da matriz
 attr(x)</p>
 </div>
 </div>
+<div id="operadores-de-logica" class="section level2">
+<h2>Operadores de lógica</h2>
+<pre class="r"><code>a &lt;- c(1:10)
+a</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<pre class="r"><code>a[(a&gt;8) | (a&lt;5)]</code></pre>
+<pre><code>## [1]  1  2  3  4  9 10</code></pre>
+<p>Como funciona…</p>
+<pre class="r"><code>a &gt; 8</code></pre>
+<pre><code>##  [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE</code></pre>
+<pre class="r"><code>a &lt; 5</code></pre>
+<pre><code>##  [1]  TRUE  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE</code></pre>
+<pre class="r"><code>a &gt; 8 | x &lt; 5</code></pre>
+<pre><code>##  [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE</code></pre>
+<pre class="r"><code>a[c(T,T,T,T,F,F,F,F,T,T)]</code></pre>
+<pre><code>## [1]  1  2  3  4  9 10</code></pre>
+</div>
 <div id="funcoes-if-e-else" class="section level2">
 <h2>Funções <code>if</code> e <code>else</code></h2>
 <pre class="r"><code>x &lt;- 2
 if(x == 1) {         
-  Sys.time()      # Devolve a data/hora no momento da execu??o.
+  Sys.time()
 }
 x &lt;- 1
 if(x == 1) {
   Sys.time()
 }</code></pre>
-<pre><code>## [1] &quot;2019-05-16 00:40:18 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-16 12:05:03 -03&quot;</code></pre>
 <pre class="r"><code>if(x &lt; 0) {
   sinal &lt;- &quot;negativo&quot;
 } else if(x == 0) {
@@ -634,7 +608,7 @@ sinal</code></pre>
 </div>
 <div id="funcao-for" class="section level2">
 <h2>Função <code>for</code></h2>
-<pre class="r"><code>x &lt;- 1:10   # Cria um vetor com a sequ?ncia 1, 2, ..., 10.
+<pre class="r"><code>x &lt;- 1:10   # Cria um vetor com a sequência 1, 2, ..., 10.
 soma &lt;- 0
 for(i in 1:10) {
   soma &lt;- soma + x[i]
@@ -646,24 +620,72 @@ soma</code></pre>
 <h2>…ou</h2>
 <pre class="r"><code>sum(x)</code></pre>
 <pre><code>## [1] 55</code></pre>
+<hr />
 </div>
+</div>
+<div id="gerando-numeros-aleatorios-e-amostragem" class="section level1">
+<h1>Gerando números aleatórios e amostragem</h1>
+<pre class="r"><code>runif(100)        # Gera números aleatórios entre 0 e 1 com distribuição uniforme</code></pre>
+<pre><code>##   [1] 0.74868471 0.65302577 0.59695364 0.55191148 0.32367409 0.50151795
+##   [7] 0.73200879 0.32027399 0.74268824 0.22065408 0.94536031 0.35376165
+##  [13] 0.92954102 0.33572480 0.80530736 0.41712829 0.68905828 0.70772629
+##  [19] 0.27111391 0.10935925 0.90254411 0.68728077 0.37850139 0.61874865
+##  [25] 0.10500243 0.75810282 0.67866942 0.13475690 0.10595073 0.80810289
+##  [31] 0.93698392 0.97372232 0.62906478 0.62958915 0.31291607 0.72384826
+##  [37] 0.94849183 0.44476111 0.24896516 0.13864263 0.68392851 0.11074143
+##  [43] 0.83151530 0.97213242 0.25686078 0.59969925 0.71328982 0.38620925
+##  [49] 0.75160951 0.48872754 0.28012227 0.55768422 0.98274667 0.63228730
+##  [55] 0.71839802 0.90468774 0.56187824 0.22425593 0.08417468 0.88762021
+##  [61] 0.71924922 0.05556459 0.39070650 0.14712495 0.57410049 0.45704987
+##  [67] 0.10567661 0.44479792 0.97438534 0.63878716 0.47128369 0.75063800
+##  [73] 0.23242981 0.04554077 0.48599683 0.07947313 0.41405370 0.65925056
+##  [79] 0.83474741 0.86518329 0.96686736 0.59652100 0.81870572 0.36835734
+##  [85] 0.39691555 0.94663948 0.24698887 0.07792741 0.64322108 0.30372731
+##  [91] 0.64177957 0.55584117 0.31437438 0.09927427 0.78746569 0.66986416
+##  [97] 0.32156624 0.38379057 0.60148639 0.72402225</code></pre>
+<pre class="r"><code>rnorm(100)        # Gera números aleatórios com distribuição normal</code></pre>
+<pre><code>##   [1]  0.431780006  0.551085206  1.018301452 -0.574007364 -0.454427141
+##   [6] -0.005939572  1.725295736  0.656484200 -0.117976666  0.749237744
+##  [11]  0.848984682 -1.203014499  1.939838703 -0.717859808  0.158722889
+##  [16]  0.814551785  0.281165896 -1.438669475 -0.798366331 -0.602131220
+##  [21]  0.458247909  0.379899883  0.596349359 -0.434007042 -0.066142898
+##  [26] -0.552351753 -1.454676105 -0.060509268 -0.535588303  0.269917268
+##  [31] -1.374923291 -0.149262517 -0.636440901 -0.152797825  0.699620539
+##  [36] -1.193991366  0.134376641 -0.433574769  0.087213664 -0.588150113
+##  [41] -0.524037840  0.513239710  2.477652029 -0.394012891 -0.843399586
+##  [46] -0.600943333 -1.306353116  0.747255150  1.136412689  0.649126434
+##  [51]  0.081331098 -0.113042455  1.083298802 -0.623290019  0.771415156
+##  [56] -0.475418404  0.126608504 -2.094576179 -2.054114998  1.339317108
+##  [61]  0.771909817  0.587450000  2.114556506  1.332068760 -0.162421013
+##  [66] -0.071938850 -0.310777538  0.664508468  0.568069227  0.404157788
+##  [71] -1.421518540  0.002099416  1.365489933  0.908208795 -0.804269497
+##  [76]  0.787693234 -0.949336859 -0.914661942 -0.317537566  1.818867602
+##  [81] -1.176210724  1.284287023  0.325723182  1.534362965 -0.621786396
+##  [86] -1.427521611 -0.272563680 -0.176397294  0.038684393 -2.172352371
+##  [91]  0.128287127 -1.529630299 -0.709852335 -0.014338814 -0.588561083
+##  [96] -0.542564377  0.191409736 -0.969097636  0.317898411 -0.078986738</code></pre>
+<pre class="r"><code>sample(1:100, 4)  # Amostragem</code></pre>
+<pre><code>## [1] 24  6 96 81</code></pre>
 <div id="histograma" class="section level2">
 <h2>Histograma</h2>
 <pre class="r"><code>x &lt;- rnorm(n=10000, mean=1, sd=1)
 hist(x, nclass = 40)</code></pre>
 <p><img src="2019-05-10-comando-basicos-r_files/figure-html/unnamed-chunk-26-1.png" width="672" /></p>
 </div>
-<div id="grafico-de-disperso" class="section level2">
-<h2>Gráfico de dispers?o</h2>
-<p>plot(x)</p>
+<div id="grafico-de-dispersao" class="section level2">
+<h2>Gráfico de dispersão</h2>
+<pre class="r"><code>plot(x)</code></pre>
+<p><img src="2019-05-10-comando-basicos-r_files/figure-html/unnamed-chunk-27-1.png" width="672" /></p>
 </div>
 <div id="barplot" class="section level2">
 <h2>Barplot</h2>
-<p>barplot(x)</p>
+<pre class="r"><code>barplot(x)</code></pre>
+<p><img src="2019-05-10-comando-basicos-r_files/figure-html/unnamed-chunk-28-1.png" width="672" /></p>
 </div>
 <div id="boxplot" class="section level2">
 <h2>Boxplot</h2>
-<p>boxplot(x)</p>
+<pre class="r"><code>boxplot(x)</code></pre>
+<p><img src="2019-05-10-comando-basicos-r_files/figure-html/unnamed-chunk-29-1.png" width="672" /></p>
 </div>
 <div id="torta" class="section level2">
 <h2>Torta</h2>
