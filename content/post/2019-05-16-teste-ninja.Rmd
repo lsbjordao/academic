@@ -11,5 +11,5 @@ image:
 ---
 
 ```{r echo = FALSE}
-knitr::include_url('https://github.com/lsbjordao/academic/blob/master/static/html/ninja_test.html#1')
+knitr::include_url('https://alison.rbind.io/slides/rladies-demo-slides.html#1')
 ```
