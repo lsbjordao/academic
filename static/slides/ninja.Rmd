@@ -1,0 +1,32 @@
+---
+title: "Educação e Pesquisa em crise no Brasil"
+author: "Lucas Jordão"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+background-image: url(https://media.giphy.com/media/zGZOcFgBDrrBC/giphy.gif)
+background-size: cover
+class: center, top, inverse
+
+# O Governo Bolsonaro está realizando cortes na Ciência e Educação!
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
