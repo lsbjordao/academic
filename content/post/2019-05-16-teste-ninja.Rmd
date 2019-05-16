@@ -1,0 +1,15 @@
+---
+title: Teste Ninja
+author: Lucas Jordão
+date: '2019-05-16'
+slug: teste-ninja
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+```{r echo = FALSE}
+knitr::include_url('https://C:\Blogdown\static\html\ninja_test\ninja_test.html#1')
+```
