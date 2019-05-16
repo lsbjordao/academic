@@ -8,8 +8,10 @@ image:
   focal_point: ''
 ---
 
-Crie aprentações `Ninja` com o pacote [Xaringan](https://slides.yihui.name/xaringan/#1)
+#### Crie aprentações `Ninja` com o pacote [Xaringan](https://slides.yihui.name/xaringan/#1)
 
 ```{r echo=FALSE}
 knitr::include_url('https://lsbjordao.netlify.com/slides/ninja.html#1')
 ```
+
+Veja a apresentação em [tela cheia](https://lsbjordao.netlify.com/slides/ninja.html#1')
