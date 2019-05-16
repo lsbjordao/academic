@@ -18,6 +18,7 @@ image:
 <li><a href="#primeiros-passos">Primeiros passos…</a><ul>
 <li><a href="#primeiras-funcoes">Primeiras funções</a></li>
 <li><a href="#operadores-simples-e-funcoes-matematicas">Operadores simples e funções matemáticas</a></li>
+<li><a href="#calculos-simples">Cálculos simples</a></li>
 <li><a href="#funcoes-trigonometricas">Funções trigonométricas</a></li>
 <li><a href="#sequencias">Sequências</a></li>
 <li><a href="#repeticoes">Repetições</a></li>
@@ -35,7 +36,20 @@ image:
 <li><a href="#character">character</a></li>
 <li><a href="#valores-logicos">valores lógicos</a></li>
 <li><a href="#factor">factor</a></li>
+<li><a href="#vetor">vetor</a></li>
+<li><a href="#lista">lista</a></li>
+<li><a href="#matriz">matriz</a></li>
+<li><a href="#dataframe">dataframe</a></li>
 </ul></li>
+<li><a href="#funcoes-if-e-else">Funções <code>IF</code> e <code>ELSE</code></a></li>
+<li><a href="#outro-exemplo">…outro exemplo</a></li>
+<li><a href="#funcao-for">Função <code>for</code></a></li>
+<li><a href="#ou">…ou</a></li>
+<li><a href="#histograma">Histograma</a></li>
+<li><a href="#grafico-de-disperso">Gráfico de dispers?o</a></li>
+<li><a href="#barplot">Barplot</a></li>
+<li><a href="#boxplot">Boxplot</a></li>
+<li><a href="#torta">Torta</a></li>
 </ul></li>
 </ul>
 </div>
@@ -226,7 +240,7 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 ## cite it when using it for data analysis. See also
 ## &#39;citation(&quot;pkgname&quot;)&#39; for citing R packages.</code></pre>
 <pre class="r"><code>Sys.time()                  # obtém data e hora exata do sistema</code></pre>
-<pre><code>## [1] &quot;2019-05-15 00:55:33 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-16 00:13:16 -03&quot;</code></pre>
 </div>
 <div id="operadores-simples-e-funcoes-matematicas" class="section level2">
 <h2>Operadores simples e funções matemáticas</h2>
@@ -262,6 +276,17 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 <pre><code>## [1] 12.80183</code></pre>
 <pre class="r"><code>round(10.342545, digits=2)  # arredondamento de números decimais</code></pre>
 <pre><code>## [1] 10.34</code></pre>
+</div>
+<div id="calculos-simples" class="section level2">
+<h2>Cálculos simples</h2>
+<pre class="r"><code>7 * 9 + 2 * 6</code></pre>
+<pre><code>## [1] 75</code></pre>
+<pre class="r"><code>2.5 * 4</code></pre>
+<pre><code>## [1] 10</code></pre>
+<pre class="r"><code>(50 + 7)/(8 * (3 - 5/2))</code></pre>
+<pre><code>## [1] 14.25</code></pre>
+<pre class="r"><code>3 ^ 4</code></pre>
+<pre><code>## [1] 81</code></pre>
 </div>
 <div id="funcoes-trigonometricas" class="section level2">
 <h2>Funções trigonométricas</h2>
@@ -338,7 +363,7 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 <div id="tudo-no-r-e-objeto" class="section level1">
 <h1>Tudo no R é objeto</h1>
 <p>{{% alert note %}}
-O R é uma linguagem de <strong>POO</strong> (Programação Orientada a Objetos)
+O R é uma linguagem de <strong>POO</strong> (Programação Orientada a Objetos)<br />
 Todo objeto possui uma <strong>CLASSE</strong>
 {{% /alert %}}</p>
 <div id="armazenando-dados-em-objetos" class="section level2">
@@ -412,7 +437,246 @@ x</code></pre>
 </div>
 <div id="factor" class="section level3">
 <h3>factor</h3>
+<pre class="r"><code>kids &lt;- factor(c(1,0,1,0,0,0), levels = c(0, 1),
+              labels = c(&quot;boy&quot;, &quot;girl&quot;))
+kids</code></pre>
+<pre><code>## [1] girl boy  girl boy  boy  boy 
+## Levels: boy girl</code></pre>
+<pre class="r"><code>class(kids)</code></pre>
+<pre><code>## [1] &quot;factor&quot;</code></pre>
+<pre class="r"><code>mode(kids)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
 <p>(continua…)</p>
 </div>
+<div id="vetor" class="section level3">
+<h3>vetor</h3>
+</div>
+<div id="lista" class="section level3">
+<h3>lista</h3>
+</div>
+<div id="matriz" class="section level3">
+<h3>matriz</h3>
+</div>
+<div id="dataframe" class="section level3">
+<h3>dataframe</h3>
+<pre class="r"><code>jim &lt;- list(height = 2.54 * 12 * 6/100, weight = 180/2.2, name = &quot;James&quot;)
+jim</code></pre>
+<pre><code>## $height
+## [1] 1.8288
+## 
+## $weight
+## [1] 81.81818
+## 
+## $name
+## [1] &quot;James&quot;</code></pre>
+<pre class="r"><code>mode(jim)</code></pre>
+<pre><code>## [1] &quot;list&quot;</code></pre>
+<pre class="r"><code>class(jim)</code></pre>
+<pre><code>## [1] &quot;list&quot;</code></pre>
+<pre class="r"><code>typeof(jim)</code></pre>
+<pre><code>## [1] &quot;list&quot;</code></pre>
+<pre class="r"><code>length(jim)</code></pre>
+<pre><code>## [1] 3</code></pre>
+<pre class="r"><code>df &lt;- data.frame(A = 1,
+                 B = as.Date(&quot;2013-01-02&quot;),
+                 C = c(&quot;test&quot;,&quot;train&quot;,&quot;test&quot;,&quot;train&quot;))
+df</code></pre>
+<pre><code>##   A          B     C
+## 1 1 2013-01-02  test
+## 2 1 2013-01-02 train
+## 3 1 2013-01-02  test
+## 4 1 2013-01-02 train</code></pre>
+<pre class="r"><code>mode(df)</code></pre>
+<pre><code>## [1] &quot;list&quot;</code></pre>
+<pre class="r"><code>class(df)</code></pre>
+<pre><code>## [1] &quot;data.frame&quot;</code></pre>
+<pre class="r"><code>typeof(df)</code></pre>
+<pre><code>## [1] &quot;list&quot;</code></pre>
+<pre class="r"><code>sapply(df, mode)</code></pre>
+<pre><code>##         A         B         C 
+## &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;</code></pre>
+<pre class="r"><code>sapply(df, class)</code></pre>
+<pre><code>##         A         B         C 
+## &quot;numeric&quot;    &quot;Date&quot;  &quot;factor&quot;</code></pre>
+<pre class="r"><code>sapply(df, typeof)</code></pre>
+<pre><code>##         A         B         C 
+##  &quot;double&quot;  &quot;double&quot; &quot;integer&quot;</code></pre>
+<pre class="r"><code>length(df)</code></pre>
+<pre><code>## [1] 3</code></pre>
+<pre class="r"><code>a &lt;- 1:20
+a</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20</code></pre>
+<pre class="r"><code>mode(a)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre class="r"><code>class(a)</code></pre>
+<pre><code>## [1] &quot;integer&quot;</code></pre>
+<pre class="r"><code>typeof(a)</code></pre>
+<pre><code>## [1] &quot;integer&quot;</code></pre>
+<pre class="r"><code>sapply(a, mode)</code></pre>
+<pre><code>##  [1] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;
+##  [8] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;
+## [15] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;</code></pre>
+<pre class="r"><code>sapply(a, class)</code></pre>
+<pre><code>##  [1] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
+##  [8] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
+## [15] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;</code></pre>
+<pre class="r"><code>sapply(a, typeof)</code></pre>
+<pre><code>##  [1] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
+##  [8] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
+## [15] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;</code></pre>
+<pre class="r"><code>length(a)</code></pre>
+<pre><code>## [1] 20</code></pre>
+<pre class="r"><code>matrix &lt;- matrix(1:12, ncol = 4)
+matrix</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4]
+## [1,]    1    4    7   10
+## [2,]    2    5    8   11
+## [3,]    3    6    9   12</code></pre>
+<pre class="r"><code>mode(matrix)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre class="r"><code>class(matrix)</code></pre>
+<pre><code>## [1] &quot;matrix&quot;</code></pre>
+<pre class="r"><code>typeof(matrix)</code></pre>
+<pre><code>## [1] &quot;integer&quot;</code></pre>
+<pre class="r"><code>sapply(matrix, mode)</code></pre>
+<pre><code>##  [1] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;
+##  [8] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;</code></pre>
+<pre class="r"><code>sapply(matrix, class)</code></pre>
+<pre><code>##  [1] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
+##  [8] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;</code></pre>
+<pre class="r"><code>sapply(matrix, typeof)</code></pre>
+<pre><code>##  [1] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
+##  [8] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;</code></pre>
+<pre class="r"><code>dim(matrix)</code></pre>
+<pre><code>## [1] 3 4</code></pre>
+<pre class="r"><code>length(matrix)</code></pre>
+<pre><code>## [1] 12</code></pre>
+<hr />
+<pre class="r"><code>runif(100) # Gera números aleatórios entre 0 e 1 com distribuição uniforme</code></pre>
+<pre><code>##   [1] 0.001017608 0.259037311 0.354037339 0.479545645 0.751894734
+##   [6] 0.313417017 0.255009226 0.081259817 0.630799280 0.728478097
+##  [11] 0.248063385 0.681547062 0.472014843 0.794388645 0.071442254
+##  [16] 0.468954005 0.099642120 0.503045589 0.300775571 0.921575019
+##  [21] 0.864174672 0.938040915 0.036079535 0.010272031 0.413778305
+##  [26] 0.523847838 0.971402181 0.642486569 0.482546594 0.888387102
+##  [31] 0.768617698 0.408692798 0.310108020 0.981757479 0.303948281
+##  [36] 0.765755787 0.094231461 0.822793755 0.545506906 0.745527728
+##  [41] 0.850061635 0.408204159 0.184144773 0.668624239 0.836122054
+##  [46] 0.530158282 0.486309574 0.870071976 0.571642143 0.669313183
+##  [51] 0.031132248 0.995755207 0.038686434 0.610439266 0.293714475
+##  [56] 0.817617289 0.942041959 0.739026574 0.756119999 0.602546858
+##  [61] 0.658062333 0.922098583 0.720236948 0.025525161 0.983558347
+##  [66] 0.191628541 0.869622094 0.019256300 0.490008476 0.181878814
+##  [71] 0.988975486 0.440797762 0.407503197 0.442473880 0.205647293
+##  [76] 0.114979056 0.785513937 0.381879762 0.288794850 0.419243233
+##  [81] 0.628008648 0.348104691 0.640234206 0.652420292 0.090316026
+##  [86] 0.765697880 0.421335170 0.060597963 0.352280573 0.228713659
+##  [91] 0.224343230 0.586574071 0.173433302 0.209136240 0.174814179
+##  [96] 0.417643003 0.888513435 0.615541941 0.551365977 0.206428227</code></pre>
+<pre class="r"><code>rnorm(100) # Gera números aleatórios com distribuição normal</code></pre>
+<pre><code>##   [1]  0.01889205  0.24472003  0.02394779  0.14206052 -0.27751054
+##   [6] -0.15806068 -0.80456258 -1.03301584 -0.44841710  0.76283706
+##  [11] -0.33588253 -0.21499564  0.87092856  0.61063814  1.31718137
+##  [16] -1.25840299  0.72403020 -0.23616989 -0.41643676 -0.15487056
+##  [21]  0.45906950 -1.23145206 -0.16057629  3.18337492 -2.38919368
+##  [26]  0.28382668  0.45048884  0.56898283 -1.20664235  0.85040098
+##  [31]  1.17216640 -0.95841301 -0.89912757 -0.97037625  0.47707760
+##  [36]  2.50257008 -1.79938787 -1.01864676 -1.19553941  0.43337082
+##  [41] -0.19215006 -0.87421911 -1.00492725 -0.88549424  0.25654393
+##  [46]  0.04687004 -0.65243816  1.36754968  1.32128368  0.95625513
+##  [51]  1.25121900 -1.18908600 -0.04250435 -1.19167416  0.98299609
+##  [56]  0.22692205 -0.78854432  0.48918501 -2.00724027  0.33877130
+##  [61] -0.26987075 -0.09706838  1.04985180  0.18754943 -0.14409466
+##  [66]  0.54183006 -1.36556902  0.50462652 -1.08357146  0.41657854
+##  [71]  0.53711940  1.20670534  1.68557884 -1.67469378  0.34480511
+##  [76] -1.11177563  0.14593981  1.83715493 -0.07854623  0.59739569
+##  [81] -1.50536146 -0.09438227 -0.86653548  0.97731737  2.25312269
+##  [86]  1.36498526  1.29214526  0.14392207  0.21255735  0.01770290
+##  [91] -0.33164887 -1.70524697 -0.24508876  2.35381227  0.89111036
+##  [96]  0.83853326 -0.84826114 -1.48348485 -1.43503908  0.02629273</code></pre>
+<pre class="r"><code>sample(1:100, 4) # Amostragem</code></pre>
+<pre><code>## [1] 10 68 38  5</code></pre>
+<p>#Funções vetoriais
+max(x) # valor máximo em x
+min(x) # valor mínimo em x
+sum(x) # soma todos os valores em x
+mean(x) # média de todos os valores em x
+median(x) # mediana de todos os valores em x
+range(x) # vetor do min(x) e max(x)
+var(x) # variância de todos os valores em x
+cor(x,y) # correlação entre vetores x e y
+quantile(x) # Quantil de todos os valores em x</p>
+<p>#Funções matriciais
+t(x) # matriz transposta
+dim() # dimensão da matriz
+det() # determinante da matriz</p>
+<p>dim(x) #mostra as dimensões de uma tabela ou matriz
+head(x) #mostra as n (‘6’) primeiras linhas de uma tabela ou matriz
+tail(x) #mostra as n (‘6’) últimas linhas de uma tabela ou matriz
+nrow(x) #Número de linhas da matriz
+ncol(x) #Número de colunas da matriz
+attr(x)</p>
+</div>
+</div>
+<div id="funcoes-if-e-else" class="section level2">
+<h2>Funções <code>IF</code> e <code>ELSE</code></h2>
+<pre class="r"><code>x &lt;- 2
+if(x == 1) {         
+  Sys.time()      # Devolve a data/hora no momento da execu??o.
+}
+x &lt;- 1
+if(x == 1) {
+  Sys.time()
+}</code></pre>
+<pre><code>## [1] &quot;2019-05-16 00:13:18 -03&quot;</code></pre>
+</div>
+<div id="outro-exemplo" class="section level2">
+<h2>…outro exemplo</h2>
+<pre class="r"><code>if(x &lt; 0) {
+  sinal &lt;- &quot;negativo&quot;
+} else if(x == 0) {
+  sinal &lt;- &quot;neutro&quot;
+} else if(x &gt; 0) {
+  sinal &lt;- &quot;positivo&quot;
+}
+sinal</code></pre>
+<pre><code>## [1] &quot;positivo&quot;</code></pre>
+</div>
+<div id="funcao-for" class="section level2">
+<h2>Função <code>for</code></h2>
+<pre class="r"><code>x &lt;- 1:10   # Cria um vetor com a sequ?ncia 1, 2, ..., 10.
+soma &lt;- 0
+for(i in 1:10) {
+  soma &lt;- soma + x[i]
+}
+soma</code></pre>
+<pre><code>## [1] 55</code></pre>
+</div>
+<div id="ou" class="section level2">
+<h2>…ou</h2>
+<pre class="r"><code>sum(x)</code></pre>
+<pre><code>## [1] 55</code></pre>
+</div>
+<div id="histograma" class="section level2">
+<h2>Histograma</h2>
+<pre class="r"><code>x &lt;- rnorm(n=10000, mean=1, sd=1)
+hist(x, nclass = 40)</code></pre>
+<p><img src="2019-05-10-comando-basicos-r_files/figure-html/unnamed-chunk-27-1.png" width="672" /></p>
+</div>
+<div id="grafico-de-disperso" class="section level2">
+<h2>Gráfico de dispers?o</h2>
+<p>plot(x)</p>
+</div>
+<div id="barplot" class="section level2">
+<h2>Barplot</h2>
+<p>barplot(x)</p>
+</div>
+<div id="boxplot" class="section level2">
+<h2>Boxplot</h2>
+<p>boxplot(x)</p>
+</div>
+<div id="torta" class="section level2">
+<h2>Torta</h2>
+<p>pie(x)</p>
 </div>
 </div>

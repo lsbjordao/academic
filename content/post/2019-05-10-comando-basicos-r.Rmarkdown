@@ -127,6 +127,14 @@ lgamma(10)                  # log natural gama
 round(10.342545, digits=2)  # arredondamento de números decimais
 ```
 
+## Cálculos simples
+```{r}
+7 * 9 + 2 * 6
+2.5 * 4
+(50 + 7)/(8 * (3 - 5/2))
+3 ^ 4
+```
+
 ## Funções trigonométricas
 ```{r}
 cos(10)                     # cosseno
@@ -179,7 +187,7 @@ c(1, 2, 3, 3, 10)
 # Tudo no R é objeto
 
 {{% alert note %}}
-O R é uma linguagem de **POO** (Programação Orientada a Objetos)
+O R é uma linguagem de **POO** (Programação Orientada a Objetos)  
 Todo objeto possui uma **CLASSE**
 {{% /alert %}}
 
@@ -244,5 +252,163 @@ TRUE & FALSE     # logical 'e' = &
 ```
 
 ### factor
+```{r}
+kids <- factor(c(1,0,1,0,0,0), levels = c(0, 1),
+              labels = c("boy", "girl"))
+kids
+class(kids)
+mode(kids)
+```
 
 (continua...)
+
+### vetor
+
+### lista
+
+### matriz
+
+### dataframe
+
+```{r}
+jim <- list(height = 2.54 * 12 * 6/100, weight = 180/2.2, name = "James")
+jim
+mode(jim)
+class(jim)
+typeof(jim)
+length(jim)
+```
+
+```{r}
+df <- data.frame(A = 1,
+                 B = as.Date("2013-01-02"),
+                 C = c("test","train","test","train"))
+df
+mode(df)
+class(df)
+typeof(df)
+sapply(df, mode)
+sapply(df, class)
+sapply(df, typeof)
+length(df)
+```
+
+```{r}
+a <- 1:20
+a
+mode(a)
+class(a)
+typeof(a)
+sapply(a, mode)
+sapply(a, class)
+sapply(a, typeof)
+length(a)
+```
+
+```{r}
+matrix <- matrix(1:12, ncol = 4)
+matrix
+mode(matrix)
+class(matrix)
+typeof(matrix)
+sapply(matrix, mode)
+sapply(matrix, class)
+sapply(matrix, typeof)
+dim(matrix)
+length(matrix)
+```
+
+---
+
+```{r}
+runif(100) # Gera números aleatórios entre 0 e 1 com distribuição uniforme
+rnorm(100) # Gera números aleatórios com distribuição normal
+sample(1:100, 4) # Amostragem
+```
+
+#Funções vetoriais
+max(x) # valor máximo em x
+min(x) # valor mínimo em x
+sum(x) # soma todos os valores em x
+mean(x) # média de todos os valores em x
+median(x) # mediana de todos os valores em x
+range(x) # vetor do min(x) e max(x)
+var(x) # variância de todos os valores em x
+cor(x,y) # correlação entre vetores x e y
+quantile(x) # Quantil de todos os valores em x
+
+#Funções matriciais
+t(x) # matriz transposta
+dim()	# dimensão da matriz
+det() # determinante da matriz
+
+dim(x) 		#mostra as dimensões de uma tabela ou matriz
+head(x) 	#mostra as n ('6') primeiras linhas de uma tabela ou matriz
+tail(x) 	#mostra as n ('6') últimas linhas de uma tabela ou matriz
+nrow(x)   #Número de linhas da matriz
+ncol(x)   #Número de colunas da matriz
+attr(x)
+
+## Funções `IF` e `ELSE`
+```{r}
+x <- 2
+if(x == 1) {         
+  Sys.time()      # Devolve a data/hora no momento da execu??o.
+}
+x <- 1
+if(x == 1) {
+  Sys.time()
+}
+```
+
+## ...outro exemplo
+```{r}
+if(x < 0) {
+  sinal <- "negativo"
+} else if(x == 0) {
+  sinal <- "neutro"
+} else if(x > 0) {
+  sinal <- "positivo"
+}
+sinal
+```
+
+## Função `for`
+```{r}
+x <- 1:10   # Cria um vetor com a sequ?ncia 1, 2, ..., 10.
+soma <- 0
+for(i in 1:10) {
+  soma <- soma + x[i]
+}
+soma
+```
+
+## ...ou
+```{r}
+sum(x)
+```
+
+## Histograma
+```{r}
+x <- rnorm(n=10000, mean=1, sd=1)
+hist(x, nclass = 40)
+```
+
+## Gráfico de dispers?o
+
+plot(x)
+
+
+## Barplot
+
+barplot(x)
+
+
+## Boxplot
+
+boxplot(x)
+
+
+## Torta
+
+pie(x)
