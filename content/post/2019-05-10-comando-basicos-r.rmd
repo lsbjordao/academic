@@ -319,81 +319,7 @@ class(license)
 class(class)
 ```
 
-
-
-```{r}
-jim <- list(height = 2.54 * 12 * 6/100, weight = 180/2.2, name = "James")
-jim
-mode(jim)
-class(jim)
-typeof(jim)
-length(jim)
-```
-
-```{r}
-df <- data.frame(A = 1,
-                 B = as.Date("2019-04-05"),
-                 C = c("alfa","beta","gama","delta"))
-df
-mode(df)
-class(df)
-typeof(df)
-sapply(df, mode)
-sapply(df, class)
-sapply(df, typeof)
-length(df)
-```
-
-```{r}
-a <- 1:20
-a
-mode(a)
-class(a)
-typeof(a)
-sapply(a, mode)
-sapply(a, class)
-sapply(a, typeof)
-length(a)
-```
-
-```{r}
-matrix <- matrix(1:12, ncol = 4)
-matrix
-mode(matrix)
-class(matrix)
-typeof(matrix)
-sapply(matrix, mode)
-sapply(matrix, class)
-sapply(matrix, typeof)
-dim(matrix)
-length(matrix)
-```
-
 ---
-
-
-#Funções vetoriais
-max(x) # valor máximo em x
-min(x) # valor mínimo em x
-sum(x) # soma todos os valores em x
-mean(x) # média de todos os valores em x
-median(x) # mediana de todos os valores em x
-range(x) # vetor do min(x) e max(x)
-var(x) # variância de todos os valores em x
-cor(x,y) # correlação entre vetores x e y
-quantile(x) # Quantil de todos os valores em x
-
-#Funções matriciais
-t(x) # matriz transposta
-dim()	# dimensão da matriz
-det() # determinante da matriz
-
-dim(x) 		#mostra as dimensões de uma tabela ou matriz
-head(x) 	#mostra as n ('6') primeiras linhas de uma tabela ou matriz
-tail(x) 	#mostra as n ('6') últimas linhas de uma tabela ou matriz
-nrow(x)   #Número de linhas da matriz
-ncol(x)   #Número de colunas da matriz
-attr(x)
 
 ## Operadores de lógica
 ```{r}
@@ -443,7 +369,8 @@ for(i in 1:10) {
 soma
 ```
 
-## ...ou
+...ou
+
 ```{r}
 sum(x)
 ```
@@ -482,8 +409,3 @@ barplot(x)
 ```{r, boxplot, echo=TRUE}
 boxplot(x)
 ```
-
-## Torta
-
-pie(x)
-

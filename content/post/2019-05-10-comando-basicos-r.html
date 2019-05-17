@@ -1,14 +1,3 @@
----
-title: Introdução ao R e comandos básicos
-author: Lucas Jordão
-date: '2019-05-10'
-slug: comando-basicos-r
-categories: []
-tags: []
-image:
-  caption: ''
-  focal_point: ''
----
 
 <div id="TOC">
 <ul>
@@ -46,14 +35,12 @@ image:
 <li><a href="#operadores-de-logica">Operadores de lógica</a></li>
 <li><a href="#funcoes-if-e-else">Funções <code>if</code> e <code>else</code></a></li>
 <li><a href="#funcao-for">Função <code>for</code></a></li>
-<li><a href="#ou">…ou</a></li>
 </ul></li>
 <li><a href="#gerando-numeros-aleatorios-e-amostragem">Gerando números aleatórios e amostragem</a><ul>
 <li><a href="#histograma">Histograma</a></li>
 <li><a href="#grafico-de-dispersao">Gráfico de dispersão</a></li>
 <li><a href="#barplot">Barplot</a></li>
 <li><a href="#boxplot">Boxplot</a></li>
-<li><a href="#torta">Torta</a></li>
 </ul></li>
 </ul>
 </div>
@@ -244,7 +231,7 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 ## cite it when using it for data analysis. See also
 ## &#39;citation(&quot;pkgname&quot;)&#39; for citing R packages.</code></pre>
 <pre class="r"><code>Sys.time()                  # obtém data e hora exata do sistema</code></pre>
-<pre><code>## [1] &quot;2019-05-17 16:13:53 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-17 16:17:59 -03&quot;</code></pre>
 </div>
 <div id="operadores-simples-e-funcoes-matematicas" class="section level2">
 <h2>Operadores simples e funções matemáticas</h2>
@@ -560,119 +547,7 @@ cores</code></pre>
 <pre><code>## [1] &quot;function&quot;</code></pre>
 <pre class="r"><code>class(class)</code></pre>
 <pre><code>## [1] &quot;function&quot;</code></pre>
-<pre class="r"><code>jim &lt;- list(height = 2.54 * 12 * 6/100, weight = 180/2.2, name = &quot;James&quot;)
-jim</code></pre>
-<pre><code>## $height
-## [1] 1.8288
-## 
-## $weight
-## [1] 81.81818
-## 
-## $name
-## [1] &quot;James&quot;</code></pre>
-<pre class="r"><code>mode(jim)</code></pre>
-<pre><code>## [1] &quot;list&quot;</code></pre>
-<pre class="r"><code>class(jim)</code></pre>
-<pre><code>## [1] &quot;list&quot;</code></pre>
-<pre class="r"><code>typeof(jim)</code></pre>
-<pre><code>## [1] &quot;list&quot;</code></pre>
-<pre class="r"><code>length(jim)</code></pre>
-<pre><code>## [1] 3</code></pre>
-<pre class="r"><code>df &lt;- data.frame(A = 1,
-                 B = as.Date(&quot;2019-04-05&quot;),
-                 C = c(&quot;alfa&quot;,&quot;beta&quot;,&quot;gama&quot;,&quot;delta&quot;))
-df</code></pre>
-<pre><code>##   A          B     C
-## 1 1 2019-04-05  alfa
-## 2 1 2019-04-05  beta
-## 3 1 2019-04-05  gama
-## 4 1 2019-04-05 delta</code></pre>
-<pre class="r"><code>mode(df)</code></pre>
-<pre><code>## [1] &quot;list&quot;</code></pre>
-<pre class="r"><code>class(df)</code></pre>
-<pre><code>## [1] &quot;data.frame&quot;</code></pre>
-<pre class="r"><code>typeof(df)</code></pre>
-<pre><code>## [1] &quot;list&quot;</code></pre>
-<pre class="r"><code>sapply(df, mode)</code></pre>
-<pre><code>##         A         B         C 
-## &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;</code></pre>
-<pre class="r"><code>sapply(df, class)</code></pre>
-<pre><code>##         A         B         C 
-## &quot;numeric&quot;    &quot;Date&quot;  &quot;factor&quot;</code></pre>
-<pre class="r"><code>sapply(df, typeof)</code></pre>
-<pre><code>##         A         B         C 
-##  &quot;double&quot;  &quot;double&quot; &quot;integer&quot;</code></pre>
-<pre class="r"><code>length(df)</code></pre>
-<pre><code>## [1] 3</code></pre>
-<pre class="r"><code>a &lt;- 1:20
-a</code></pre>
-<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20</code></pre>
-<pre class="r"><code>mode(a)</code></pre>
-<pre><code>## [1] &quot;numeric&quot;</code></pre>
-<pre class="r"><code>class(a)</code></pre>
-<pre><code>## [1] &quot;integer&quot;</code></pre>
-<pre class="r"><code>typeof(a)</code></pre>
-<pre><code>## [1] &quot;integer&quot;</code></pre>
-<pre class="r"><code>sapply(a, mode)</code></pre>
-<pre><code>##  [1] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;
-##  [8] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;
-## [15] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;</code></pre>
-<pre class="r"><code>sapply(a, class)</code></pre>
-<pre><code>##  [1] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
-##  [8] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
-## [15] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;</code></pre>
-<pre class="r"><code>sapply(a, typeof)</code></pre>
-<pre><code>##  [1] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
-##  [8] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
-## [15] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;</code></pre>
-<pre class="r"><code>length(a)</code></pre>
-<pre><code>## [1] 20</code></pre>
-<pre class="r"><code>matrix &lt;- matrix(1:12, ncol = 4)
-matrix</code></pre>
-<pre><code>##      [,1] [,2] [,3] [,4]
-## [1,]    1    4    7   10
-## [2,]    2    5    8   11
-## [3,]    3    6    9   12</code></pre>
-<pre class="r"><code>mode(matrix)</code></pre>
-<pre><code>## [1] &quot;numeric&quot;</code></pre>
-<pre class="r"><code>class(matrix)</code></pre>
-<pre><code>## [1] &quot;matrix&quot;</code></pre>
-<pre class="r"><code>typeof(matrix)</code></pre>
-<pre><code>## [1] &quot;integer&quot;</code></pre>
-<pre class="r"><code>sapply(matrix, mode)</code></pre>
-<pre><code>##  [1] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;
-##  [8] &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot; &quot;numeric&quot;</code></pre>
-<pre class="r"><code>sapply(matrix, class)</code></pre>
-<pre><code>##  [1] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
-##  [8] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;</code></pre>
-<pre class="r"><code>sapply(matrix, typeof)</code></pre>
-<pre><code>##  [1] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;
-##  [8] &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot; &quot;integer&quot;</code></pre>
-<pre class="r"><code>dim(matrix)</code></pre>
-<pre><code>## [1] 3 4</code></pre>
-<pre class="r"><code>length(matrix)</code></pre>
-<pre><code>## [1] 12</code></pre>
 <hr />
-<p>#Funções vetoriais
-max(x) # valor máximo em x
-min(x) # valor mínimo em x
-sum(x) # soma todos os valores em x
-mean(x) # média de todos os valores em x
-median(x) # mediana de todos os valores em x
-range(x) # vetor do min(x) e max(x)
-var(x) # variância de todos os valores em x
-cor(x,y) # correlação entre vetores x e y
-quantile(x) # Quantil de todos os valores em x</p>
-<p>#Funções matriciais
-t(x) # matriz transposta
-dim() # dimensão da matriz
-det() # determinante da matriz</p>
-<p>dim(x) #mostra as dimensões de uma tabela ou matriz
-head(x) #mostra as n (‘6’) primeiras linhas de uma tabela ou matriz
-tail(x) #mostra as n (‘6’) últimas linhas de uma tabela ou matriz
-nrow(x) #Número de linhas da matriz
-ncol(x) #Número de colunas da matriz
-attr(x)</p>
 </div>
 </div>
 <div id="operadores-de-logica" class="section level2">
@@ -702,7 +577,7 @@ x &lt;- 1
 if(x == 1) {
   Sys.time()
 }</code></pre>
-<pre><code>## [1] &quot;2019-05-17 16:13:58 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-17 16:18:01 -03&quot;</code></pre>
 <pre class="r"><code>if(x &lt; 0) {
   sinal &lt;- &quot;negativo&quot;
 } else if(x == 0) {
@@ -722,9 +597,7 @@ for(i in 1:10) {
 }
 soma</code></pre>
 <pre><code>## [1] 55</code></pre>
-</div>
-<div id="ou" class="section level2">
-<h2>…ou</h2>
+<p>…ou</p>
 <pre class="r"><code>sum(x)</code></pre>
 <pre><code>## [1] 55</code></pre>
 <hr />
@@ -733,49 +606,46 @@ soma</code></pre>
 <div id="gerando-numeros-aleatorios-e-amostragem" class="section level1">
 <h1>Gerando números aleatórios e amostragem</h1>
 <pre class="r"><code>runif(100)        # Gera números aleatórios entre 0 e 1 com distribuição uniforme</code></pre>
-<pre><code>##   [1] 0.082649142 0.417850494 0.389210950 0.763832081 0.616453680
-##   [6] 0.161045375 0.678858826 0.902790038 0.669040652 0.976240286
-##  [11] 0.272602898 0.408134709 0.989616510 0.613983454 0.399987846
-##  [16] 0.813949792 0.339496232 0.426381685 0.355334206 0.880409972
-##  [21] 0.832776689 0.273102181 0.056613398 0.062212452 0.612899979
-##  [26] 0.354671733 0.636587637 0.365652347 0.736456301 0.355534637
-##  [31] 0.274204258 0.871869775 0.999844891 0.207132641 0.341782578
-##  [36] 0.870432239 0.418430418 0.159529056 0.631471013 0.038203323
-##  [41] 0.377178013 0.540504308 0.593735996 0.171723120 0.620287489
-##  [46] 0.245906815 0.346529554 0.205532257 0.741361997 0.967862823
-##  [51] 0.809409880 0.269694848 0.913356497 0.190055052 0.154407157
-##  [56] 0.792386576 0.444227117 0.458759071 0.028063324 0.808460371
-##  [61] 0.251389970 0.916606287 0.279672839 0.260813242 0.951030388
-##  [66] 0.778430200 0.761171892 0.554020206 0.008824185 0.045448863
-##  [71] 0.525382486 0.723180536 0.928989295 0.694210938 0.944115055
-##  [76] 0.487825819 0.304026563 0.316686224 0.085552889 0.550052180
-##  [81] 0.985275859 0.870679970 0.069642018 0.833439056 0.462384790
-##  [86] 0.359100436 0.744401247 0.089952030 0.834975719 0.297038046
-##  [91] 0.510012509 0.060932516 0.212686423 0.704501283 0.784909327
-##  [96] 0.585669415 0.662780335 0.820114641 0.529839737 0.108755311</code></pre>
+<pre><code>##   [1] 0.51951156 0.53669970 0.76613089 0.13193035 0.04209001 0.26513849
+##   [7] 0.85563163 0.07860198 0.64719353 0.26192560 0.94095508 0.77364049
+##  [13] 0.36152431 0.09765374 0.10455972 0.41655126 0.85826713 0.23454687
+##  [19] 0.68964719 0.31869832 0.45192567 0.60158701 0.57479460 0.33861790
+##  [25] 0.41250374 0.79985229 0.40601921 0.95350744 0.81657974 0.13194653
+##  [31] 0.17905628 0.68451414 0.93290232 0.93091019 0.47369520 0.18928526
+##  [37] 0.88012008 0.66794558 0.05033807 0.78631380 0.41136511 0.67497550
+##  [43] 0.63702421 0.99910380 0.47438358 0.41979126 0.36544938 0.47516007
+##  [49] 0.04767281 0.52660686 0.98689155 0.10551797 0.11219661 0.25536503
+##  [55] 0.37768973 0.54258945 0.01405046 0.70324319 0.01592879 0.53251880
+##  [61] 0.09223874 0.66020505 0.26830871 0.86116170 0.52584308 0.95399625
+##  [67] 0.69477224 0.90812086 0.64784712 0.52814884 0.87954792 0.83454012
+##  [73] 0.66791685 0.72255330 0.44403095 0.86569329 0.23630557 0.89923524
+##  [79] 0.15667940 0.22549820 0.68057761 0.58606732 0.93927753 0.26033390
+##  [85] 0.45133051 0.24471948 0.90483975 0.57805209 0.65817799 0.88060948
+##  [91] 0.39534269 0.73817939 0.31920074 0.68206697 0.51117462 0.09751285
+##  [97] 0.11400458 0.91666364 0.29290052 0.24176815</code></pre>
 <pre class="r"><code>rnorm(100)        # Gera números aleatórios com distribuição normal</code></pre>
-<pre><code>##   [1] -0.754720855 -0.144350186 -0.539068129 -0.176370131 -0.506059219
-##   [6]  0.528824279 -0.177157647  1.978152016 -0.648623831  0.739391403
-##  [11]  0.622762730 -1.058005762 -1.159584952 -1.438670449  1.306092684
-##  [16] -0.213436531 -0.053254414  1.885817795  1.022447111  0.003248621
-##  [21]  0.582307957 -0.682471951 -0.992597750  0.693260680  0.895252523
-##  [26]  1.340167890  1.687589499  0.642141105  0.558417349  0.929164681
-##  [31] -0.068628047  0.267052159  1.312302206 -0.735662737  0.293013010
-##  [36] -0.018013178 -0.700276947 -0.288716014 -0.317601767  0.809746977
-##  [41] -0.699729691  0.326097042  0.510930667 -0.899628542 -0.045460019
-##  [46] -0.535222665  0.043351825 -1.949453130  0.699453819 -0.700443470
-##  [51]  0.141268602  0.894014196 -1.698412782  1.408327146  0.064111747
-##  [56]  0.041831494  1.027974493 -1.131439164  0.559976026  0.227899451
-##  [61]  0.521521377  0.117924399 -1.400721421 -0.626253092 -0.058085054
-##  [66]  0.034804849  0.343091046  0.804686696 -0.141706459  1.161491906
-##  [71]  0.543468564  0.888006894 -0.990492647  0.609989450 -0.127558887
-##  [76]  0.249993069 -0.503580349 -0.445591340  0.653699900  1.229825075
-##  [81] -0.478921297  0.889056916 -0.820399354  0.597186863  0.691471338
-##  [86]  1.405500474  0.066829743 -0.784162778 -0.475789132 -0.329869861
-##  [91] -0.555384560 -1.410871283  1.099429535  1.620768536  1.298512137
-##  [96] -0.910929470 -0.670047463 -2.214134023  0.209146475  0.792631421</code></pre>
+<pre><code>##   [1] -1.10065174  2.04897414  0.10122900  0.88260993  0.07635847
+##   [6] -0.76620178  0.72250593 -1.62855630 -1.22404901  1.12778181
+##  [11] -0.95153565  0.53910556 -0.79912811 -0.27014570  0.96936207
+##  [16] -1.29227297 -0.60001393 -0.19875789  0.49638780 -0.76821864
+##  [21] -1.26782151  0.62065775 -0.76582658 -0.14863140  0.93662934
+##  [26] -0.23656623 -3.18143288  1.43437502  1.44357355 -1.46827601
+##  [31] -1.42634903 -0.77328626 -0.47906809  0.33429118  0.71481088
+##  [36] -0.48922870  0.72201755 -0.41789484 -0.61526870  1.43684871
+##  [41] -1.70363349 -0.33454421 -0.93255244  1.28573780 -1.07373878
+##  [46] -1.14473969 -0.07414602  0.33806552 -0.94102444  0.23473911
+##  [51] -1.15396403 -0.10196288 -0.06833394  0.33274141 -0.79249821
+##  [56] -0.47524274  0.23396483  0.59751545 -0.94645197 -0.95178663
+##  [61] -0.55487268 -0.96812844  0.15753973 -0.97734371 -1.08251176
+##  [66] -0.18163508 -0.12768699  0.34790920  0.27406202  2.25506714
+##  [71]  0.25893419 -1.20277815  1.49741109 -0.11192608  1.47178728
+##  [76]  1.01039053 -0.34730266 -0.40494105  0.97876874  0.91573928
+##  [81] -1.06856501 -0.91048701  0.90283676 -0.82850796 -0.45040048
+##  [86]  1.98379257  0.47584620 -1.29662067  0.58109213  0.92806231
+##  [91] -1.40627699  0.03925891 -0.23283157 -1.24663657  0.54791898
+##  [96]  0.68018247 -1.61962049 -0.08457963  1.68159408  2.15245705</code></pre>
 <pre class="r"><code>sample(1:100, 4)  # Amostragem</code></pre>
-<pre><code>## [1] 79 84  1 86</code></pre>
+<pre><code>## [1]  9 64 80 97</code></pre>
 <div id="histograma" class="section level2">
 <h2>Histograma</h2>
 <pre class="r"><code>x &lt;- rnorm(n=10000, mean=1, sd=1)
@@ -796,9 +666,5 @@ hist(x, nclass = 40)</code></pre>
 <h2>Boxplot</h2>
 <pre class="r"><code>boxplot(x)</code></pre>
 <p><img src="2019-05-10-comando-basicos-r_files/figure-html/boxplot-1.png" width="672" /></p>
-</div>
-<div id="torta" class="section level2">
-<h2>Torta</h2>
-<p>pie(x)</p>
 </div>
 </div>
