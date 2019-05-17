@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://lsbjordao.netlify.com/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/files/cv.pdf</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/post/ninja-presentation/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/post/comando-basicos-r/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/post/crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/post/hello-world-animals-and-some-fortunes/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/project/what-is-mimosa/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/slides/ninja.html</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/authors/admin/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/publication/preprint/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/publication/journal-article/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/publication/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://lsbjordao.netlify.com/slides/example/</loc>
+  <lastmod>2019-05-17T16:30:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
