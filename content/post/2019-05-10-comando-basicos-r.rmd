@@ -230,9 +230,13 @@ w[c(1,4)]
 ### numerical
 
 ### character
+
+Cadeias de caracters (ou *string* em inglês) são apresentados entre aspas.
+
 ```{r}
-x<-"R"
+x <- c("R", "plantas", "animais", "floresta", "solo")
 x
+class(x)
 ```
 
 ### valores lógicos
