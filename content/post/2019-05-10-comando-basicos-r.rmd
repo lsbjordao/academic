@@ -229,6 +229,12 @@ w[c(1,4)]
 
 ### numerical
 
+```{r}
+x <- c(13, 15, 346, 58, 23)
+x
+class(x)
+```
+
 ### character
 
 Cadeias de caracters (ou *string* em inglês) são apresentados entre aspas.
@@ -247,6 +253,9 @@ TRUE | FALSE     # logical 'ou'= |
 TRUE & FALSE     # logical 'e' = &
 !TRUE            # logical 'não' = !
 !FALSE
+x <- c(TRUE, FALSE, TRUE, TRUE, FALSE)
+x
+class(x)
 ```
 
 ### factor
