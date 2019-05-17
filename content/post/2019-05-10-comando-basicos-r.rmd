@@ -187,7 +187,7 @@ O R é uma linguagem de **POO** (Programação Orientada a Objetos)
 Todo objeto possui uma **CLASSE**
 {{% /alert %}}
 
-## Armazenando dados em objetos
+## Armazenando dados em objeto
 ```{r}
 x <- 1:5
 x
@@ -227,7 +227,7 @@ w[c(1,4)]
 
 ## PRINCIPAIS **CLASSES** DE OBJETOS
 
-A função `class()` revela qual a classe dos objetos
+A função `class()` revela qual a classe do objeto.
 
 ### numerical
 
@@ -262,8 +262,8 @@ class(x)
 
 ### factor
 ```{r}
-kids <- factor(c(1,0,1,0,0,0,1), levels = c(0, 1),
-              labels = c("homem", "mulher"))
+kids <- factor(c(1,0,2,1,0,2,0,0,1,2), levels = c(0, 1, 2),
+              labels = c("verde", "azul", "vermelho"))
 kids
 class(kids)
 ```
@@ -275,10 +275,6 @@ class(R.Version)
 class(license)
 class(class)
 ```
-
-(continua...)
-
-
 
 
 
