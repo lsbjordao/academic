@@ -385,26 +385,28 @@ rnorm(100)        # Gera números aleatórios com distribuição normal
 sample(1:100, 4)  # Amostragem
 ```
 
-## Histograma
+## Gráficos de Análise Descritiva
+
+### Histograma
 
 ```{r, histograma, echo=TRUE}
 x <- rnorm(n=10000, mean=1, sd=1)
 hist(x, nclass = 40)
 ```
 
-## Gráfico de dispersão
+### Gráfico de dispersão
 
 ```{r, plot, echo=TRUE}
 plot(x)
 ```
 
-## Barplot
+### Barplot
 
 ```{r, barplot, echo=TRUE}
 barplot(x)
 ```
 
-## Boxplot
+### Boxplot
 
 ```{r, boxplot, echo=TRUE}
 boxplot(x)
