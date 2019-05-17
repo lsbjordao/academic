@@ -4,7 +4,7 @@ external_link: https://florariojaneiro.jbrj.gov.br/consulta.php
 image:
   caption: JBRJ/FAPERJ
   focal_point: Smart
-summary: Author of genus *Mimosa* `external link`.
+summary: Author of genus *Mimosa* & Morim, M.P. `external link`.
 tags:
 - List of species
 title: Catálogo da Flora do Estado do Rio de Janeiro
