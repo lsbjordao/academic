@@ -213,17 +213,60 @@ w[c(1,4)]
 
 ## PRINCIPAIS **TIPOS** DE OBJETOS
 
-### funções
-
 ### vetor
+```{r}
+x <- c(2, 4, 7, 8, 12, 20)
+x
+is.vector(x)
+is.numeric(x)
+is.character(x)
+
+y <- c("verde", "azul", "branco", "cinza", "preto")
+y
+is.vector(y)
+is.numeric(y)
+is.character(y)
+
+```
 
 ### matriz
+```{r}
+x <- matrix(1:20, nrow = 4)
+x
+is.vector(x)
+is.matrix(x)
+```
 
 ### dataframe
+```{r}
+x <- data.frame(A = c(1, 3, 5,7),
+                B = c("2019-04-05", "2019-03-01", "2019-04-25", "2019-03-15"),
+                C = c("alfa","beta","gama","delta"))
+x
+is.matrix(x)
+is.data.frame(x)
+```
 
 ### array
+```{r}
+x <- array(1:36, dim=c(3,4,3))
+x
+is.matrix(x)
+is.array(x)
+```
 
-### lista
+### list
+```{r}
+x <- c(12, 42, 53, 0, 1) 
+y <- c("primeiro", "segundo", "terceiro", "quarto", "quinto") 
+z <- c(TRUE, FALSE, TRUE, FALSE, FALSE) 
+w <- list(x, y, z)
+w
+is.matrix(w)
+is.data.frame(w)          
+is.array(w)
+is.list(w)
+```
 
 ## PRINCIPAIS **CLASSES** DE OBJETOS
 
@@ -262,10 +305,10 @@ class(x)
 
 ### factor
 ```{r}
-kids <- factor(c(1,0,2,1,0,2,0,0,1,2), levels = c(0, 1, 2),
+cores <- factor(c(1,0,2,1,0,2,0,0,1,2), levels = c(0, 1, 2),
               labels = c("verde", "azul", "vermelho"))
-kids
-class(kids)
+cores
+class(cores)
 ```
 
 ### function

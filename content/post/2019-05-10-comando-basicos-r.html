@@ -30,12 +30,11 @@ image:
 <li><a href="#concatenando-diversos-valores-e-armazenando-os-em-um-objeto">Concatenando diversos valores e armazenando-os em um objeto</a></li>
 <li><a href="#extraindo-um-ou-mais-valores-de-um-objeto-a-partir-da-indexacao">Extraindo um ou mais valores de um objeto a partir da indexação</a></li>
 <li><a href="#principais-tipos-de-objetos">PRINCIPAIS <strong>TIPOS</strong> DE OBJETOS</a><ul>
-<li><a href="#funcoes">funções</a></li>
 <li><a href="#vetor">vetor</a></li>
 <li><a href="#matriz">matriz</a></li>
 <li><a href="#dataframe">dataframe</a></li>
 <li><a href="#array">array</a></li>
-<li><a href="#lista">lista</a></li>
+<li><a href="#list">list</a></li>
 </ul></li>
 <li><a href="#principais-classes-de-objetos">PRINCIPAIS <strong>CLASSES</strong> DE OBJETOS</a><ul>
 <li><a href="#numerical">numerical</a></li>
@@ -245,7 +244,7 @@ Auckland, ajudaram Ross Ihaka a desenvolver a versão para Macintosh.</p>
 ## cite it when using it for data analysis. See also
 ## &#39;citation(&quot;pkgname&quot;)&#39; for citing R packages.</code></pre>
 <pre class="r"><code>Sys.time()                  # obtém data e hora exata do sistema</code></pre>
-<pre><code>## [1] &quot;2019-05-17 13:50:21 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-17 16:13:53 -03&quot;</code></pre>
 </div>
 <div id="operadores-simples-e-funcoes-matematicas" class="section level2">
 <h2>Operadores simples e funções matemáticas</h2>
@@ -397,23 +396,109 @@ w</code></pre>
 </div>
 <div id="principais-tipos-de-objetos" class="section level2">
 <h2>PRINCIPAIS <strong>TIPOS</strong> DE OBJETOS</h2>
-<div id="funcoes" class="section level3">
-<h3>funções</h3>
-</div>
 <div id="vetor" class="section level3">
 <h3>vetor</h3>
+<pre class="r"><code>x &lt;- c(2, 4, 7, 8, 12, 20)
+x</code></pre>
+<pre><code>## [1]  2  4  7  8 12 20</code></pre>
+<pre class="r"><code>is.vector(x)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>is.numeric(x)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>is.character(x)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>y &lt;- c(&quot;verde&quot;, &quot;azul&quot;, &quot;branco&quot;, &quot;cinza&quot;, &quot;preto&quot;)
+y</code></pre>
+<pre><code>## [1] &quot;verde&quot;  &quot;azul&quot;   &quot;branco&quot; &quot;cinza&quot;  &quot;preto&quot;</code></pre>
+<pre class="r"><code>is.vector(y)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>is.numeric(y)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.character(y)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 </div>
 <div id="matriz" class="section level3">
 <h3>matriz</h3>
+<pre class="r"><code>x &lt;- matrix(1:20, nrow = 4)
+x</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4] [,5]
+## [1,]    1    5    9   13   17
+## [2,]    2    6   10   14   18
+## [3,]    3    7   11   15   19
+## [4,]    4    8   12   16   20</code></pre>
+<pre class="r"><code>is.vector(x)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.matrix(x)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 </div>
 <div id="dataframe" class="section level3">
 <h3>dataframe</h3>
+<pre class="r"><code>x &lt;- data.frame(A = c(1, 3, 5,7),
+                B = c(&quot;2019-04-05&quot;, &quot;2019-03-01&quot;, &quot;2019-04-25&quot;, &quot;2019-03-15&quot;),
+                C = c(&quot;alfa&quot;,&quot;beta&quot;,&quot;gama&quot;,&quot;delta&quot;))
+x</code></pre>
+<pre><code>##   A          B     C
+## 1 1 2019-04-05  alfa
+## 2 3 2019-03-01  beta
+## 3 5 2019-04-25  gama
+## 4 7 2019-03-15 delta</code></pre>
+<pre class="r"><code>is.matrix(x)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.data.frame(x)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 </div>
 <div id="array" class="section level3">
 <h3>array</h3>
+<pre class="r"><code>x &lt;- array(1:36, dim=c(3,4,3))
+x</code></pre>
+<pre><code>## , , 1
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]    1    4    7   10
+## [2,]    2    5    8   11
+## [3,]    3    6    9   12
+## 
+## , , 2
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]   13   16   19   22
+## [2,]   14   17   20   23
+## [3,]   15   18   21   24
+## 
+## , , 3
+## 
+##      [,1] [,2] [,3] [,4]
+## [1,]   25   28   31   34
+## [2,]   26   29   32   35
+## [3,]   27   30   33   36</code></pre>
+<pre class="r"><code>is.matrix(x)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.array(x)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 </div>
-<div id="lista" class="section level3">
-<h3>lista</h3>
+<div id="list" class="section level3">
+<h3>list</h3>
+<pre class="r"><code>x &lt;- c(12, 42, 53, 0, 1) 
+y &lt;- c(&quot;primeiro&quot;, &quot;segundo&quot;, &quot;terceiro&quot;, &quot;quarto&quot;, &quot;quinto&quot;) 
+z &lt;- c(TRUE, FALSE, TRUE, FALSE, FALSE) 
+w &lt;- list(x, y, z)
+w</code></pre>
+<pre><code>## [[1]]
+## [1] 12 42 53  0  1
+## 
+## [[2]]
+## [1] &quot;primeiro&quot; &quot;segundo&quot;  &quot;terceiro&quot; &quot;quarto&quot;   &quot;quinto&quot;  
+## 
+## [[3]]
+## [1]  TRUE FALSE  TRUE FALSE FALSE</code></pre>
+<pre class="r"><code>is.matrix(w)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.data.frame(w)          </code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.array(w)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.list(w)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 </div>
 </div>
 <div id="principais-classes-de-objetos" class="section level2">
@@ -458,13 +543,13 @@ x</code></pre>
 </div>
 <div id="factor" class="section level3">
 <h3>factor</h3>
-<pre class="r"><code>kids &lt;- factor(c(1,0,2,1,0,2,0,0,1,2), levels = c(0, 1, 2),
+<pre class="r"><code>cores &lt;- factor(c(1,0,2,1,0,2,0,0,1,2), levels = c(0, 1, 2),
               labels = c(&quot;verde&quot;, &quot;azul&quot;, &quot;vermelho&quot;))
-kids</code></pre>
+cores</code></pre>
 <pre><code>##  [1] azul     verde    vermelho azul     verde    vermelho verde   
 ##  [8] verde    azul     vermelho
 ## Levels: verde azul vermelho</code></pre>
-<pre class="r"><code>class(kids)</code></pre>
+<pre class="r"><code>class(cores)</code></pre>
 <pre><code>## [1] &quot;factor&quot;</code></pre>
 </div>
 <div id="function" class="section level3">
@@ -617,7 +702,7 @@ x &lt;- 1
 if(x == 1) {
   Sys.time()
 }</code></pre>
-<pre><code>## [1] &quot;2019-05-17 13:50:23 -03&quot;</code></pre>
+<pre><code>## [1] &quot;2019-05-17 16:13:58 -03&quot;</code></pre>
 <pre class="r"><code>if(x &lt; 0) {
   sinal &lt;- &quot;negativo&quot;
 } else if(x == 0) {
@@ -648,49 +733,49 @@ soma</code></pre>
 <div id="gerando-numeros-aleatorios-e-amostragem" class="section level1">
 <h1>Gerando números aleatórios e amostragem</h1>
 <pre class="r"><code>runif(100)        # Gera números aleatórios entre 0 e 1 com distribuição uniforme</code></pre>
-<pre><code>##   [1] 0.406489000 0.129715340 0.544890047 0.288760938 0.321302329
-##   [6] 0.202479408 0.603085411 0.085331798 0.024174797 0.063628260
-##  [11] 0.750106495 0.625101986 0.939483653 0.725070480 0.368794017
-##  [16] 0.167165269 0.829865834 0.534516531 0.511981257 0.007447556
-##  [21] 0.265325679 0.693285795 0.009691315 0.848728254 0.536095119
-##  [26] 0.237167577 0.786176469 0.935868908 0.107751414 0.040722480
-##  [31] 0.958434282 0.579388087 0.013273846 0.054053821 0.087358988
-##  [36] 0.678980766 0.891951657 0.979378986 0.386750467 0.838782496
-##  [41] 0.779385668 0.212539058 0.481316218 0.461924551 0.406579245
-##  [46] 0.299782020 0.747727576 0.442795705 0.991050001 0.515750526
-##  [51] 0.926662972 0.764166197 0.390712549 0.517646663 0.204572337
-##  [56] 0.309753470 0.648775704 0.223772062 0.263089166 0.056369788
-##  [61] 0.219067497 0.860510986 0.230711850 0.067437292 0.278847180
-##  [66] 0.100561387 0.839451751 0.349257540 0.369448629 0.869831348
-##  [71] 0.171847658 0.426036487 0.238181596 0.995286006 0.465730455
-##  [76] 0.479400031 0.991909405 0.894016973 0.201605483 0.208316025
-##  [81] 0.020631190 0.288431415 0.702142283 0.002027798 0.480620687
-##  [86] 0.446953051 0.160930767 0.915020832 0.787641319 0.682592764
-##  [91] 0.413218430 0.341291560 0.657701971 0.721461410 0.975894406
-##  [96] 0.005683650 0.131977067 0.955078262 0.544854123 0.073761563</code></pre>
+<pre><code>##   [1] 0.082649142 0.417850494 0.389210950 0.763832081 0.616453680
+##   [6] 0.161045375 0.678858826 0.902790038 0.669040652 0.976240286
+##  [11] 0.272602898 0.408134709 0.989616510 0.613983454 0.399987846
+##  [16] 0.813949792 0.339496232 0.426381685 0.355334206 0.880409972
+##  [21] 0.832776689 0.273102181 0.056613398 0.062212452 0.612899979
+##  [26] 0.354671733 0.636587637 0.365652347 0.736456301 0.355534637
+##  [31] 0.274204258 0.871869775 0.999844891 0.207132641 0.341782578
+##  [36] 0.870432239 0.418430418 0.159529056 0.631471013 0.038203323
+##  [41] 0.377178013 0.540504308 0.593735996 0.171723120 0.620287489
+##  [46] 0.245906815 0.346529554 0.205532257 0.741361997 0.967862823
+##  [51] 0.809409880 0.269694848 0.913356497 0.190055052 0.154407157
+##  [56] 0.792386576 0.444227117 0.458759071 0.028063324 0.808460371
+##  [61] 0.251389970 0.916606287 0.279672839 0.260813242 0.951030388
+##  [66] 0.778430200 0.761171892 0.554020206 0.008824185 0.045448863
+##  [71] 0.525382486 0.723180536 0.928989295 0.694210938 0.944115055
+##  [76] 0.487825819 0.304026563 0.316686224 0.085552889 0.550052180
+##  [81] 0.985275859 0.870679970 0.069642018 0.833439056 0.462384790
+##  [86] 0.359100436 0.744401247 0.089952030 0.834975719 0.297038046
+##  [91] 0.510012509 0.060932516 0.212686423 0.704501283 0.784909327
+##  [96] 0.585669415 0.662780335 0.820114641 0.529839737 0.108755311</code></pre>
 <pre class="r"><code>rnorm(100)        # Gera números aleatórios com distribuição normal</code></pre>
-<pre><code>##   [1] -0.93699361 -0.44888206 -0.04674510 -2.01737015  1.98820651
-##   [6]  0.89157507 -0.73415962 -1.77299385 -0.48558842  0.43624479
-##  [11]  0.47786437  0.07644328  0.35044220  0.12779030 -2.45829503
-##  [16]  0.09248384  1.40700433  1.39467036 -0.55216907 -0.46890244
-##  [21] -0.23140014  1.27063344 -0.08832772 -0.11518603  0.06069170
-##  [26]  1.85588496  1.54859233 -0.52184347  0.52918815  0.11857065
-##  [31] -0.32726777 -0.10264153  0.10014546  0.32532958  1.39409433
-##  [36]  0.22187891 -0.07425150  0.23795220 -0.39987063  2.06253075
-##  [41] -0.57333649  0.35023129  0.08474809  0.86828560  0.08098362
-##  [46]  0.09972056  0.65924954  0.92499815  0.11938472 -0.07143163
-##  [51]  1.58293988  0.93076930 -1.52036042 -1.98361975 -1.45433114
-##  [56]  0.40343662  0.88251146  0.76517867 -1.90953037 -1.06641585
-##  [61]  0.37360176 -0.74818575  0.02915908  2.21756406  0.27878226
-##  [66] -0.09086807  1.64794564  1.17493966  1.99587369  2.45649606
-##  [71]  0.34278750 -0.07710906 -1.53695830 -1.13683330 -0.48156945
-##  [76] -2.31678526  0.28383124  0.53338448  0.16751386  0.06709191
-##  [81] -0.96815768 -2.58141972  2.01413049 -0.07736493 -1.28741464
-##  [86] -0.56021518 -0.14264489 -1.15993763  0.92721994  1.35679332
-##  [91]  0.54589452  0.52978940 -0.43790623  1.58197268  1.65698929
-##  [96] -1.65777281  0.44213337  0.23215295 -0.94670808 -0.16704259</code></pre>
+<pre><code>##   [1] -0.754720855 -0.144350186 -0.539068129 -0.176370131 -0.506059219
+##   [6]  0.528824279 -0.177157647  1.978152016 -0.648623831  0.739391403
+##  [11]  0.622762730 -1.058005762 -1.159584952 -1.438670449  1.306092684
+##  [16] -0.213436531 -0.053254414  1.885817795  1.022447111  0.003248621
+##  [21]  0.582307957 -0.682471951 -0.992597750  0.693260680  0.895252523
+##  [26]  1.340167890  1.687589499  0.642141105  0.558417349  0.929164681
+##  [31] -0.068628047  0.267052159  1.312302206 -0.735662737  0.293013010
+##  [36] -0.018013178 -0.700276947 -0.288716014 -0.317601767  0.809746977
+##  [41] -0.699729691  0.326097042  0.510930667 -0.899628542 -0.045460019
+##  [46] -0.535222665  0.043351825 -1.949453130  0.699453819 -0.700443470
+##  [51]  0.141268602  0.894014196 -1.698412782  1.408327146  0.064111747
+##  [56]  0.041831494  1.027974493 -1.131439164  0.559976026  0.227899451
+##  [61]  0.521521377  0.117924399 -1.400721421 -0.626253092 -0.058085054
+##  [66]  0.034804849  0.343091046  0.804686696 -0.141706459  1.161491906
+##  [71]  0.543468564  0.888006894 -0.990492647  0.609989450 -0.127558887
+##  [76]  0.249993069 -0.503580349 -0.445591340  0.653699900  1.229825075
+##  [81] -0.478921297  0.889056916 -0.820399354  0.597186863  0.691471338
+##  [86]  1.405500474  0.066829743 -0.784162778 -0.475789132 -0.329869861
+##  [91] -0.555384560 -1.410871283  1.099429535  1.620768536  1.298512137
+##  [96] -0.910929470 -0.670047463 -2.214134023  0.209146475  0.792631421</code></pre>
 <pre class="r"><code>sample(1:100, 4)  # Amostragem</code></pre>
-<pre><code>## [1] 11  9 33 34</code></pre>
+<pre><code>## [1] 79 84  1 86</code></pre>
 <div id="histograma" class="section level2">
 <h2>Histograma</h2>
 <pre class="r"><code>x &lt;- rnorm(n=10000, mean=1, sd=1)
