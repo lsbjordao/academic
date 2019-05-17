@@ -10,6 +10,7 @@ image:
   focal_point: ''
 ---
 
+
 O <i class="fab fa-r-project" style="color:blue"></i> é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.
 
 ## Autores
@@ -321,7 +322,7 @@ class(class)
 
 ---
 
-## Operadores de lógica
+# Operadores de lógica
 ```{r}
 a <- c(1:10)
 a
@@ -385,28 +386,28 @@ rnorm(100)        # Gera números aleatórios com distribuição normal
 sample(1:100, 4)  # Amostragem
 ```
 
-## Gráficos de Análise Descritiva
+# Gráficos de Análise Descritiva
 
-### Histograma
+## Histograma
 
 ```{r, histograma, echo=TRUE}
 x <- rnorm(n=10000, mean=1, sd=1)
 hist(x, nclass = 40)
 ```
 
-### Gráfico de dispersão
+## Gráfico de dispersão
 
 ```{r, plot, echo=TRUE}
 plot(x)
 ```
 
-### Barplot
+## Barplot
 
 ```{r, barplot, echo=TRUE}
 barplot(x)
 ```
 
-### Boxplot
+## Boxplot
 
 ```{r, boxplot, echo=TRUE}
 boxplot(x)
