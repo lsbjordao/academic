@@ -38,14 +38,14 @@ url_video: ""
   + often present
   + form/shape: often  linear, lanceolate, short-triangular, or oval with acute apex 
 
-![Paraphyllidia of Mimosa bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png)
+![Paraphyllidia of Mimosa bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png "Paraphyllidia of Mimosa bimucronata")
 
 2. **spicule**  
   + Projection developed at the interpinnal space on abaxial face of the leaf-rachis
   + present or absent
   + form/shape: short-triangular (or conical) (as in *M. arenosa*), linear-subulate (as in *M. diplotricha*), or spiniform (as in *M. pigra*).
   
-![Spicule of Mimosa arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png) ![Spicule of Mimosa pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png)
+![Spicule of Mimosa arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of Mimosa arenosa") ![Spicule of Mimosa pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of Mimosa pigra")
 
 ### The presence of leaf-nectaries is rare in the genus  
 1. Only present in *M. sect. Mimadenia* Barneby
@@ -53,4 +53,4 @@ url_video: ""
   + The only monophyletic section in the genus, according Barneby's (1991) infrageneric classification, and sister group of all other Mimosa groups ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520))
     + Hence, the presence of leaf-nectaries is a plesiomorphic trait.
 
-![Leaf-nectary of M. extensa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_extensa_leaf-nectary.png)
+![Leaf-nectary of M. extensa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_extensa_leaf-nectary.png "Leaf-nectary of M. extensa")
