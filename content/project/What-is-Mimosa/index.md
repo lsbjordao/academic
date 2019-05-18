@@ -28,7 +28,7 @@ url_video: ""
 - *Mimosa* L. belongs to clade Mimosoid, within the family Leguminosae ([LPWG 2017](https://onlinelibrary.wiley.com/doi/abs/10.12705/661.3)).  
 
 - The most comprehensive phylogenetic study of Mimosa proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
-![simon et al.'s (2011) Mimosa phylogeny](M_phylogeny_Simon2011_adapt.png)
+![simon et al.'s (2011) Mimosa phylogeny](https://lsbjordao.netlify.com/img/what-is-mimosa/M_phylogeny_Simon2011_adapt.png)
 
 - The last taxonomic revision of the genus was performed by [Barneby (1991)](http://antbase.org/ants/publications/nybg/Mimosa%20NY-Botanical_gardens_Vol.%2065%20-%20Copy.pdf).
 
