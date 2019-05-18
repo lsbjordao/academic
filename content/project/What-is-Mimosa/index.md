@@ -11,7 +11,6 @@ links:
   url: https://twitter.com/LucasJordo18
 slides: example-slides
 summary: Meet the megadiverse Neotropical genus.
-tags:
 title: What is Mimosa?
 url_code: ""
 url_pdf: ""
