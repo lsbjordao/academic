@@ -360,6 +360,10 @@ if(x < 0) {
   sinal <- "positivo"
 }
 sinal
+x <- -3
+sinal
+x <- 0
+sinal
 ```
 
 ## Função `for`
