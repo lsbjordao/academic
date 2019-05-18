@@ -216,7 +216,7 @@ w[c(1,4)]
 
 A função `class()` revela qual a classe do objeto.
 
-### numerical
+### numeric
 
 ```{r}
 x <- c(13, 15, 346, 58, 23)
@@ -267,7 +267,7 @@ class(class)
 
 ## PRINCIPAIS **TIPOS** DE OBJETOS
 
-### vetor
+### vector
 ```{r}
 x <- c(2, 4, 7, 8, 12, 20)
 x
@@ -283,7 +283,7 @@ is.character(y)
 
 ```
 
-### matriz
+### matrix
 ```{r}
 x <- matrix(1:20, nrow = 4)
 x
@@ -328,7 +328,7 @@ is.list(w)
 ```{r}
 a <- c(1:10)
 a
-a[(a>8) | (a<5)]
+a[(a>8) | (a<5)]      # sinal | = 'ou'
 ```
 
 Como funciona...
@@ -344,11 +344,11 @@ a[c(T,T,T,T,F,F,F,F,T,T)]
 x <- 2
 if(x == 1) {         
   Sys.time()
-}
+}               #nada acontece, pois 'x' não é 1.
 x <- 1
 if(x == 1) {
   Sys.time()
-}
+}               #mostra a data e hora exata do sistema, já que 'x' é 1.
 ```
 
 ```{r}
@@ -384,6 +384,7 @@ sinal
 
 ## Função `for`
 ```{r}
+# algoritmo para soma de vetores
 x <- 1:10   # Cria um vetor com a sequência 1, 2, ..., 10.
 soma <- 0
 for(i in 1:10) {
@@ -395,7 +396,7 @@ soma
 ...ou
 
 ```{r}
-sum(x)
+sum(x)          # função 'soma de vetores' já existente na base do R
 ```
 
 ---
