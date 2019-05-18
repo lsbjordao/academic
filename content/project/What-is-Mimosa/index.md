@@ -35,12 +35,14 @@ url_video: ""
 
 *Mimosa* is especially distinguished by two *sui generis* leaf structures:  
 
-1. paraphyllidia
-  + Pair of projections 
+1. **paraphyllidia**
+  + Pair of leaf-like projections developed between the pinna-pulvinus and the first pair of leaflets
+  + very commonly present
 
-![Paraphyllidia of Mimosa bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png)
+![Paraphyllidia of *Mimosa bimucronata*](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png)
 
-2. spicule  
-  +
+2. **spicule**  
+  + Projection developed at the interpinnal space on abaxial face of the leaf-rachis
+  + or absent
   
-![Spicule of Mimosa pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png)
+![Spicule of *Mimosa pigra*](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png)
