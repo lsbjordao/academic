@@ -9,6 +9,8 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/LucasJordo18
+tags:
+- Genus Mimosa
 slides: example-slides
 summary: Meet the megadiverse Neotropical genus.
 title: What is Mimosa?
