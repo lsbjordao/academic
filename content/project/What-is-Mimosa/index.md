@@ -47,4 +47,4 @@ url_video: ""
   + present or absent
   + form/shape: short-triangular (or conical) (as in *M. arenosa*), linear-subulate (as in *M. diplotricha*), or spiniform (as in *M. pigra*).
   
-![Spicule of *Mimosa pigra*](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png)
+![Spicule of *Mimosa arenosa*](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png) ![Spicule of *Mimosa pigra*](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png)
