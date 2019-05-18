@@ -4,7 +4,7 @@ external_link: https://florariojaneiro.jbrj.gov.br/consulta.php
 image:
   caption: JBRJ/FAPERJ
   focal_point: Smart
-summary: Author of genus *Mimosa* along with Drª Marli P. Morim  `external link`.
+summary: Author of genus *Mimosa* along with Drª Marli P. Morim (and Dr. José Fernando A. Baumgratz)  `external link`.
 tags:
 - List of species
 title: Catálogo da Flora do Estado do Rio de Janeiro
