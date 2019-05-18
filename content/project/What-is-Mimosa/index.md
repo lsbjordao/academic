@@ -38,11 +38,13 @@ url_video: ""
 1. **paraphyllidia**
   + Pair of leaf-like projections developed between the pinna-pulvinus and the first pair of leaflets
   + very commonly present
+  + form/shape: often  linear, lanceolate, short-triangular, or oval with acute apex 
 
 ![Paraphyllidia of *Mimosa bimucronata*](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png)
 
 2. **spicule**  
   + Projection developed at the interpinnal space on abaxial face of the leaf-rachis
   + or absent
+  + form/shape: short-triangular (or conical) (as in *M. arenosa*), linear-subulate (as in *M. diplotricha*), or spiniform (as in *M. pigra*).
   
 ![Spicule of *Mimosa pigra*](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png)
