@@ -50,8 +50,9 @@ url_video: ""
   + present or absent
   + form/shape: short-triangular (or conical) (as in *M. arenosa*), linear-subulate (as in *M. diplotricha*), or spiniform (as in *M. pigra*).
   
-![Spicule of M. arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of M. arenosa") <center> Spicule of Mimosa arenosa </center>  
-![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spicule of M. pigra </center>  
+![Spicule of M. arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of M. arenosa") <center> Spicule of *M. arenosa* </center>  
+![Spicule of M. diplotricha](https://lsbjordao.netlify.com/img/what-is-mimosa/M_diplotricha_spicule.png "Spicule of M. diplotricha") <center> Spicule of *M. diplotricha* </center>  
+![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spicule of *M. pigra* </center>  
 
 ### The presence of leaf-nectaries is rare in the genus  
 1. Only present in *M. sect. Mimadenia* Barneby
