@@ -12,7 +12,11 @@ links:
 slides: example-slides
 summary: Meet the megadiverse Neotropical genus.
 tags:
-- Genus Mimosa
+  - Genus Mimosa
+  - paraphyllidia
+  - plant morphology
+  - spicule
+  - taxonomy
 title: What is Mimosa?
 url_code: ""
 url_pdf: ""
