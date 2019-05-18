@@ -175,7 +175,7 @@ sort(letters, decreasing=TRUE)
 
 ## Criando um vetor com números inteiros
 ```{r}
-c(1, 2, 3, 3, 10)
+c(1, 2, 3, 3, 10)      # função 'c' = concatenar
 ```
 
 ---
