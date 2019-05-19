@@ -94,7 +94,13 @@ The main types of trichomes are:
 
 ### Flower morphology is one of the most important diagnostic character
 
-1. Calyx 
+1. Merism
+  + 
+  + Trimery is a rare condition, and evolved independently at least six times in the genus (Simon et al. 2011)
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_caesalpiniifolia_flower.png "Flower of M. caesalpiniifolia") <center> Trimerous flower  of *M. caesalpiniifolia* </center>
+M_caesalpiniifolia_flower
+
+2. Calyx 
   + pappiform (term used by Barneby 1991 in allusion to the pappiform calyx of Asteraceae)
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png "Flower of M. pigra") <center> Pappiform calyx  of *M. pigra* </center>
   
