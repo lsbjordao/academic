@@ -91,3 +91,10 @@ The main types of trichomes are:
   + Subsessile or stalked
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_glandular.png "Glandular-subsessile trichome of M. arenosa") <center> Glandular-subsessile trichome of *M. paludosa* </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_paludosa_glandular.png "Glandular-stalked trichome of M. paludosa") <center> Glandular-stalked trichome of *M. paludosa* </center>
+
+### Flower morphology is one of the most important diagnostic character
+
+1. Calyx 
+  + pappiform (term used in allusion to the pappiform calyx of Asteraceae by Barneby 1991)
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png "Flower of M. pigra") <center> Pappiform calyx  of *M. pigra* </center>
+  
