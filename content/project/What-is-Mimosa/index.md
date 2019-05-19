@@ -70,6 +70,8 @@ The main types of trichomes are:
 1. Filiform
   + Simple (not-branched), uniseriate
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_cubatanensis_filiform.png "Abaxial surface leaflet of M. cubatanensis") <center> Abaxial surface leaflet  of *M. cubatanensis* with filiform trichomes denser at the base </center>
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_filiform.png "Abaxial surface leaflet of M. cubatanensis") <center> Rachilla of *M. arenosa* sparsely covered with filiform trichomes </center>
+
 
 2. Setiform
   + Simple (not-branched, but sometimes with minute projections), multiseriate
