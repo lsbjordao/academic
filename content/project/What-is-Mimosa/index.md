@@ -71,14 +71,14 @@ url_video: ""
 The main types of trichomes are:
 
 1. Filiform
-  +
+  + Simple (not-branched), uniseriate
 
 2. Setiform
-  +
+  + Simple (not-branched, but sometimes with short projections), multiseriate
   
 3. Stellate
-  +
+  + Multiangulate branched, sessile, subsessile, or stalked, peduncle multiseriate
   
 4. Dendritic
-  +
+  + Branched
   
