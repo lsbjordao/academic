@@ -47,16 +47,14 @@ url_video: ""
 1. **paraphyllidia**
   + Pair of leaf-like projections developed between the pinna-pulvinus and the first pair of leaflets
   + often present
-  + form/shape: often  linear, lanceolate, short-triangular, or oval with acute apex 
-
-![Paraphyllidia of M. bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png "Paraphyllidia of Mimosa bimucronata")  <center> Paraphyllidia of *M. bimucronata* </center>
+  + form/shape: often  linear, lanceolate, short-triangular, or oval with acute apex
+  + ![Paraphyllidia of M. bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png "Paraphyllidia of Mimosa bimucronata")  <center> Paraphyllidia of *M. bimucronata* </center>
 
 2. **spicule**  
   + Projection developed at the interpinnal space on abaxial face of  leaf-rachis
   + present or absent
-  + form/shape: short-triangular (or conical) (as in *M. arenosa*), linear-subulate (as in *M. diplotricha*), or spiniform (as in *M. pigra*).
-  
-![Spicule of M. arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of M. arenosa") <center> Spicule of *M. arenosa* </center>  
+  + form/shape: short-triangular (or conical) (as in *M. arenosa*), linear-subulate (as in *M. diplotricha*), or spiniform (as in *M. pigra*)
+  + ![Spicule of M. arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of M. arenosa") <center> Spicule of *M. arenosa* </center>  
 ![Spicule of M. diplotricha](https://lsbjordao.netlify.com/img/what-is-mimosa/M_diplotricha_spicule.png "Spicule of M. diplotricha") <center> Spicule of *M. diplotricha* </center>  
 ![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spicule of *M. pigra* </center>  
 
@@ -68,3 +66,19 @@ url_video: ""
 
 ![Leaf-nectary of M. extensa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_extensa_leaf-nectary.png "Leaf-nectary of M. extensa") <center> Leaf-nectary of *M. extensa* </center>  
 
+### Recognize different types of trichomes is very important for species identification
+
+The main types of trichomes are:
+
+1. Filiform
+  +
+
+2. Setiform
+  +
+  
+3. Stellate
+  +
+  
+4. Dendritic
+  +
+  
