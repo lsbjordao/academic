@@ -27,7 +27,7 @@ url_video: ""
 
 - *Mimosa* L. belongs to clade Mimosoid, within the family Leguminosae ([LPWG 2017](https://onlinelibrary.wiley.com/doi/abs/10.12705/661.3)).  
 
-- The most comprehensive phylogenetic study of Mimosa proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
+- The most comprehensive phylogenetic study of *Mimosa* proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
 ![simon et al.'s (2011) Mimosa phylogeny](https://lsbjordao.netlify.com/img/what-is-mimosa/M_phylogeny_Simon2011_adapt.png)
 
 - The last taxonomic revision of the genus was performed by [Barneby (1991)](http://antbase.org/ants/publications/nybg/Mimosa%20NY-Botanical_gardens_Vol.%2065%20-%20Copy.pdf).
@@ -55,7 +55,7 @@ url_video: ""
   + form/shape: short-triangular (or conic), linear-subulate, or spiniform
 ![Spicule of M. arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of M. arenosa") <center> short-triangular (or conic) spicule of *M. arenosa* </center>  
 ![Spicule of M. diplotricha](https://lsbjordao.netlify.com/img/what-is-mimosa/M_diplotricha_spicule.png "Spicule of M. diplotricha") <center> Linear-subulate spicule of *M. diplotricha* </center>  
-![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spinniform spicule of *M. pigra* </center>  
+![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spiniform spicule of *M. pigra* </center>  
 
 ### The presence of leaf-nectaries is rare in the genus  
 1. Only present in *M. sect. Mimadenia* Barneby
@@ -75,8 +75,8 @@ The main types of trichomes are:
   
 3. Stellate
   + Multiangulate branched, sessile, subsessile, or stalked, peduncle multiseriate
-  + ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate.png "Stellate-stalked trichome of M. schomburgkii") <center> Stellate-stalked trichome of *M. schomburgkii* </center>
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate.png "Stellate-stalked trichome of M. schomburgkii") <center> Stellate-stalked trichome of *M. schomburgkii* </center>
   
 4. Dendritic
   + Branched
-  
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pilulifera_pseudincana_dendritic.png "Dendritic trichome of M. pilulifera var. pseudincana") <center> Dendritic trichome of *M. pilulifera* var. *pseudincana* </center>
