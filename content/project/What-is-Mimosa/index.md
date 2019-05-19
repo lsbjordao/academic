@@ -83,3 +83,7 @@ The main types of trichomes are:
 4. Dendritic
   + Branched
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pilulifera_pseudincana_dendritic.png "Dendritic trichome of M. pilulifera var. pseudincana") <center> Dendritic trichome of *M. pilulifera* var. *pseudincana* </center>
+
+5. Glandular
+  + Subsessile or stalked
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_paludosa_glandular.png "Glandular-stalked trichome of M. paludosa") <center> Glandular-stalked trichome of *M. paludosa* </center>
