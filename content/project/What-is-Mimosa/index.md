@@ -47,7 +47,9 @@ url_video: ""
   + Pair of leaf-like projections developed between the pinna-pulvinus and the first pair of leaflets
   + often present
   + form/shape: often  linear, lanceolate, short-triangular (or conic), or oval with acute apex
-![Paraphyllidia of M. bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png "Paraphyllidia of Mimosa bimucronata")  <center> Short-triangular (or conic) Paraphyllidia of *M. bimucronata* </center>
+![Paraphyllidia of M. bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png "Paraphyllidia of M. bimucronata")  <center> Short-triangular (or conic) paraphyllidia of *M. bimucronata* </center>
+
+![Paraphyllidia of M. monticola](https://lsbjordao.netlify.com/img/what-is-mimosa/M_monticola_paraphyllidia.png "Paraphyllidia of M. monticola")  <center> Lanceolate paraphyllidia of *M. monticola* </center>
 
 2. **spicule**  
   + Projection developed at the interpinnal space on abaxial face of  leaf-rachis
