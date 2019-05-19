@@ -39,7 +39,6 @@ url_video: ""
   + capitate inflorescence ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower.png)
   
   + craspedium, a type of legume  which is divided into monospermic and caducous articles and with a persistent replum (border) ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_fruit.png) <center> Craspedium with articulated epicarp of *M. campicola* </center>
-
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_ceratonia_fruit.png) <center> Craspedium with non-articulated epicarp of *M. ceratonia* </center>
 
 ### *Mimosa* is especially distinguished by two *sui generis* leaf structures:  
