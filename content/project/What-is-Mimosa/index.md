@@ -69,10 +69,12 @@ The main types of trichomes are:
 
 1. Filiform
   + Simple (not-branched), uniseriate
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_cubatanensis_filiform.png "Abaxial surface leaflet of M. cubatanensis") <center> Abaxial surface leaflet  of *M. cubatanensis* with filiform trichomes denser at the base </center>
 
 2. Setiform
   + Simple (not-branched, but sometimes with short projections), multiseriate
-  
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_sensitiva_trichomes.png "Abaxial surface leaflet of M. sensitiva") <center> Abaxial surface leaflet  of *M. sensitiva* showing both filiform (smaller) and setiform (longer) trichomes </center>
+
 3. Stellate
   + Multiangulate branched, sessile, subsessile, or stalked, peduncle multiseriate
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate.png "Stellate-stalked trichome of M. schomburgkii") <center> Stellate-stalked trichome of *M. schomburgkii* </center>
