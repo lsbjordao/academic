@@ -104,6 +104,7 @@ The main types of trichomes are:
 2. Calyx 
   + campanulate
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_elliptica_flower.png "Flower of M. elliptica") <center> Campanulate calyx  of *M. elliptica* </center>
+
   + pappiform (term used by Barneby 1991 in allusion to the pappiform calyx of Asteraceae)
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png "Flower of M. pigra") <center> Pappiform calyx  of *M. pigra* </center>
   
