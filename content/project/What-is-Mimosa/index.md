@@ -47,16 +47,16 @@ url_video: ""
 1. **paraphyllidia**
   + Pair of leaf-like projections developed between the pinna-pulvinus and the first pair of leaflets
   + often present
-  + form/shape: often  linear, lanceolate, short-triangular, or oval with acute apex
-  + ![Paraphyllidia of M. bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png "Paraphyllidia of Mimosa bimucronata")  <center> Paraphyllidia of *M. bimucronata* </center>
+  + form/shape: often  linear, lanceolate, short-triangular (or conic), or oval with acute apex
+  + ![Paraphyllidia of M. bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png "Paraphyllidia of Mimosa bimucronata")  <center> Short-triangular (or conic) Paraphyllidia of *M. bimucronata* </center>
 
 2. **spicule**  
   + Projection developed at the interpinnal space on abaxial face of  leaf-rachis
   + present or absent
-  + form/shape: short-triangular (or conical) (as in *M. arenosa*), linear-subulate (as in *M. diplotricha*), or spiniform (as in *M. pigra*)
-  + ![Spicule of M. arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of M. arenosa") <center> Spicule of *M. arenosa* </center>  
-![Spicule of M. diplotricha](https://lsbjordao.netlify.com/img/what-is-mimosa/M_diplotricha_spicule.png "Spicule of M. diplotricha") <center> Spicule of *M. diplotricha* </center>  
-![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spicule of *M. pigra* </center>  
+  + form/shape: short-triangular (or conic), linear-subulate, or spiniform
+  + ![Spicule of M. arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of M. arenosa") <center> short-triangular (or conic) spicule of *M. arenosa* </center>  
+![Spicule of M. diplotricha](https://lsbjordao.netlify.com/img/what-is-mimosa/M_diplotricha_spicule.png "Spicule of M. diplotricha") <center> Linear-subulate spicule of *M. diplotricha* </center>  
+![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spinniform spicule of *M. pigra* </center>  
 
 ### The presence of leaf-nectaries is rare in the genus  
 1. Only present in *M. sect. Mimadenia* Barneby
@@ -78,7 +78,7 @@ The main types of trichomes are:
   
 3. Stellate
   + Multiangulate branched, sessile, subsessile, or stalked, peduncle multiseriate
-  + ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgii_stellate.png "Stellate-stalked trichome of M. schomburgkii") <center> Stellate-stalked trichome of *M. schomburgkii* </center>
+  + ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate.png "Stellate-stalked trichome of M. schomburgkii") <center> Stellate-stalked trichome of *M. schomburgkii* </center>
   
 4. Dendritic
   + Branched
