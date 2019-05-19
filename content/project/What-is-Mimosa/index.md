@@ -79,7 +79,7 @@ The main types of trichomes are:
 
 3. Stellate
   + Multiangulate branched, sessile, subsessile, or stalked, peduncle multiseriate
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellateII.png "Stellate-stalked trichomes of M. schomburgkii") <center> Stellate-subsessile or -sessile trichomes of *M. schomburgkii* </center>
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate_2.png "Stellate-stalked trichomes of M. schomburgkii") <center> Stellate-subsessile or -sessile trichomes of *M. schomburgkii* </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate.png "Stellate-stalked trichomes of M. schomburgkii") <center> Stellate-stalked trichome of *M. schomburgkii* </center>
   
 4. Dendritic
