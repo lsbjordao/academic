@@ -95,6 +95,6 @@ The main types of trichomes are:
 ### Flower morphology is one of the most important diagnostic character
 
 1. Calyx 
-  + pappiform (term used in allusion to the pappiform calyx of Asteraceae by Barneby 1991)
+  + pappiform (term used by Barneby 1991 in allusion to the pappiform calyx of Asteraceae)
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png "Flower of M. pigra") <center> Pappiform calyx  of *M. pigra* </center>
   
