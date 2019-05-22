@@ -32,7 +32,7 @@ url_video: ""
 
 - The last taxonomic revision of the genus was performed by [Barneby (1991)](http://antbase.org/ants/publications/nybg/Mimosa%20NY-Botanical_gardens_Vol.%2065%20-%20Copy.pdf).
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/sensitivae_censitae.png)
-<center><iframe src="https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991" width="430" height="290x"></iframe></center>
+<center><iframe src="https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991" width="350" height="290x"></iframe></center>
 
 - *Mimosa* is characterized by its bipinnate and paripinnate leaves, capitate or spicate inflorescence, 3–6-merous flowers, iso- or diplostemonous, and craspedium fruit, with articulated or non-articulated epicarp, and differs from other similar mimosoids by the 6-12 stamens and  absence of glands on the anthers (Barneby 1991, [Barroso et al. 1999](https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=2ahUKEwjMwqH9q43iAhWXGrkGHXW-AhIQFjAIegQICRAB&url=http%3A%2F%2Fwww.scielo.br%2Fscielo.php%3Fscript%3Dsci_nlinks%26ref%3D000094%26pid%3DS0101-3122200800020001800001%26lng%3Dpt&usg=AOvVaw3LSkJeELCWqgqe7bpP5Bx6)).
   + Bipinnate and paripinnate leaf ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_leaf.png) <center> Leaf of *M. diplotricha* </center>
@@ -83,21 +83,21 @@ The main types of trichomes are:
 3. Stellate
   + Multiangulate branched, sessile, subsessile, or stalked, peduncle multiseriate
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate_2.png "Stellate-stalked trichomes of M. schomburgkii") <center> Stellate-subsessile or -sessile trichomes of *M. schomburgkii* </center>
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate.png "Stellate-stalked trichomes of M. schomburgkii") <center> Stellate-stalked trichome of *M. schomburgkii* </center>
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate.png "Stellate-stalked trichomes of M. schomburgkii") <center> Stellate-stalked trichomes of *M. schomburgkii* </center>
   
 4. Dendritic
   + Multiseriate axis, densely branched
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pilulifera_pseudincana_dendritic.png "Dendritic trichome of M. pilulifera var. pseudincana") <center> Dendritic trichome of *M. pilulifera* var. *pseudincana* </center>
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pilulifera_pseudincana_dendritic.png "Dendritic trichomes of M. pilulifera var. pseudincana") <center> Dendritic trichomes of *M. pilulifera* var. *pseudincana* </center>
 
 5. Glandular
   + Subsessile or stalked
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_glandular.png "Glandular-subsessile trichome of M. arenosa") <center> Glandular-subsessile trichome of *M. paludosa* </center>
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_paludosa_glandular.png "Glandular-stalked trichome of M. paludosa") <center> Glandular-stalked trichome of *M. paludosa* </center>
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_glandular.png "Glandular-subsessile trichomes of M. arenosa") <center> Glandular-subsessile trichomes of *M. paludosa* </center>
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_paludosa_glandular.png "Glandular-stalked trichomes of M. paludosa") <center> Glandular-stalked trichomes of *M. paludosa* </center>
 
 ### Flower morphology is one of the most important diagnostic character
 
 1. Merism
-  + Most species is Tetramerous, but others are trimerous, pentamerous, and, rarely, hexamerous
+  + Most species is tetramerous, but others are trimerous, pentamerous, and, rarely, hexamerous
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_flower.png "Flower of M. bimucronata") <center> Tetramerous flower  of *M. bimucronata* </center>
   
   + Trimery is a rare condition, and evolved independently at least six times in the genus (Simon et al. 2011)
