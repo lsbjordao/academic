@@ -38,7 +38,6 @@ url_video: ""
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<body>
 
 <div class="container">
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Classification of <i>Mimosa</i> (Barneby 1991)</button>
