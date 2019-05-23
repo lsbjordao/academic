@@ -39,7 +39,7 @@ url_video: ""
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Classification of <i>Mimosa</i> (Barneby 1991)</button>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Classification of Barneby (1991)</button>
   <div id="demo" class="collapse">
     <iframe src="https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991" width="340" height="290x"></iframe>
   </div>
