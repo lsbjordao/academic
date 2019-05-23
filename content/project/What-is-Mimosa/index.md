@@ -38,14 +38,14 @@ url_video: ""
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<center>
+<body>
+
 <div class="container">
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Classification of <i>Mimosa</i> (Barneby 1991)</button>
   <div id="demo" class="collapse">
     <iframe src="https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991" width="340" height="290x"></iframe>
   </div>
 </div>
-</center>
 <center>[tela cheia](https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991)</center>
 
 - *Mimosa* is characterized by its bipinnate and paripinnate leaves, capitate or spicate inflorescence, 3–6-merous flowers, iso- or diplostemonous, and craspedium fruit, with articulated or non-articulated epicarp, and differs from other similar mimosoids by the 6-12 stamens and  absence of glands on the anthers (Barneby 1991, [Barroso et al. 1999](https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=2ahUKEwjMwqH9q43iAhWXGrkGHXW-AhIQFjAIegQICRAB&url=http%3A%2F%2Fwww.scielo.br%2Fscielo.php%3Fscript%3Dsci_nlinks%26ref%3D000094%26pid%3DS0101-3122200800020001800001%26lng%3Dpt&usg=AOvVaw3LSkJeELCWqgqe7bpP5Bx6)).
