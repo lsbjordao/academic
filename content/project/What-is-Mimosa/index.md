@@ -72,7 +72,7 @@ url_video: ""
 ![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spiniform spicule of *M. pigra* </center>  
 
 ### The presence of leaf-nectaries is rare in the genus  
-1. Only present in *M. sect. Mimadenia* Barneby
+- Only present in *M. sect. Mimadenia* Barneby
   + Composed by only 16 species
   + The only monophyletic section in the genus, according Barneby's (1991) infrageneric classification, and sister group of all other Mimosa groups ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520))
     + Hence, the presence of leaf-nectaries is a plesiomorphic trait ![Leaf-nectary of M. extensa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_extensa_leaf-nectary.png "Leaf-nectary of M. extensa") <center> Leaf-nectary of *M. extensa* </center>  
