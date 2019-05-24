@@ -49,21 +49,21 @@ url_video: ""
 - *Mimosa* is characterized by its bipinnate and paripinnate leaves, capitate or spicate inflorescence, 3–6-merous flowers, iso- or diplostemonous, and craspedium fruit, with articulated or non-articulated epicarp, and differs from other similar mimosoids by the 6-12 stamens and  absence of glands on the anthers (Barneby 1991, [Barroso et al. 1999](https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=2ahUKEwjMwqH9q43iAhWXGrkGHXW-AhIQFjAIegQICRAB&url=http%3A%2F%2Fwww.scielo.br%2Fscielo.php%3Fscript%3Dsci_nlinks%26ref%3D000094%26pid%3DS0101-3122200800020001800001%26lng%3Dpt&usg=AOvVaw3LSkJeELCWqgqe7bpP5Bx6)).
   + Bipinnate and paripinnate leaf ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_leaf.png) <center> Leaf of *M. diplotricha* </center>
   
-  + capitate inflorescence ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower.png)
+  + Capitate inflorescence ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower.png)
   
   + **craspedium**, a type of legume with a persistent margin (replum) and which its epicarp is, generally, divided into monospermic and caducous articles (articulated) or the entire epicarp is caducous (non-articulated) ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_fruit.png) <center> Craspedium with **articulated** epicarp of *M. campicola* </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_ceratonia_fruit.png) <center> Craspedium with **non-articulated** epicarp of *M. ceratonia* </center>
 
 ### *Mimosa* is especially distinguished by two peculiar leaf structures:  
 
-1. **paraphyllidia**
+1. **Paraphyllidia**
   + Pair of leaf-like projections developed between the pinna-pulvinus and the first pair of leaflets
   + often present
   + form/shape: often  linear, lanceolate, short-triangular (or conic), or oval with acute apex
 ![Paraphyllidia of M. bimucronata](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_paraphyllidia.png "Paraphyllidia of M. bimucronata")  <center> Short-triangular (or conic) paraphyllidia of *M. bimucronata* </center>
 ![Paraphyllidia of M. monticola](https://lsbjordao.netlify.com/img/what-is-mimosa/M_monticola_paraphyllidia.png "Paraphyllidia of M. monticola")  <center> Lanceolate paraphyllidia of *M. monticola*, unequal in size </center>
 
-2. **spicule**  
+2. **Spicule**  
   + Projection developed at the interpinnal space on abaxial face of  leaf-rachis
   + present or absent
   + form/shape: short-triangular (or conic), linear-subulate, or spiniform
@@ -117,9 +117,9 @@ The main types of **trichomes** are:
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_caesalpiniifolia_flower.png "Flower of M. caesalpiniifolia") <center> Trimerous flower  of *M. caesalpiniifolia* </center>
 
 2. Calyx 
-  + campanulate
+  + **Campanulate**
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_elliptica_flower.png "Flower of M. elliptica") <center> Campanulate calyx  of *M. elliptica* </center>
 
-  + pappiform (term used by Barneby 1991 in allusion to the pappiform calyx of Asteraceae)
+  + **Pappiform** (term used by Barneby 1991 in allusion to the pappiform calyx of Asteraceae)
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png "Flower of M. pigra") <center> Pappiform calyx  of *M. pigra* </center>
   
