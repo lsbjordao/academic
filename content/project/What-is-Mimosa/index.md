@@ -79,29 +79,29 @@ url_video: ""
 
 ### Recognize different types of trichomes is very important for species identification
 
-The main types of trichomes are:
+The main types of **trichomes** are:
 
-1. Filiform
+1. **Filiform**
   + Simple (not-branched), uniseriate
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_cubatanensis_filiform.png "Abaxial surface leaflet of M. cubatanensis") <center> Abaxial surface leaflet  of *M. cubatanensis* with filiform trichomes denser at the base </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_filiform.png "Abaxial surface leaflet of M. cubatanensis") <center> Rachilla of *M. arenosa* sparsely covered with filiform trichomes </center>  
 
-2. Setiform
+2. **Setiform**
   + Simple (not-branched, but sometimes with minute projections), multiseriate
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_sensitiva_trichomes.png "Abaxial surface leaflet of M. sensitiva") <center> Abaxial surface leaflet  of *M. sensitiva* showing both filiform (smaller) and setiform (longer) trichomes </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_setiform.png "Stem of M. pigra") <center> Abaxial surface leaflet  of *M. pigra* with setiform trichomes with minute projections </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_elliptica_setiform.png "Stipule of M. elliptica") <center> Stipule  of *M. elliptica* with setiform trichomes with dilated base </center>
 
-3. Stellate
+3. **Stellate**
   + Multiangulate branched, sessile, subsessile, or stalked, peduncle multiseriate
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate_2.png "Stellate-stalked trichomes of M. schomburgkii") <center> Stellate-subsessile or -sessile trichomes of *M. schomburgkii* </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_schomburgkii_stellate.png "Stellate-stalked trichomes of M. schomburgkii") <center> Stellate-stalked trichomes of *M. schomburgkii* </center>
   
-4. Dendritic
+4. **Dendritic**
   + Multiseriate axis, densely branched
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pilulifera_pseudincana_dendritic.png "Dendritic trichomes of M. pilulifera var. pseudincana") <center> Dendritic trichomes of *M. pilulifera* var. *pseudincana* </center>
 
-5. Glandular
+5. **Glandular**
   + Subsessile or stalked
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_glandular.png "Glandular-subsessile trichomes of M. arenosa") <center> Glandular-subsessile trichomes of *M. paludosa* </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_paludosa_glandular.png "Glandular-stalked trichomes of M. paludosa") <center> Glandular-stalked trichomes of *M. paludosa* </center>
