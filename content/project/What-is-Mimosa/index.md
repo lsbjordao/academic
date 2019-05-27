@@ -153,22 +153,22 @@ The main types of **trichomes** are:
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa1.jpg" width="10" height="10">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa1.jpg" width="150" height="150">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa2.jpg" width="10" height="10">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa2.jpg" width="150" height="150">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa3.jpg" width="10" height="10">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa3.jpg" width="150" height="150">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa4.jpg" width="10" height="10">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa4.jpg" width="150" height="150">
         <div class="carousel-caption">
         </div>
       </div>
@@ -178,7 +178,7 @@ The main types of **trichomes** are:
         </div>
       </div>
       <div class="item">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa6.jpg" width="10" height="10">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa6.jpg" width="150" height="150">
         <div class="carousel-caption">
         </div>
     </div>
