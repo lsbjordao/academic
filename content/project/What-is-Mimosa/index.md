@@ -108,7 +108,7 @@ The main types of **trichomes** are:
 
 ### Flower morphology is one of the most important diagnostic character
 
-1. Merism
+1. **Merosity**
   + Most species is tetramerous, but others are trimerous, pentamerous, and, rarely, hexamerous
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_flower.png "Flower of M. bimucronata") <center> Tetramerous flower  of *M. bimucronata* </center>
   
@@ -116,7 +116,7 @@ The main types of **trichomes** are:
     - Mostly are natural from the Brazilian Caatinga
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_caesalpiniifolia_flower.png "Flower of M. caesalpiniifolia") <center> Trimerous flower  of *M. caesalpiniifolia* </center>
 
-2. Calyx 
+2. **Calyx** 
   + **Campanulate**
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_elliptica_flower.png "Flower of M. elliptica") <center> Campanulate calyx  of *M. elliptica* </center>
 
