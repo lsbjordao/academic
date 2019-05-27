@@ -135,7 +135,6 @@ The main types of **trichomes** are:
   .carousel-inner > .item > a > img {
     width: 100%;
     height: 100%;
-    margin: auto;
   }
   </style>
 </head>
