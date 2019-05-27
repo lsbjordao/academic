@@ -132,14 +132,19 @@ The main types of **trichomes** are:
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
   .carousel-inner img {
-      width: 30%;
-      height: 30%;
+      width: 100%;
+      height: 100%;
   }
   </style>
 </head>
+<body>
 <div class="container">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+myCarousel {
+    width: 300px;
+    height:300px;
+}    
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
