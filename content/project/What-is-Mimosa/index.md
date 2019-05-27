@@ -108,6 +108,7 @@ The main types of **trichomes** are:
 
 ### Flower morphology is one of the most important diagnostic character
 
+<body>
 <div class="container mt-3">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs">
@@ -186,6 +187,7 @@ $(document).ready(function(){
   });
 });
 </script>
+</body>
 
 ### Some photos
 
