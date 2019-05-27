@@ -139,8 +139,6 @@ The main types of **trichomes** are:
   }
   </style>
 </head>
-<body>
-
 <div class="container">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -193,4 +191,3 @@ The main types of **trichomes** are:
     </a>
   </div>
 </div>
-</body>
