@@ -125,14 +125,6 @@ The main types of **trichomes** are:
 
 ### Some photos
 
-<head>
-  <style>
-  .carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
-  </style>
-</head>
 <div class="container" style="width: 300px">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
