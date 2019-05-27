@@ -108,20 +108,84 @@ The main types of **trichomes** are:
 
 ### Flower morphology is one of the most important diagnostic character
 
-1. **Merosity**
-  + Most species is tetramerous, but others are trimerous, pentamerous, and, rarely, hexamerous
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_flower.png "Flower of M. bimucronata") <center> Tetramerous flower  of *M. bimucronata* </center>
-  
-  + Trimery is a rare condition, and evolved independently at least six times in the genus (Simon et al. 2011)
-    - Mostly are natural from the Brazilian Caatinga
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_caesalpiniifolia_flower.png "Flower of M. caesalpiniifolia") <center> Trimerous flower  of *M. caesalpiniifolia* </center>
-
-2. **Calyx** 
-  + **Campanulate**
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_elliptica_flower.png "Flower of M. elliptica") <center> Campanulate calyx  of *M. elliptica* </center>
-
-  + **Pappiform** (term used by Barneby 1991 in allusion to the pappiform calyx of Asteraceae)
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png "Flower of M. pigra") <center> Pappiform calyx  of *M. pigra* </center>
+<div class="container mt-3">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#merosity">Merosity</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#stamens">Number of stamens</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#calyx">Calyx</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#corolla">Corolla</a>
+    </li>    
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content border mb-3">
+    <div id="merosity" class="container tab-pane active"><br>
+      <style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+      <p>• Most species is tetramerous, but others are trimerous, pentamerous, and, rarely, hexamerous.</p>
+      <p>• Trimery is a rare condition, and evolved independently at least six times in the genus (Simon et al. 2011). Mostly are natural from the Brazilian Caatinga.</p>
+      <div class="row">
+  <div class="column">
+    <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_bimucronata_flower.png" alt="Snow" style="width:30%"> 
+    <p>Tetramerous flower of <i>M. bimucronata</i></p>
+  </div>
+  <div class="column">
+    <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_caesalpiniifolia_flower.png" alt="Forest" style="width:50%">
+    <p>Trimerous flower  of <i>M. caesalpiniifolia</i></p>
+  </div>
+</div>
+    </div>
+    <div id="stamens" class="container tab-pane fade"><br>
+      <p>• Isostemonous</p>
+      <p>Sect. Mimosa & Sect. Calothamnos</p>
+      <p>• Diplostemonous</p>
+      <p>Sect. Mimadenia & Sect. Batocaulon & Sect. Habbasia</p>
+    </div>
+    <div id="calyx" class="container tab-pane fade"><br>
+      <div class="row">
+  <div class="column">
+    <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_elliptica_flower.png" alt="Snow" style="width:45%"> 
+    <p>Campanulate calyx of <i>M. elliptica</i></p>
+  </div>
+  <div class="column">
+    <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png" alt="Forest" style="width:47%">
+    <p>Pappiform calyx of <i>M. pigra</i></p>
+  </div>
+</div>
+    </div>
+    <div id="corolla" class="container tab-pane fade"><br>
+      <p>Uninerved ou multinerved.</p>
+    </div>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+});
+</script>
 
 ### Some photos
 
