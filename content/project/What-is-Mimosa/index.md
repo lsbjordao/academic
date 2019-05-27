@@ -139,6 +139,7 @@ The main types of **trichomes** are:
   </style>
 </head>
 <body>
+
 <div class="container">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -152,32 +153,32 @@ The main types of **trichomes** are:
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa1.jpg" alt="Flower" width="150" height="140">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa1.jpg" width="10" height="10">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa2.jpg" alt="Chania" width="150" height="140">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa2.jpg" width="10" height="10">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa3.jpg" alt="Flower" width="150" height="140">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa3.jpg" width="10" height="10">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa4.jpg" alt="Flower" width="150" height="140">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa4.jpg" width="10" height="10">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa5.jpg" alt="Flower" width="150" height="140">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa5.jpg" width="10" height="10">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa6.jpg" alt="Flower" width="150" height="140">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa6.jpg" width="10" height="10">
         <div class="carousel-caption">
         </div>
     </div>
