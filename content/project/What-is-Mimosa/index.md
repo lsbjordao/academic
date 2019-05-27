@@ -138,13 +138,9 @@ The main types of **trichomes** are:
   </style>
 </head>
 <body>
-<div class="container">
+<div class="container" style="width: 200px">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-myCarousel {
-    width: 300px;
-    height:300px;
-}    
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
