@@ -132,8 +132,8 @@ The main types of **trichomes** are:
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
   .carousel-inner img {
-      width: 100%;
-      height: 100%;
+      width: 30%;
+      height: 30%;
   }
   </style>
 </head>
