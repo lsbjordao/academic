@@ -45,18 +45,30 @@ url_video: ""
 
   + Sect. Mimadenia
       - [x] leaf nectaries
+      - [ ] setiform trichomes
+      - [x] diplostemonous flowers
       
   + Sect. Batocaulon
       - [ ] leaf nectaries
+      - [ ] setiform trichomes
+      - [x] diplostemonous flowers
       
   + Sect. Calothamnos
       - [ ] leaf nectaries
+      - [ ] setiform trichomes
+      - [x] dendritic and stellate trichomes
+      - [x] flowers including filaments yellowish
+      - [x] isostemonous flowers
       
   + Sect. Habbasia
       - [ ] leaf nectaries
+      - [x] setiform trichomes, often with dilated base
+      - [x] diplostemonous flowers
       
   + Sect. Mimosa
       - [ ] leaf nectaries
+      - [x] setiform trichomes
+      - [x] isostemonous flowers
   
   
 - The most comprehensive phylogenetic study of *Mimosa* proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
