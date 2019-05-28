@@ -144,15 +144,19 @@ The main types of **trichomes** are:
 
   + Whitish
       - Many
-    
+  
+  
   + Pinkish
       - Many
-    
+  
+  
   + Yellowish
       - Sect. *Calothamnos*
-    
+  
+
   + Purplish
       - Many
+  
   
   + Reddish
       - [*M. myriophylla*](https://species.wikimedia.org/wiki/Mimosa_myriophylla#/media/File:Mimosa_myriophylla.jpg)
