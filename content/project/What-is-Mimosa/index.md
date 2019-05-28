@@ -28,6 +28,7 @@ url_video: ""
 
 - The last taxonomic revision of the genus was performed by [Barneby (1991)](http://antbase.org/ants/publications/nybg/Mimosa%20NY-Botanical_gardens_Vol.%2065%20-%20Copy.pdf).
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/sensitivae_censitae.png)
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -43,7 +44,9 @@ url_video: ""
 [tela cheia](https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991)
 </div>
 
+
 - The most comprehensive phylogenetic study of *Mimosa* proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
+
 <div class="container">
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Main clades by Simon et al. (2011)</button>
   <div id="demo" class="collapse">
