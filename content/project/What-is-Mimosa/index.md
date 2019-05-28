@@ -66,11 +66,15 @@ url_video: ""
 ![Spicule of M. arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of M. arenosa") <center> short-triangular (or conic) spicule of *M. arenosa* </center>  
 ![Spicule of M. diplotricha](https://lsbjordao.netlify.com/img/what-is-mimosa/M_diplotricha_spicule.png "Spicule of M. diplotricha") <center> Linear-subulate spicule of *M. diplotricha* </center>  
 ![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spiniform spicule of *M. pigra* </center>  
-  
-  + **Capitate** inflorescence ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower.png)
 
-  + **Spicate** inflorescence ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower2.png)
-  
+### Inflorescence types
+
+  + **Capitate** ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower.png)
+
+  + **Spicate** ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower2.png)
+
+### Fruit types
+
   + **Craspedium**, a type of legume with a persistent margin (replum) and which its epicarp is, generally, divided into monospermic and caducous articles (articulated) or the entire epicarp is divided into two caducous valves (non-articulated) ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_fruit.png) <center> Craspedium with **articulated** epicarp of *M. campicola* </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_ceratonia_fruit.png) <center> Craspedium with **non-articulated** epicarp of *M. ceratonia* </center>
 
