@@ -62,7 +62,7 @@ url_video: ""
       
   + Sect. Habbasia
       - [ ] leaf nectaries
-      - [x] setiform trichomes, often with dilated base
+      - [x] setiform trichomes, some species with dilated base
       - [x] diplostemonous flowers
       
   + Sect. Mimosa
