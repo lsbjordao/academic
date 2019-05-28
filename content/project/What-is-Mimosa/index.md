@@ -35,9 +35,9 @@ url_video: ""
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 </head>
 <div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Clades of Simon et al. (2011)</button>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Main clades by Simon et al. (2011)</button>
   <div id="demo" class="collapse">
-    <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_phylogeny_Simon2011.png">
+    <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_phylogeny_Simon2011.png" style="float:left">
   </div>
 </div>
 
