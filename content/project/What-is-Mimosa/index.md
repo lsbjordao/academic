@@ -67,17 +67,6 @@ url_video: ""
 ![Spicule of M. diplotricha](https://lsbjordao.netlify.com/img/what-is-mimosa/M_diplotricha_spicule.png "Spicule of M. diplotricha") <center> Linear-subulate spicule of *M. diplotricha* </center>  
 ![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spiniform spicule of *M. pigra* </center>  
 
-### Inflorescence types
-
-  + **Capitate** ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower.png)
-
-  + **Spicate** ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower2.png)
-
-### Fruit types
-
-  + **Craspedium**, a type of legume with a persistent margin (replum) and which its epicarp is, generally, divided into monospermic and caducous articles (articulated) or the entire epicarp is divided into two caducous valves (non-articulated) ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_fruit.png) <center> Craspedium with **articulated** epicarp of *M. campicola* </center>
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_ceratonia_fruit.png) <center> Craspedium with **non-articulated** epicarp of *M. ceratonia* </center>
-
 ### The presence of leaf-nectaries is rare in the genus  
 - Only present in *M. sect. Mimadenia* Barneby
   + Composed by only 16 species
@@ -112,6 +101,12 @@ The main types of **trichomes** are:
   + Subsessile or stalked
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_glandular.png "Glandular-subsessile trichomes of M. arenosa") <center> Glandular-subsessile trichomes of *M. paludosa* </center>
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_paludosa_glandular.png "Glandular-stalked trichomes of M. paludosa") <center> Glandular-stalked trichomes of *M. paludosa* </center>
+
+### Inflorescence types
+
+  + **Capitate** ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower.png)
+
+  + **Spicate** ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower2.png)
 
 ### Flower morphology is one of the most important diagnostic character
 
@@ -152,6 +147,11 @@ The main types of **trichomes** are:
   + Purplish
   
   + Reddish
+  
+### Fruit type
+
+  + **Craspedium**, a type of legume with a persistent margin (replum) and which its epicarp is, generally, divided into monospermic and caducous articles (articulated) or the entire epicarp is divided into two caducous valves (non-articulated) ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_fruit.png) <center> Craspedium with **articulated** epicarp of *M. campicola* </center>
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_ceratonia_fruit.png) <center> Craspedium with **non-articulated** epicarp of *M. ceratonia* </center>
 
 ### Some photos
 
