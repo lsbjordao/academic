@@ -244,8 +244,7 @@ The main types of **trichomes** are:
       <div class="item">
         <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa7.jpg">
         <div class="carousel-caption">
-        </div>
-    </div>
+      </div>
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
