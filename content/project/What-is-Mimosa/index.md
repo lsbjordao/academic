@@ -43,29 +43,29 @@ url_video: ""
 [tela cheia](https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991)
 </div>
 
-  + Sect. Mimadenia
+  + Sect. *Mimadenia*
       - [x] leaf nectaries
       - [ ] setiform trichomes
       - [x] diplostemonous flowers
       
-  + Sect. Batocaulon
+  + Sect. *Batocaulon*
       - [ ] leaf nectaries
       - [ ] setiform trichomes
       - [x] diplostemonous flowers
       
-  + Sect. Calothamnos
+  + Sect. *Calothamnos*
       - [ ] leaf nectaries
       - [ ] setiform trichomes
       - [x] dendritic and stellate trichomes
-      - [x] flowers including filaments yellowish
+      - [x] yellowish flowers
       - [x] isostemonous flowers
       
-  + Sect. Habbasia
+  + Sect. *Habbasia*
       - [ ] leaf nectaries
       - [x] setiform trichomes, some species with dilated base
       - [x] diplostemonous flowers
       
-  + Sect. Mimosa
+  + Sect. *Mimosa*
       - [ ] leaf nectaries
       - [x] setiform trichomes
       - [x] isostemonous flowers
