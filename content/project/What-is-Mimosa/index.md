@@ -36,15 +36,19 @@ url_video: ""
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 </head>
 <div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Classification of Barneby (1991)</button>
-  <div id="demo" class="collapse">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#barneby">Classification of Barneby (1991)</button>
+  <div id="barneby" class="collapse">
     <iframe src="https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991" width="340" height="290x"></iframe>
   </div>
 [tela cheia](https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991)
 </div>
 
 - The most comprehensive phylogenetic study of *Mimosa* proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_phylogeny_Simon2011.png)
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#simon">Classification of Barneby (1991)</button>
+  <div id="simon" class="collapse">
+    <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_phylogeny_Simon2011.png" class="center">
+  </div>
 
 - *Mimosa* is characterized by its bipinnate and paripinnate leaves, capitate or spicate inflorescence, 3–6-merous flowers, iso- or diplostemonous, and craspedium fruit, with articulated or non-articulated epicarp, and differs from other similar mimosoids by the 6-12 stamens and  absence of glands on the anthers (Barneby 1991, [Barroso et al. 1999](https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=2ahUKEwjMwqH9q43iAhWXGrkGHXW-AhIQFjAIegQICRAB&url=http%3A%2F%2Fwww.scielo.br%2Fscielo.php%3Fscript%3Dsci_nlinks%26ref%3D000094%26pid%3DS0101-3122200800020001800001%26lng%3Dpt&usg=AOvVaw3LSkJeELCWqgqe7bpP5Bx6)).
 
