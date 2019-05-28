@@ -45,7 +45,7 @@ url_video: ""
 
 - The most comprehensive phylogenetic study of *Mimosa* proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
 <div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#simon">Classification of Barneby (1991)</button>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#simon">Main clades by Simon et al. (2011)</button>
   <div id="simon" class="collapse">
     <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_phylogeny_Simon2011.png" class="center">
   </div>
