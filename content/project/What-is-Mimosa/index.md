@@ -131,11 +131,14 @@ The main types of **trichomes** are:
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png "Flower of M. pigra") <center> Pappiform calyx  of *M. pigra* </center>
 
 3. **Number of stamens**
+
   + **Diplostemonous**
+  
     - Plesiomorphic trait
     - Sect. *Mimadenia*, *Batocaulon* (few exceptions) and *Habbasia*
     
   + **Isostemonous**
+  
     - Apomorphic trait
     - Sect. *Calothamnos* and *Mimosa*
     
