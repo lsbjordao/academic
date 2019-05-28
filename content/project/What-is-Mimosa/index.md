@@ -58,8 +58,7 @@ Diagnostic characters of sections, according Barneby (1991):
       - [ ] leaf nectaries
       - [ ] setiform trichomes
       - [x] dendritic and stellate trichomes
-      - [x] yellowish flowers
-      - [x] isostemonous flowers
+      - [x] yellowish and isostemonous flowers
       
   + Sect. *Habbasia*
       - [ ] leaf nectaries
