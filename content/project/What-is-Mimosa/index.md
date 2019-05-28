@@ -65,6 +65,7 @@ url_video: ""
     <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_phylogeny_Simon2011.png">
   </div>
   + Sect. *Mimadenia* is the only monophyletic section in the genus, according Barneby's (1991) infrageneric classification.
+  
   + A new classification based on phylogenetic studies is expected for the genus.
   
   
