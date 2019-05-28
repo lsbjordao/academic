@@ -47,16 +47,10 @@ url_video: ""
 </div>
 
 - *Mimosa* is characterized by its bipinnate and paripinnate leaves, capitate or spicate inflorescence, 3–6-merous flowers, iso- or diplostemonous, and craspedium fruit, with articulated or non-articulated epicarp, and differs from other similar mimosoids by the 6-12 stamens and  absence of glands on the anthers (Barneby 1991, [Barroso et al. 1999](https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=2ahUKEwjMwqH9q43iAhWXGrkGHXW-AhIQFjAIegQICRAB&url=http%3A%2F%2Fwww.scielo.br%2Fscielo.php%3Fscript%3Dsci_nlinks%26ref%3D000094%26pid%3DS0101-3122200800020001800001%26lng%3Dpt&usg=AOvVaw3LSkJeELCWqgqe7bpP5Bx6)).
-  + Bipinnate and paripinnate leaf ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_leaf.png) <center> Leaf of *M. diplotricha* </center>
-  
-  + **Capitate** inflorescence ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower.png)
-
-  + **Spicate** inflorescence ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower2.png)
-  
-  + **Craspedium**, a type of legume with a persistent margin (replum) and which its epicarp is, generally, divided into monospermic and caducous articles (articulated) or the entire epicarp is divided into two caducous valves (non-articulated) ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_fruit.png) <center> Craspedium with **articulated** epicarp of *M. campicola* </center>
-![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_ceratonia_fruit.png) <center> Craspedium with **non-articulated** epicarp of *M. ceratonia* </center>
 
 ### *Mimosa* is especially distinguished by two peculiar leaf structures:  
+
+  + Bipinnate and paripinnate leaf ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_leaf.png) <center> Leaf of *M. diplotricha* </center>
 
 1. **Paraphyllidia**
   + Pair of leaf-like projections developed between the pinna-pulvinus and the first pair of leaflets
@@ -72,6 +66,13 @@ url_video: ""
 ![Spicule of M. arenosa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_arenosa_spicule.png "Spicule of M. arenosa") <center> short-triangular (or conic) spicule of *M. arenosa* </center>  
 ![Spicule of M. diplotricha](https://lsbjordao.netlify.com/img/what-is-mimosa/M_diplotricha_spicule.png "Spicule of M. diplotricha") <center> Linear-subulate spicule of *M. diplotricha* </center>  
 ![Spicule of M. pigra](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_spicule.png "Spicule of M. pigra") <center> Spiniform spicule of *M. pigra* </center>  
+  
+  + **Capitate** inflorescence ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower.png)
+
+  + **Spicate** inflorescence ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_flower2.png)
+  
+  + **Craspedium**, a type of legume with a persistent margin (replum) and which its epicarp is, generally, divided into monospermic and caducous articles (articulated) or the entire epicarp is divided into two caducous valves (non-articulated) ![](https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa_fruit.png) <center> Craspedium with **articulated** epicarp of *M. campicola* </center>
+![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_ceratonia_fruit.png) <center> Craspedium with **non-articulated** epicarp of *M. ceratonia* </center>
 
 ### The presence of leaf-nectaries is rare in the genus  
 - Only present in *M. sect. Mimadenia* Barneby
