@@ -68,8 +68,7 @@ url_video: ""
   + Sect. *Mimosa*
       - [ ] leaf nectaries
       - [x] setiform trichomes
-      - [x] isostemonous flowers
-  
+      - [x] isostemonous flowers  
   
 - The most comprehensive phylogenetic study of *Mimosa* proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
 <div class="container">
