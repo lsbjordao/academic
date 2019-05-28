@@ -49,6 +49,8 @@ url_video: ""
   <div id="simon" class="collapse">
     <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/M_phylogeny_Simon2011.png" style="float:left">
   </div>
+  + Sect. *Mimadenia* is the only monophyletic section in the genus, according Barneby's (1991) infrageneric classification.
+  + Sect. *Habbasia* nested within Sect. *Batocaulon* and Sect. *Calothamnos* nested within Sect. *Mimosa*.
   
 - *Mimosa* is characterized by its bipinnate and paripinnate leaves, capitate or spicate inflorescence, 3–6-merous flowers, iso- or diplostemonous, and craspedium fruit, with articulated or non-articulated epicarp, and differs from other similar mimosoids by the 6-12 stamens and  absence of glands on the anthers (Barneby 1991, [Barroso et al. 1999](https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=2ahUKEwjMwqH9q43iAhWXGrkGHXW-AhIQFjAIegQICRAB&url=http%3A%2F%2Fwww.scielo.br%2Fscielo.php%3Fscript%3Dsci_nlinks%26ref%3D000094%26pid%3DS0101-3122200800020001800001%26lng%3Dpt&usg=AOvVaw3LSkJeELCWqgqe7bpP5Bx6)).
 
@@ -74,7 +76,7 @@ url_video: ""
 ### The presence of leaf-nectaries is rare in the genus  
 - Only present in *M. sect. Mimadenia* Barneby
   + Composed by only 16 species
-  + The only monophyletic section in the genus, according Barneby's (1991) infrageneric classification, and sister group of all other Mimosa groups ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520))
+  + Sister group of all other Mimosa groups ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520))
     + The presence of leaf-nectaries is also reported in outgroups (of Piptadenia group). Hence, their presence in *Mimosa* is a plesiomorphic trait ![Leaf-nectary of M. extensa](https://lsbjordao.netlify.com/img/what-is-mimosa/M_extensa_leaf-nectary.png "Leaf-nectary of M. extensa") <center> Leaf-nectary of *M. extensa* </center>  
 
 ### Recognize different types of trichomes is very important for species identification
@@ -131,6 +133,12 @@ The main types of **trichomes** are:
 
 3. **Number of stamens**
 
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#simon">Character mapping by Simon et al. (2011)</button>
+  <div id="simon" class="collapse">
+    <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/stamens_Simon2011.png" style="float:left">
+  </div>
+  
   + **Diplostemonous**
       - Plesiomorphic trait
       - Sect. *Mimadenia*, *Batocaulon* (few exceptions) and *Habbasia*
