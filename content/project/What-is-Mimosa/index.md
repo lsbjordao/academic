@@ -142,15 +142,15 @@ The main types of **trichomes** are:
 
 4. **Color of stamens**
 
-  + **Whitish**
+  + Whitish
   
-  + **Pinkish**
+  + Pinkish
   
-  + **Yellowish**
+  + Yellowish
   
-  + **Purplish**
+  + Purplish
   
-  + **Reddish**
+  + Reddish
 
 ### Some photos
 
