@@ -130,6 +130,15 @@ The main types of **trichomes** are:
   + **Pappiform** (term used by Barneby 1991 in allusion to the pappiform calyx of Asteraceae)
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png "Flower of M. pigra") <center> Pappiform calyx  of *M. pigra* </center>
 
+3. **Number of stamens**
+  + **Diplostemonous**
+    - Plesiomorphic trait
+    - Sect. *Mimadenia*, *Batocaulon* (few exceptions) and *Habbasia*
+    
+  + **Isostemonous**
+    - Apomorphic trait
+    - Sect. *Calothamnos* and *Mimosa*
+    
 ### Some photos
 
 <div class="container" style="width: 300px">
