@@ -42,7 +42,7 @@ url_video: ""
   </div>
 [tela cheia](https://lsbjordao.netlify.com/files/infrageneric_classification_mimosa_barneby1991)
 </div>
-     Diagnostic characters of sections, according Barneby (1991):
+Diagnostic characters of sections, according Barneby (1991):
 
   + Sect. *Mimadenia*
       - [x] leaf nectaries
