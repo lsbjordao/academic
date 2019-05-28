@@ -174,8 +174,7 @@ The main types of **trichomes** are:
     
   + **Isostemonous**
       - Apomorphic trait
-      - Sect. *Calothamnos* and *Mimosa*
-
+      - Sect. *Calothamnos* and *Mimosa*  
 
 4. **Color of stamens**
 
