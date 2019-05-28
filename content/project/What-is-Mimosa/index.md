@@ -143,19 +143,19 @@ The main types of **trichomes** are:
 4. **Color of stamens**
 
   + Whitish
-    - Many
+      - Many
     
   + Pinkish
-    - Many
+      - Many
     
   + Yellowish
-    - Sect. *Calothamnos*
+      - Sect. *Calothamnos*
     
   + Purplish
-    - Many
+      - Many
   
   + Reddish
-    - [*M. myriophylla*](https://species.wikimedia.org/wiki/Mimosa_myriophylla#/media/File:Mimosa_myriophylla.jpg)
+      - [*M. myriophylla*](https://species.wikimedia.org/wiki/Mimosa_myriophylla#/media/File:Mimosa_myriophylla.jpg)
   
 ### Fruit type
 
