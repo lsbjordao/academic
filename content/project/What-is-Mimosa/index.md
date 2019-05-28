@@ -133,7 +133,6 @@ The main types of **trichomes** are:
 ![](https://lsbjordao.netlify.com/img/what-is-mimosa/M_pigra_flower.png "Flower of M. pigra") <center> Pappiform calyx  of *M. pigra* </center>
 
 3. **Number of stamens**
-
 <div class="container">
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#stamens">Character mapping by Simon et al. (2011)</button>
   <div id="stamens" class="collapse">
