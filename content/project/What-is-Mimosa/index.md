@@ -47,16 +47,16 @@ url_video: ""
       - [x] leaf nectaries
       
   + Sect. Batocaulon
-      - [] leaf nectaries
+      - [ ] leaf nectaries
       
   + Sect. Calothamnos
-      - [] leaf nectaries
+      - [ ] leaf nectaries
       
   + Sect. Habbasia
-      - [] leaf nectaries
+      - [ ] leaf nectaries
       
   + Sect. Mimosa
-      - [] leaf nectaries
+      - [ ] leaf nectaries
   
 - The most comprehensive phylogenetic study of *Mimosa* proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
 <div class="container">
