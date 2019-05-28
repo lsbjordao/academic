@@ -209,6 +209,7 @@ The main types of **trichomes** are:
       <li data-target="#myCarousel" data-slide-to="3"></li>
       <li data-target="#myCarousel" data-slide-to="4"></li>
       <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>      
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="item active">
@@ -238,6 +239,10 @@ The main types of **trichomes** are:
       </div>
       <div class="item">
         <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa6.jpg">
+        <div class="carousel-caption">
+        </div>
+      <div class="item">
+        <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/Mimosa7.jpg">
         <div class="carousel-caption">
         </div>
     </div>
