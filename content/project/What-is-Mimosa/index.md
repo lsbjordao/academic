@@ -58,6 +58,7 @@ url_video: ""
   + Sect. Mimosa
       - [ ] leaf nectaries
   
+  
 - The most comprehensive phylogenetic study of *Mimosa* proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
 <div class="container">
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#simon">Main clades by Simon et al. (2011)</button>
