@@ -45,30 +45,30 @@ url_video: ""
 Diagnostic characters of sections, according Barneby (1991):
 
   + Sect. *Mimadenia*
-      [x] leaf nectaries
-      [ ] setiform trichomes
-      [x] diplostemonous flowers
+      - [x] leaf nectaries
+      - [ ] setiform trichomes
+      - [x] diplostemonous flowers
       
   + Sect. *Batocaulon*
-      [ ] leaf nectaries
-      [ ] setiform trichomes
-      [x] diplostemonous flowers
+      - [ ] leaf nectaries
+      - [ ] setiform trichomes
+      - [x] diplostemonous flowers
       
   + Sect. *Calothamnos*
-      [ ] leaf nectaries
-      [ ] setiform trichomes
-      [x] dendritic and stellate trichomes
-      [x] yellowish and isostemonous flowers
+      - [ ] leaf nectaries
+      - [ ] setiform trichomes
+      - [x] dendritic & stellate trichomes
+      - [x] yellowish, isostemonous flowers
       
   + Sect. *Habbasia*
-      [ ] leaf nectaries
-      [x] setiform trichomes (some species with dilated base)
-      [x] diplostemonous flowers
+      - [ ] leaf nectaries
+      - [x] setiform trichomes
+      - [x] diplostemonous flowers
       
   + Sect. *Mimosa*
-      [ ] leaf nectaries
-      [x] setiform trichomes
-      [x] isostemonous flowers  
+      - [ ] leaf nectaries
+      - [x] setiform trichomes
+      - [x] isostemonous flowers  
 
 - The most comprehensive phylogenetic study of *Mimosa* proved its monophyletic status ([Simon et al. 2011](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.3732/ajb.1000520)).   
 <div class="container">
