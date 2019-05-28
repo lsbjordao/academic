@@ -134,8 +134,8 @@ The main types of **trichomes** are:
 3. **Number of stamens**
 
 <div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#simon">Character mapping by Simon et al. (2011)</button>
-  <div id="simon" class="collapse">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#stamens">Character mapping by Simon et al. (2011)</button>
+  <div id="stamens" class="collapse">
     <img src="https://lsbjordao.netlify.com/img/what-is-mimosa/stamens_Simon2011.png" style="float:left">
   </div>
   
