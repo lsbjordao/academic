@@ -133,14 +133,12 @@ The main types of **trichomes** are:
 3. **Number of stamens**
 
   + **Diplostemonous**
-  
-    - Plesiomorphic trait
-    - Sect. *Mimadenia*, *Batocaulon* (few exceptions) and *Habbasia*
+      - Plesiomorphic trait
+      - Sect. *Mimadenia*, *Batocaulon* (few exceptions) and *Habbasia*
     
   + **Isostemonous**
-  
-    - Apomorphic trait
-    - Sect. *Calothamnos* and *Mimosa*
+      - Apomorphic trait
+      - Sect. *Calothamnos* and *Mimosa*
     
 ### Some photos
 
