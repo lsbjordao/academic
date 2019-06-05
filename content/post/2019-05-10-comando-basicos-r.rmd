@@ -214,9 +214,9 @@ w[c(1,4)]
 ```{r}
 y <- c(24,10,45,56,20,29,50,67,80,23,20,15,65,57,34,63,20)
 y
-y[y==20] <- 10    # Se algum valor de y é igual a 20, substituir por 10
+y[y==20] <- 10      # Se algum valor de y é igual a 20, substituir por 10
 y
-y[y==10] <- "NA"  # Apaga todos os valores iguais a 10, substituindo por "NA" (not available)
+y[y==10] <- NA    # Apaga todos os valores iguais a 10, substituindo por 'NA'(not available)
 y
 ```
 
