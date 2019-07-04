@@ -1,0 +1,24 @@
+---
+title: Timevis R package
+author: Lucas Jordão
+date: '2019-06-23'
+slug: timevis
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+```{r load file}
+load("C:/r/R-3.6.0/working/pensadores.Rdata")
+```
+
+# Crie linhas do tempo dinâmicas com o pacote do R `Timevis`.
+
+## Aqui apresentarei um esboço com os dados de um projeto pessoal de um curso sobre história das ciências da vida.
+
+```{r}
+library(timevis)
+timevis(data)
+```
