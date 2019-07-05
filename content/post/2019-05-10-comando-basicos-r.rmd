@@ -210,6 +210,10 @@ w[3]
 w[c(1,4)]
 ```
 
+## Operador `%in%` e função `which`
+
+
+
 ## Substituindo valores de um vetor
 ```{r}
 y <- c(24,10,45,56,20,29,50,67,80,23,20,15,65,57,34,63,20)
