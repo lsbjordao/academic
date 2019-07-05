@@ -3,7 +3,7 @@ title: Timevis R package
 author: Lucas Jordão
 date: '2019-06-23'
 slug: timevis
-output: html_fragment
+output: html_document
 categories: []
 tags: []
 image:
