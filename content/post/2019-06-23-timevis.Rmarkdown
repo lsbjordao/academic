@@ -11,7 +11,7 @@ image:
   focal_point: ''
 ---
 
-```{r load file}
+```{r load file, message=FALSE, warning=FALSE, include=FALSE}
 load("C:/r/R-3.6.0/working/pensadores.Rdata")
 ```
 
