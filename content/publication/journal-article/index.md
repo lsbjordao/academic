@@ -5,7 +5,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
   sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
   egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
   dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
+  Vestibulum sit amet erat at nulla eleifen.
 authors:
 - admin
 date: "2015-09-01T00:00:00-03:00"
