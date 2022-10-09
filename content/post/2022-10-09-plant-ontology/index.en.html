@@ -8,8 +8,14 @@ tags: []
 image:
   caption: ''
   focal_point: ''
+output:
+  html_document:
+    self_contained: false
 ---
 
+<script src="{{< blogdown/postref >}}index.en_files/htmlwidgets/htmlwidgets.js"></script>
+<script src="{{< blogdown/postref >}}index.en_files/pymjs/pym.v1.js"></script>
+<script src="{{< blogdown/postref >}}index.en_files/widgetframe-binding/widgetframe.js"></script>
 
 
 <pre class="r"><code>library(ontologyIndex)
@@ -131,6 +137,6 @@ edges &lt;- data.frame(
 
 graph &lt;- visNetwork::visNetwork(nodes, edges)
 
-visNetwork::visSave(graph, &quot;network.html&quot;, selfcontained = TRUE, background = &quot;white&quot;)</code></pre>
-<iframe src="network.html" width="800" height="500">
-</iframe>
+widgetframe::frameWidget(graph)</code></pre>
+<div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"index.en_files/figure-html//widgets/widget_unnamed-chunk-1.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>

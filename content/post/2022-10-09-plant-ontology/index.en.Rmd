@@ -8,6 +8,9 @@ tags: []
 image:
   caption: ''
   focal_point: ''
+output:
+  html_document:
+    self_contained: false
 ---
 
 ```{r}
@@ -123,7 +126,6 @@ edges <- data.frame(
 
 graph <- visNetwork::visNetwork(nodes, edges)
 
-visNetwork::visSave(graph, "network.html", selfcontained = TRUE, background = "white")
-```
+widgetframe::frameWidget(graph)
 
-<iframe src="network.html"  width="800" height="500"></iframe>
+```
