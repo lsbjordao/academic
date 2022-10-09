@@ -121,7 +121,11 @@ edges <- data.frame(
   
 )
 
-visNetwork <- visNetwork::visNetwork(nodes, edges)
+graph <- visNetwork::visNetwork(nodes, edges)
 
-print(visNetwork)
+visNetwork::visSave(graph, "network.html", selfcontained = TRUE, background = "white")
+```
+
+```{r}
+knitr::include_url("network.html")
 ```

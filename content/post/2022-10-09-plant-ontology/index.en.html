@@ -129,6 +129,9 @@ edges &lt;- data.frame(
   
 )
 
-visNetwork &lt;- visNetwork::visNetwork(nodes, edges)
+graph &lt;- visNetwork::visNetwork(nodes, edges)
 
-print(visNetwork)</code></pre>
+visNetwork::visSave(graph, &quot;network.html&quot;, selfcontained = TRUE, background = &quot;white&quot;)</code></pre>
+<pre class="r"><code>knitr::include_url(&quot;network.html&quot;)</code></pre>
+<iframe src="network.html" width="672" height="400px" data-external="1">
+</iframe>
