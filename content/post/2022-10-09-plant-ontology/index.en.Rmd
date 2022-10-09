@@ -121,5 +121,7 @@ edges <- data.frame(
   
 )
 
-visNetwork::visNetwork(nodes, edges)
+visNetwork <- visNetwork::visNetwork(nodes, edges)
+
+print(visNetwork)
 ```
