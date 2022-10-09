@@ -127,5 +127,5 @@ visNetwork::visSave(graph, "network.html", selfcontained = TRUE, background = "w
 ```
 
 ```{r}
-knitr::include_url("network.html")
+htmltools::includeHTML("./network.html")
 ```
