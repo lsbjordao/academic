@@ -121,5 +121,9 @@ edges <- data.frame(
   
 )
 
-visNetwork::visNetwork(nodes, edges)
+graph <- visNetwork::visNetwork(nodes, edges)
+
+visNetwork::visSave(graph, "network.html", selfcontained = TRUE, background = "white")
 ```
+
+<iframe src="network.html"  width="800" height="500"></iframe>
