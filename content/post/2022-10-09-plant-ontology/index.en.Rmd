@@ -126,6 +126,4 @@ graph <- visNetwork::visNetwork(nodes, edges)
 visNetwork::visSave(graph, "network.html", selfcontained = TRUE, background = "white")
 ```
 
-```{r}
-htmltools::includeHTML("./network.html")
-```
+<embed type="text/html" src="./network.html"  width="500" height="200">
