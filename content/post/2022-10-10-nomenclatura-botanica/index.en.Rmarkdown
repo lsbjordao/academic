@@ -242,7 +242,8 @@ Como decorrência dessas definições, depreende-se que:
 
 Veja a figura \@ref(fig:atos), que sintetiza os conceitos acima.
 
-```{r atos, echo=FALSE, fig.cap="Gráfico de conjunto sobre os conceitos importantes sobre nomenclatura: atos nomenclaturais, warning=FALSE, novidade nomenclatural, mudança nomenclatural, tipificação."}
+```{r atos, echo=FALSE, warning=FALSE, fig.cap="Gráfico de conjunto sobre os conceitos importantes sobre nomenclatura: atos nomenclaturais, novidade nomenclatural, mudança nomenclatural, tipificação."}
+
 library(DiagrammeR)
 grViz("digraph{
       
@@ -302,6 +303,7 @@ grViz("digraph{
       }
       }
       ", height = 200)
+
 ```
 
 ## Obra original
