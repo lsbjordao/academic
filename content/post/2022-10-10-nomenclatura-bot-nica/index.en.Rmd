@@ -1,0 +1,403 @@
+---
+title: Nomenclatura Botânica
+author: Lucas
+date: '2022-10-10'
+slug: []
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+output:
+  bookdown::html_document:
+    number_sections: true
+    toc: true
+    toc_float: true
+    toc_depth: 3
+---
+
+```{r include=FALSE}
+library(RefManageR)
+bib <- ReadBib("C:\\Users\\Lucas\\Documents\\Aula Botânica\\Nomenclatura Botânica\\RMarkdown\\references.bib", check = FALSE)
+BibOptions(check.entries = FALSE, style = "markdown")
+```
+
+<style>
+  body {
+text-align: justify
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    word-break: keep-all;
+  }
+</style>
+
+# Introdução {#introducao}
+
+- A nomenclatura é parte da taxonomia:  
+  
+  - Tradicionalmente, a <u>taxonomia</u> é um campo que abrange a <u>classificação</u>, <u>nomenclatura</u>, <u>identificação</u> e <u>descrição</u>.
+
+    - Etimologicamente, taxonomia apresenta dois radicais:
+
+      1. <u>Taxon</u> (do grego *táxis*, que significa "arranjo, ordem").
+
+              - Conceito essencialmente associado ao sistema de classificação biológica.
+
+      2. <u>Nomia</u> (do grego *nomos*, que significa "lei, regra, administração").
+
+              - Conceito que denota as normas ou a sistematização de um conhecimento.
+
+    - A <u>classificação</u> refere-se ao sistema taxonômico. Classificar significa atribuir o posicionamento de um táxon nesse sistema de classificação taxonômico, isto é, implica na definição do nível taxonômico que um táxon irá ocupar nesse sistema. 
+
+    - A <u>nomenclatura</u> é a parte da taxonomia responsável pela nomeação dos seres vivos.
+
+    - A <u>identificação</u> refere-se ao ato de reconhecer a que táxon um organismo pertence.
+
+    - A <u>descrição</u> refere-se à atividade de descrever a morfologia dos organismos e seus órgãos. Tal atividade é denominada organografia vegetal, que significa a descrição da morfologia externa das plantas. A anatomia (morfologia interna) também pode ser aplicada à taxonomia, no sentido de que características anatômicas podem ser utilizadas para definir, distinguir táxons.
+
+- A nomenclatura botânica é um subcampo da nomenclatura biológica, que tem como propósito:
+
+  - <span style="color: blue;">Facilitar a comunicação, auxiliar a catalogação da diversidade biológica, e ser um sistema universalmente aceito.</span>
+
+    - Um sistema de nomenclatura biológica com finalidade de referenciamento e catalogação e que, além disso, tenha abrangência mundial&nbsp;^[Depreendido do item 1 do Preâmbulo do CINB] é um legado de quase meio milênio. O uso do latim, considerado uma língua morta, como a língua convencional para escrita dos nomes científicos remonta aos primórdios desse sistema formal de nomeação (e classificação) dos seres vivos&nbsp;^[Ver Princípio V do CINB]. Estando escritos em latim, os nomes científicos são universais.
+
+  - <span style="color: blue;">Ordenar a aplicação de um nome científico a um determinado táxon.</span>
+
+    - Táxon é um grupo taxonômico pertencente a qualquer nível taxonômico (ou categoria taxonômica)&nbsp;^[CINB, Art. 1.1].
+
+    - Táxon não é o mesmo que categoria taxonômica. Categoria taxonômica (ou nível taxonômico) é qualquer classe da classificação taxonômica. As categorias taxonômicas são ordenadas como hierarquias aninhadas (com um nível dentro de outro nível)&nbsp;^[CINB, Art. 2.1: "Cada organismo individual é tratado como pertencendo a um número indefinido de táxons de níveis consecutivamente subordinados[...]".]. Os **níveis principais** em ordem descendente são: <u>reino</u>, <u>divisão</u> ou <u>filo</u>, <u>classe</u>, <u>ordem</u>, <u>família</u>, <u>gênero</u> e <u>espécie</u>; assim sendo, cada espécie pertence a um gênero, cada gênero a uma família, etc&nbsp;^[CINB, Art. 3.1]. A classificação taxonômica é uma abstração convenientemente e convencionalmente estabelecida e a classificação como conhecemos hoje é tão antiga quanto a nomenclatura biológica.
+
+    - O nível de espécie é o nível (categoria) básico(a) da classificação taxonômica&nbsp;^[CINB, Art. 2.1], em que um conjunto de entidades biológicas que possuem uma existência real no mundo são agrupados. Não obstante, a categoria específica pode ser subdividida em categorias infraespecíficas. Nesses casos, as entidades biológicas (reais) são agrupadas nestes níveis infraespecíficos ao invés de no nível específico. Isso significa que as entidades biológicas estão representadas como táxons de menor nível de abrangência da classificação biológica.
+
+    - Portanto, se um táxon é um grupo taxonômico pertencente a qualquer nível taxonômico, significa que pode representar um conjunto de <span style="color: green;">entidades biológicas que possuem uma existência real no mundo</span>, ou representar <span style="color: green;">instâncias hierárquicas superiores de um conjunto de entidades</span>, que são táxons ordenados em níveis acima do nível que agrupa as entidades&nbsp;^[Tais conceitos de **entidades biológicas** e de **instâncias hierárquicas superiores de um conjunto de entidades biológicas** são aqui apresentados, mas não há menção nem correpondência desses conceitos no CINB. O CINB não adentra em questões filosóficas do significado de ente, que relaciona-se intimamente à questão do **conceito de espécie**.].
+
+          - As entidades biológicas são agrupadas no nível específico ou infraespecífico.
+
+          - As instâncias hierárquicas superiores são agrupadas em níveis supraespecíficos.
+
+    - Todo táxon possui uma circunscrição taxonômica que compõe os atributos (caracteres diagnósticos) que circunscrevem o táxon. Contudo, a circunscrição taxonômica não está relacionada à aplicação correta de um nome científico a um determinado táxon.
+
+    - A aplicação (vinculação) de um nome científico a um grupo taxonômico é realizada através do método do tipo pela formalização do estabelecimento de tipos nomenclaturais, um procedimento denominado de <u>tipificação</u>&nbsp;^[tópico \@ref(tipificacao)]^^,^&nbsp;^[CINB, Princípio II].
+
+  - <span style="color: blue;">Ordenar o emprego correto dos nomes científicos.</span>  
+
+    - O emprego correto de nomes científicos compreende:
+
+      1. A padronização ortográfica através do procedimento de latinização de termos&nbsp;^[CINB, Capítulo VIII];  
+
+              1. Ortografia de nomes:
+                 
+                 - A ortografia original de um nome deve ser mantida, exceto para correção de erros tipográficos ou ortográficos, além das padronizações relacionadas à latinização.
+                 
+              2. Gênero gramatical:
+                 
+                 - A categoria taxonômica do gênero possui gênero gramatical (masculino, feminino e neutro). O epíteto específico necessita concordar com o epíteto genérico.
+
+      2. A citação de autores de táxons&nbsp;^[CINB, Capítulo VI, Seção 1];
+
+              - Nos estudos taxonômicos, nomenclaturais e sistemáticos, os nomes científicos citados devem ser acompanhados pelo(s) nome(s) do(s) autor(es), prática que favorece a indicação exata de qual táxon se faz referência, haja vista a existência de homônimos.
+
+      3. O uso de terminações (sufixos) de acordo com os níveis taxonômicos&nbsp;^[CINB, Capítulo III].
+
+              - Os nomes não servem apenas para identificar os grupos taxonômicos, mas indicam também seu posicionamento no sistema de classificação.
+
+  - <span style="color: blue;">Ordenar sobre mudança da categoria taxonômica de um táxon.</span>  
+
+    - A partir de um novo entendimento taxonômico, o posicionamento (*rank*), ou seja, o nível (ou categoria) taxonômico(a) de um táxon pode ser alterado(a).
+      
+      1. Combinação nova&nbsp;^[tópico \@ref(combnov)]^;
+      
+      2. Nome em novo nível (*status novus*)&nbsp;^[tópico \@ref(statnov)]^.
+
+  - <span style="color: blue;">Ordenar sobre o estabelecimento de nomes corretos (aceitos), novos e de táxons novos.</span>  
+
+    - Nome correto (ou aceitos)&nbsp;^[tópico \@ref(nomecorreto)]^ são
+
+    - Sinônimo&nbsp;^[tópico \@ref(sinonimos)]^
+    
+    - Nome substituto (nome novo)&nbsp;^[tópico \@ref(nomenovo)]^
+    
+    - Nome de um táxon novo&nbsp;^[tópico \@ref(taxonnovo)]^
+
+- A importância da nomenclatura biológica e de se empregar nomes científicos corretos é de:
+
+  - <span style="color: blue;">Fornecer estabilidade aos nomes e assertividade à ciência.</span>  
+      
+    - Um método objetivo é necessário para inventariar a diversidade biológica do planeta, evitando e rejeitando o uso de nomes que possam causar erro, ambiguidade ou lançar confusão na ciência&nbsp;^[Ver item 1 do Preâmbulo do CINB]. Nomes científicos são identificadores únicos de táxons. A utilização de nomes incorretos ou ilegítimos em estudos que envolvem entidades biológicas implica em instabilidade na ciência.
+
+  - <span style="color: blue;">Propiciar a recuperação de informações sobre os nomes.</span>  
+      
+      - A nomenclatura não tem a finalidade de prover dados e informações sobre os táxons; apenas de prover um meio para sua referenciação e indicação de seu nível taxonômico&nbsp;^[Ver item 1 do Preâmbulo do CINB: "[...] *O propósito de dar um nome a um grupo taxonômico não tem por fim indicar suas características ou história, mas prover um meio para sua referência e indicar seu nível taxonômico.* [...]".]. Contudo, nomes são indexadores de informação. Na atualidade (na era dos dados), é possível levantar informações através da busca por palavras-chave. Considerando a singularidade dos nomes científicos como identificadores, toda sorte de dados e informações sobre esses nomes podem ser recuperados utilizando sistemas de informação^[Veja o sugestivo artigo: "*What's in a (biological) name?*"\ (`r Citet(bib, "Valdecasas_2013")`].  
+
+- Afora as plantas, a nomenclatura botânica aplica-se a outros grupos de organismos:
+
+  - Tendo como objeto a botânica, a nomenclatura botânica está voltada especificamente para as plantas, algas, fungos, sejam viventes ou fósseis, inclusive quitrídeos, oomicetos, fungos gelatinosos, e também organismos como cianobactérias, protistas fotossintetizantes e grupos não-fotossintetizantes taxonomicamente relacionados, exceto Microsporidia&nbsp;^[Item 8 do Preâmbulo, CINB].
+
+- A nomenclatura botânica é regida por um conjunto de normas que orientam seu propósito:
+
+  - <span style="color: blue;">Como se estabeleceram as normas de nomenclatura botânica?</span>  
+    
+    - Normas em forma de <u>princípios, regras e recomendações</u> têm sido desenvolvidos e atualizados ao longo de uma série de congressos internacionais, em cujas decisões são votadas através de um procedimento democrático e promulgadas em um código internacional --- o <u>Código Internacional de Nomenclatura para Algas, Fungos e Plantas (CINB)</u>.
+
+# Histórico
+
+Método do tipo
+
+# Princípios
+
+1. A nomenclatura botânica é independente da zoológica
+  
+    - Todos os códigos de nomenclatura são independentes entre si, cada qual com suas próprias normatizações.
+    
+    - Portanto, é possível haver hemihomônimos&nbsp;^[Ver `r Citet(bib, "Shipunov_2011")`; há uma lista considerável de hemihomônimos.], isto é, um nome científico de um organismo que também é usado para um táxon diferente, sujeito a um código de nomenclatura diferente. Exemplos:
+  
+        - *<u>Dracaena</u>* Daudin, 1802 (gênero de lagarto) vs. *<u>Dracaena</u>* Vand., 1767 (gênero de planta)
+        - *<u>Oenanthe</u>* Vieillot, 1816 (gênero de pássaro) vs. *<u>Oenanthe</u>* L., 1753 (gênero de planta)
+  
+2. A aplicação de nomes para grupos taxonômicos é regida por meio de tipos nomenclaturais
+  
+    - Cada nome de táxon, seja qual for o nível, necessita estar vinculado a um tipo.
+    
+    - O método do tipo é essencial para sistematizar o conhecimento da biodiversidade.
+    
+    - Os tipos são armazenados em herbários.
+
+3. A nomenclatura dos grupos taxonômicos baseia-se no princípio da prioridade de publicação
+
+    - O nome correto é o mais antigo publicado de acordo com as regras do CINB.
+    
+    - O princípio da prioridade na nomenclatura botânica começa em 1^<u>o</u>^ de maio de 1753, a data da publicação da primeira edição de *Species Plantarum* de Lineu.
+
+4. Cada táxon deve ter apenas um único nome correto, exceto em casos especificados
+
+    - A exceção refere-se a nomes alternativos.
+    
+    - Existem oito famílias que possuem nomes alternativos considerados válidos:
+        
+        - Compositae / Asteraceae
+        - Cruciferae / Brassicaceae
+        - Gramineae / Poaceae
+        - Guttiferae / Clusiaceae
+        - Labiatae / Lamiaceae
+        - Leguminosae / Fabaceae
+        - Palmae / Arecaceae
+        - Umbelliferae / Apiaceae
+    
+    - Fora esses nomes alternativos das famílias, nomes alternativos são considerados inválidos&nbsp;^[CINB, Art. 36.3.].
+    
+5. Os nomes científicos são em latim ou latinizados, independentemente da sua origem
+
+    - Princípio que visa a universalização dos nomes científicos. O código traz diversas normas de padronização ortográfica.
+    
+6. As regras de nomenclatura são retroativas, exceto quando expressamente indicado
+    
+    - Em diversas versões do CINB, são estabelecidas datas nas quais determinadas regras passam a valer.
+
+# Níveis taxonômicos
+
+Além dos níveis (categorias) taxonômicos(as) principais, descritos na Introdução&nbsp;^[tópico \@ref(introducao)]^, há os níveis secundários. Os níveis secundários de táxons em ordem descendente são tribo, entre família e gênero, seção e série, entre gênero e espécie, e variedade e forma, abaixo de espécie&nbsp;^[CINB, Art. 4.1]. Uma ampliação de níveis hierárquicos pode ainda ser criada através do prefixo "sub" aos níveis principais e secundários&nbsp;^[CINB, Art. 4.2].
+
+Níveis secundários [sublinhados]:
+
+| Família
+|   <u>Tribo</u>
+|     Gênero
+|       <u>Seção</u>
+|         <u>Série</u>
+|           Espécie
+|             <u>Variedade</u>
+|               <u>Forma</u>
+
+# Status nomenclatural
+
+O conceito de <u>status nomenclatural</u> não possui definição no CINB. O <span style="color: green;">status nomenclatural</span> refere-se ao status relacionado à publicação original do nome e sua conformidade com as normas pertinentes de nomenclatura&nbsp;^[Conceito segundo GBIF, [TDWG Vocabulary Management Task Group: "nomenclaturalStatus"](https://terms.tdwg.org/wiki/dwc:nomenclaturalStatus)].
+
+  - Exemplos: "nome correto", "variante ortográfica", "sinônimo", "nome legítimo, mas incorreto", "nome nudum", etc.
+
+<span style="color: green;">Novidade nomenclatural</span> refere-se a um nome de um táxon novo, combinação nova, nome em um novo nível ou nome substituto&nbsp;^[CINB, Art. 6.10, Nota 4].
+
+<span style="color: green;">Ato nomenclatural</span> é um ato que requer uma publicação efetiva que resulte em uma novidade nomenclatural ou afete aspectos de nomes como tipificação, prioridade, ortografia ou gênero gramatical&nbsp;^[CINB, Glossário, "ato nomenclatural".].
+
+Como decorrência dessas definições, depreende-se que:
+
+1. Toda novidade nomenclatural decorre (são procedidas através) de atos nomenclaturais; mas
+    
+2. Nem todos os atos nomenclaturais implicam em novidades nomenclaturais.
+
+    - Atos nomenclaturais que não implicam em novidades nomenclaturais são as tipificações (mudanças do status do tipo e designação de tipo de um táxon novo) e correções ortográficas.
+    
+3. A descrição de um nome de um táxon novo é uma novidade nomenclatural.
+
+4. A proposição de atos que implicam em modificação do status nomenclatural (combinação nova, nome em um novo nível ou nome substituto) são chamadas de <u>mudanças nomenclaturais</u>.
+
+    - Toda mudança nomenclatural é uma novidade nomenclatural, mas nem toda novidade nomenclatural implica numa mudança no status nomenclatural.
+      
+      - Uma tipificação que não implica em mudança no status do tipo é feita ao se descrever um táxon novo, isto é, a descrição de um nome de um táxon novo, realizada através de ato nomenclatural, apesar de ser uma novidade nomenclatural, não se trata de uma mudança nomenclatural.
+
+5. A proposição de mudanças de <u>status do tipo</u> são chamadas de <u>tipificações</u>&nbsp;^[tópico \@ref(tipificacao)]^^,^&nbsp;^[Conceito segundo GBIF, [TDWG Vocabulary Management Task Group: "typeStatus"](https://dwc.tdwg.org/terms/#typeStatus)], tais como as designações de lectótipos e neótipos (lectotipificações e neotipificações) e citação de holótipo e isótipos, etc.
+
+6. Tipificações não são mudanças (ou ajustes) nomenclaturais.
+
+Veja a figura \@ref(fig:atos), que sintetiza os conceitos acima.
+
+```{r atos, fig.cap="Gráfico de conjunto sobre os conceitos importantes sobre nomenclatura: atos nomenclaturais, novidade nomenclatural, mudança nomenclatural, tipificação.", echo=FALSE, warning=FALSE}
+library(DiagrammeR)
+grViz("digraph{
+      
+      subgraph cluster_Atos {
+         graph[shape = rectangle, fontsize = 20]
+         style = rounded
+         
+         label = 'Atos nomenclaturais'
+         node[shape = rectangle, margin = 0.25]
+      
+      subgraph cluster_Nome {
+         graph[shape = rectangle]
+         style = rounded
+         
+         label = 'Relacionados a Nome'
+         node[shape = rectangle, margin = 0.25]
+         Correção_ortográfica_ou_de_gênero_gramatical [label = 'Correção\nortográfica ou de\ngênero gramatical']
+         
+          subgraph cluster_Novidades {
+            graph[shape = rectangle]
+            style = rounded
+         
+            label = 'Novidade nomenclatural'
+            node[shape = rectangle, margin = 0.25]
+            Descrição_de_um_táxon_novo [label = 'Descrição de\num táxon novo']
+         
+             subgraph cluster_Mundança {
+               graph[shape = rectangle]
+               style = rounded
+         
+               label = 'Mudança nomenclatural'
+               node[shape = rectangle, margin = 0.25]
+               Combinação_nova [label = 'Combinação\nnova']
+               Status_novum [label = 'Nome em\nnovo nível']
+               Nome_novo [label = 'Nome\nsubstituto']
+      }
+      }
+      }
+      
+      subgraph cluster_Tipo {
+         graph[shape = rectangle]
+         style = rounded
+         
+         label = 'Relacionados a Tipo'
+         node[shape = rectangle, margin = 0.25]
+         
+         subgraph cluster_Tipificação {
+           graph[shape = rectangle]
+           style = rounded
+         
+           label = 'Tipificação'
+           node[shape = rectangle, margin = 0.25]
+           Mudança_do_status_do_tipo [label = 'Mudança do\nstatus do tipo']
+           Designacao_do_tipo_de_um_taxon_novo [label = 'Designação do tipo\nde um táxon novo']
+      }
+      }
+      }
+      }
+      ", height = 200)
+```
+
+## Obra original
+
+Também conhecida como obra princeps
+
+## Protólogo
+
+        [Epíteto_genérico] [epíteto_específico] [Autor], [Obra_original]. Tipo: [Coletor] [nº do coletor] (Holótipo: [sigla do herbário])
+
+        [Diagnose em inglês]
+
+        [Descrição]
+        
+        Material examinado (Parátipos): [lista de materiais]
+
+## Publicação efetiva
+
+## Publicação válida
+
+## Nome válido/inválido
+
+## Nome legítimo/ilegítimo
+
+Um nome legítimo pode ser correto ou incorreto dependendo dos diferentes conceitos taxonômicos
+
+## Nome correto (aceito)/incorreto {#nomecorreto}
+
+O nome que deve ser adotado de acordo com as regras para um táxon com circunscrição, posição e nível particulares.
+
+## Sinônimos {#sinonimos}
+
+### sinônimo homotípico (sinônimo nomenclatural)
+
+### sinônimo heterotípico (sinônimo taxonômico)
+
+## Modificação do nível taxonômico
+
+### Combinação nova {#combnov}
+
+### Nome em um novo nível (*status novum*) {#statnov}
+
+## Nome substituto (nome novo) {#nomenovo}
+
+## Nome de um táxon novo {#taxonnovo}
+
+# Tipificação {#tipificacao}
+
+As tipificações são atos nomenclaturais destinados à atribuição (aplicação/vinculação) de um tipo a um nome. A atribuição de um tipo a um nome pode ser procedido através:
+
+1. Da mudança no status do tipo, no caso de um táxon já descrito; ou 
+
+2. Da designação do tipo no caso de descrição de um táxon novo.
+
+Os tipos de nomes de táxons de nível específico ou infraespecífico são vinculados a entidades biológicas, também chamados de materiais tipo. Estes devem ser um espécime depositado em um herbário, ou excepcionalmente, uma ilustração.
+      
+Os tipos de nomes de táxons de nível supraespecífico vinculam-se um de seus táxons imeditamente subordinados, aquele que lhe confere o sufixo. Assim, o tipo da ordem Fabales é a família Fabaceae; o tipo da família Fabaceae é o gênero *Faba*. O tipo de um gênero é uma de suas espécies.
+
+Para fins de tipificação, a definição de <u>espécime</u> é extremamente importante. <span style="color: green;">Espécime</span> é uma coleta ou parte de uma coleta de uma única espécie ou táxon infraespecífico, não consideradas as misturas. Ele pode consistir de um único organismo, de partes de um ou vários organismos ou de múltiplos pequenos organismos.
+Um espécime normalmente é montado em uma única exsicata de herbário ou uma preparação equivalente, tais como: uma caixa, envelope, frasco ou lâmina de microscopia&nbsp;^[CINB, Art. 8.2].
+
+## Categorias de tipos
+
+### Holótipo
+
+### Isótipo
+
+Um espécime duplicado do holótipo.
+
+### Parátipo
+
+Qualquer espécime citado no protólogo que não é o holótipo nem um isótipo nem um dos síntipos, se dois ou mais espécimes foram simultaneamente designados no protólogo como tipos.
+
+### Lectótipo
+
+
+
+### Síntipo
+
+Qualquer espécime citado no protólogo quando não há holótipo ou qualquer um de dois ou mais espécimes designados simultaneamente no protólogo como tipos.
+
+# Padronização ortográfica
+
+## Nomeação de táxons de acordo com nível taxonômico
+
+## Ortografia de nomes
+
+## Gênero gramatical
+
+# Bibliografia {-}
+
+```{r results = "asis", echo = FALSE}
+PrintBibliography(bib, .opts = list(check.entries = FALSE, sorting = "ynt", bib.style = "authoryear"))
+```
+
+
+----
+
+**NOTAS DE RODAPÉ**
