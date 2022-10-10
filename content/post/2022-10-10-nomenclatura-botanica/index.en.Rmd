@@ -207,15 +207,26 @@ Níveis secundários [sublinhados]:
 |             <u>Variedade</u>
 |               <u>Forma</u>
 
-# Status nomenclatural
+# Nomeação
+
+## Status nomenclatural
 
 O conceito de <u>status nomenclatural</u> não possui definição no CINB. O <span style="color: green;">status nomenclatural</span> refere-se ao status relacionado à publicação original do nome e sua conformidade com as normas pertinentes de nomenclatura&nbsp;^[Conceito segundo GBIF, [TDWG Vocabulary Management Task Group: "nomenclaturalStatus"](https://terms.tdwg.org/wiki/dwc:nomenclaturalStatus)].
 
   - Exemplos: "nome correto", "variante ortográfica", "sinônimo", "nome legítimo, mas incorreto", "nome nudum", etc.
 
+
+## Novidade nomenclatural
+
 <span style="color: green;">Novidade nomenclatural</span> refere-se a um nome de um táxon novo, combinação nova, nome em um novo nível ou nome substituto&nbsp;^[CINB, Art. 6.10, Nota 4].
 
+
+## Ato nomenclatural
+
 <span style="color: green;">Ato nomenclatural</span> é um ato que requer uma publicação efetiva que resulte em uma novidade nomenclatural ou afete aspectos de nomes como tipificação, prioridade, ortografia ou gênero gramatical&nbsp;^[CINB, Glossário, "ato nomenclatural".].
+
+
+### Novidade nomenclatural vs. Mudança nomenclatural
 
 Como decorrência dessas definições, depreende-se que:
 
