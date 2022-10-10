@@ -10,9 +10,7 @@ image:
   focal_point: ''
 output:
   blogdown::html_page:
-    number_sections: true
     toc: true
-    toc_depth: 3
 ---
 
 ```{r include=FALSE}
