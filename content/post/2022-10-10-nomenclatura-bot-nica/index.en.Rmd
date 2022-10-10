@@ -9,7 +9,7 @@ image:
   caption: ''
   focal_point: ''
 output:
-  bookdown::html_document:
+  html_document:
     number_sections: true
     toc: true
     toc_float: true
