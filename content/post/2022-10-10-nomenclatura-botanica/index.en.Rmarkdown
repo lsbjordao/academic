@@ -9,10 +9,9 @@ image:
   caption: ''
   focal_point: ''
 output:
-  html_document:
+  blogdown::html_page:
     number_sections: true
     toc: true
-    toc_float: true
     toc_depth: 3
 ---
 
