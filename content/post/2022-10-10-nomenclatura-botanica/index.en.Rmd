@@ -237,7 +237,7 @@ Como decorrência dessas definições, depreende-se que:
 
 6. Tipificações não são mudanças (ou ajustes) nomenclaturais.
 
-Veja a figura \@ref(fig:atos), que sintetiza os conceitos acima.
+Veja a figura \@ref(fig:atosFig), que sintetiza os conceitos acima.
 
 ```{r atos, fig.cap="Gráfico de conjunto sobre os conceitos importantes sobre nomenclatura: atos nomenclaturais", include=FALSE}
 
@@ -306,7 +306,12 @@ graph <- grViz("digraph{
 
 ```
 
-![](graph.png)
+```{r atosFig, echo=FALSE, fig.align='center', fig.cap='Atos nomenclaturais', fig.pos='H', message=FALSE, warning=FALSE}
+
+knitr::include_graphics("./graph.png")
+
+```
+
 
 ## Obra original
 
