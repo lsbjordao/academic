@@ -1,0 +1,27 @@
+---
+title: Conceito_de_especime_e_principais_categorias_de_tipo
+author: Lucas S.B. Jordão
+date: '2022-10-20'
+slug: []
+categories: []
+tags: ['Nomenclatura Botânica']
+image:
+  caption: ''
+  focal_point: ''
+---
+
+- O conceito de **espécime** possui mais de um significado.
+
+  - No senso comum, espécime é um indivíduo de uma espécie.
+  
+  - Para um biólogo ou biomédico no laboratório, espécime pode ser um exemplar ou uma amostra de um organismo.
+  
+  - Para as ciências da Sistemática e Taxonomia, que têm como objetivo organizar a diversidade biológica em sistemas lógicos e úteis, o conceito de espécime é aqueledefinido nos códigos de nomenclatura biológica.
+  
+    - Para o **Código Internacional de Nomenclatura Botânica**:
+    
+    | Espécime é uma coleta ou parte de uma coleta de uma única espécie ou táxon infraespecífico, não consideradas as misturas. Ele pode consistir de um único organismo, de partes de um ou vários organismos ou de múltiplos pequenos organismos. Um espécime normalmente é montado em uma única exsicata de herbário ou uma preparação equivalente, tais como: uma caixa, envelope, frasco ou lâmina de microscopia.
+
+Eu criei essa cena em PowerPoint (arquivo .pptx) para servir a fins didáticos. Deixo o arquivo original em *.pptx* acessível a qualquer pessoa que deseje editar ou fazer sua própria cena livremente:
+
+- [Nomenclatura botânica (conceito de espécime e principais categorias de tipo).pptx](./static/files/Nomenclatura botânica (conceito de espécime e principais categorias de tipo).pptx)
