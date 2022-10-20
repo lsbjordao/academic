@@ -20,8 +20,18 @@ image:
   
     - Para o **Código Internacional de Nomenclatura Botânica**:
     
-> Espécime é uma coleta ou parte de uma coleta de uma única espécie ou táxon infraespecífico, não consideradas as misturas. Ele pode consistir de um único organismo, de partes de um ou vários organismos ou de múltiplos pequenos organismos. Um espécime normalmente é montado em uma única exsicata de herbário ou uma preparação equivalente, tais como: uma caixa, envelope, frasco ou lâmina de microscopia.
+      > Espécime é uma coleta ou parte de uma coleta de uma única espécie ou táxon infraespecífico, não consideradas as misturas. Ele pode consistir de um único organismo, de partes de um ou vários organismos ou de múltiplos pequenos organismos. Um espécime normalmente é montado em uma única exsicata de herbário ou uma preparação equivalente, tais como: uma caixa, envelope, frasco ou lâmina de microscopia.
 
-Eu criei essa cena em PowerPoint (arquivo .pptx) para servir a fins didáticos. Deixo o arquivo original em *.pptx* acessível a qualquer pessoa que deseje editar ou fazer sua própria cena livremente:
+::: {style="color: black; background: lightblue; text-align: justify; border: 5px outset lightgray; padding: 10px;"}
+
+Eu criei essa cena em PowerPoint (arquivo .pptx) para servir a fins didáticos, por ocasião de um certame público para professor de Botânica.
+
+Agora, deixo o arquivo original em *.pptx* acessível a qualquer pessoa que deseje editar ou fazer sua própria cena livremente:
 
 - [Nomenclatura botânica (conceito de espécime e principais categorias de tipo).pptx](./static/files/Nomenclatura botânica (conceito de espécime e principais categorias de tipo).pptx)
+
+Apenas peço que respeitem a autoria incluída como uma `caixa de texto` no canto inferior direito, e caso modificações forem procedidas, inclua seu nome ao lado do meu, atualizando os slides.
+
+Bons estudos!
+
+:::
