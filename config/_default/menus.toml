@@ -19,6 +19,11 @@
   weight = 30
 
 #[[main]]
+#  name = "Classes"
+#  url = "#talk"
+#  weight = 40
+
+#[[main]]
 #  name = "Publications"
 #  url = "#featured"
 #  weight = 40
