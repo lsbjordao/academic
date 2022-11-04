@@ -55,11 +55,5 @@ subtitle = ""
   icon_pack = "fas"
   name = "Statistics"
   description = "30%"
-
-[[feature]]
-  icon = "fa-face-thinking"
-  icon_pack = "fa"
-  name = "Philosophy"
-  description = "60%"
     
 +++
