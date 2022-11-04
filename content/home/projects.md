@@ -32,6 +32,10 @@ subtitle = ""
   [[content.filter_button]]
     name = "Genus Mimosa"
     tag = "Genus Mimosa"
+    
+  [[content.filter_button]]
+    name = "Plant conservation"
+    tag = "Plant conservation" 
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
