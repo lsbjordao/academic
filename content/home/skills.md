@@ -57,8 +57,8 @@ subtitle = ""
   description = "30%"
 
 [[feature]]
-  icon = "face-thinking"
-  icon_pack = "fas"
+  icon = "fa-face-thinking"
+  icon_pack = "fa"
   name = "Philosophy"
   description = "60%"
     
