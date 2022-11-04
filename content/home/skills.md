@@ -22,7 +22,7 @@ subtitle = ""
 
 [[feature]]
   icon = "js"
-  icon_pack = "fa"
+  icon_pack = "fab"
   name = "JavaScript"
   description = "30%"
   
@@ -58,7 +58,7 @@ subtitle = ""
 
 [[feature]]
   icon = "face-thinking"
-  icon_pack = "fa"
+  icon_pack = "fas"
   name = "Philosophy"
   description = "60%"
     
