@@ -58,4 +58,14 @@ date_format = "Jan 2006"
   date_end = ""
   description = "Jordão, L.S.B., Morim, M.P. & Baumgratz, J.F.A."
 
+[[item]]
+  organization = "Flora 272: 151702"
+  organization_url = ""
+  title = "Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization"
+  url = "https://doi.org/10.1016/j.flora.2020.151702"
+  certificate_url = ""
+  date_start = "2020-11-01"
+  date_end = ""
+  description = "Jordão, L.S.B., Morim, M.P. & Baumgratz, J.F.A."
+  
 +++

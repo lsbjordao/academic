@@ -4,7 +4,7 @@ external_link: https://github.com/CNCFlora/CNCFloraR
 image:
   caption: CNCFlora/JBRJ
   focal_point: Smart
-summary: R, JavaScript, (Google) App Script `external link: GitHub`.
+summary: R, JavaScript, (Google) App Script `external link - GitHub`.
 tags:
 - Plant conservation
 - Coding and programming
