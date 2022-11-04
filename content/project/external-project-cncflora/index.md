@@ -4,7 +4,7 @@ external_link: http://cncflora.jbrj.gov.br/portal
 image:
   caption: CNCFlora/JBRJ
   focal_point: Smart
-summary: Centro Nacional de Conservação da Flora `external link`.
+summary: Centro Nacional de ConservaÃ§Ã£o da Flora `external link`.
 tags:
 - Plant conservation
 title: CNCFlora/JBRJ
