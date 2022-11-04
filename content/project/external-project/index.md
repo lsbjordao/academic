@@ -7,5 +7,6 @@ image:
 summary: Author of genus *Mimosa* along with Drª Marli P. Morim (and Dr. José Fernando A. Baumgratz)  `external link`.
 tags:
 - List of species
+- Genus Mimosa
 title: Catálogo da Flora do Estado do Rio de Janeiro
 ---

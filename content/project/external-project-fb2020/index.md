@@ -7,5 +7,6 @@ image:
 summary: Author of part of the genus *Mimosa* `external link`.
 tags:
 - List of species
+- Genus Mimosa
 title: Flora do Brasil 2020
 ---
