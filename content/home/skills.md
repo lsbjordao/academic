@@ -19,12 +19,18 @@ subtitle = ""
   icon_pack = "fab"
   name = "R"
   description = "65%"
+
+[[feature]]
+  icon = "js"
+  icon_pack = "fa"
+  name = "JavaScript"
+  description = "30%"
   
 [[feature]]
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "30%"
+  description = "20%"
 
 [[feature]]
   icon = "git-square"
@@ -36,7 +42,7 @@ subtitle = ""
   icon = "linux"
   icon_pack = "fab"
   name = "Linux"
-  description = "40%"  
+  description = "20%"  
 
 [[feature]]
   icon = "dna"
@@ -48,6 +54,12 @@ subtitle = ""
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "35%"  
-  
+  description = "30%"
+
+[[feature]]
+  icon = "face-thinking"
+  icon_pack = "fa"
+  name = "Philosophy"
+  description = "60%"
+    
 +++
