@@ -36,6 +36,10 @@ subtitle = ""
   [[content.filter_button]]
     name = "Plant conservation"
     tag = "Plant conservation" 
+    
+  [[content.filter_button]]
+    name = "Coding and programming"
+    tag = "Coding and programming" 
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
