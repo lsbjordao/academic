@@ -6,8 +6,8 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
   sapien eu, pulvinar tempor diam.
 all_day: false
 authors: []
-date: "2030-06-01T13:00:00-03:00"
-date_end: "2030-06-01T15:00:00-03:00"
+date: "2022-11-01T13:00:00-03:00"
+date_end: "2022-11-05T15:00:00-03:00"
 event: Academic Theme Conference
 event_url: https://example.org
 featured: true
@@ -18,7 +18,7 @@ location: London, United Kingdom
 math: true
 projects:
 - internal-project
-publishDate: "2017-01-01T00:00:00-02:00"
+publishDate: "2022-11-04T00:00:00-02:00"
 slides: example
 summary: An example talk using Academic's Markdown slides feature.
 tags: []
