@@ -30,18 +30,18 @@
 
 [[main]]
   name = "Classes"
-  url = "#talk"
+  url = "#talks"
   weight = 60
 
 [[main]]
-  name = "Featured publications"
+  name = "Featured accomplishments"
   url = "#featured"
   weight = 70
 
-#[[main]]
-#  name = "Publications"
-#  url = "#publications"
-#  weight = 70
+[[main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 70
 
 [[main]]
   name = "Contact"
