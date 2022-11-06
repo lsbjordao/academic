@@ -1,32 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Academic</title>
-    <link>/lsbjordao/academic/project/</link>
-    <description>Recent content in Projects on Academic</description>
+    <title>Projects on Lucas S.B. Jordão</title>
+    <link>https://lsbjordao.netlify.com/project/</link>
+    <description>Recent content in Projects on Lucas S.B. Jordão</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0300</lastBuildDate>
-    
-	<atom:link href="/lsbjordao/academic/project/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Lucas S.B. Jordão &amp;copy; `{year}`</copyright>
+    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://lsbjordao.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>External Project</title>
-      <link>/lsbjordao/academic/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      <title>CNCFlora/JBRJ</title>
+      <link>https://lsbjordao.netlify.com/project/external-project-cncflora-coding-and-programming/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 -0300</pubDate>
       
-      <guid>/lsbjordao/academic/project/external-project/</guid>
-      <description>An example of linking directly to an external project website using &lt;code&gt;external_link&lt;/code&gt;.</description>
+      <guid>https://lsbjordao.netlify.com/project/external-project-cncflora-coding-and-programming/</guid>
+      <description>R, JavaScript, (Google) App Script &lt;code&gt;external link - GitHub&lt;/code&gt;.</description>
     </item>
     
     <item>
-      <title>Internal Project</title>
-      <link>/lsbjordao/academic/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
+      <title>CNCFlora/JBRJ</title>
+      <link>https://lsbjordao.netlify.com/project/external-project-cncflora/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 -0300</pubDate>
       
-      <guid>/lsbjordao/academic/project/internal-project/</guid>
-      <description>An example of using the in-built project page.</description>
+      <guid>https://lsbjordao.netlify.com/project/external-project-cncflora/</guid>
+      <description>Centro Nacional de Conservação da Flora &lt;code&gt;external link&lt;/code&gt;.</description>
+    </item>
+    
+    <item>
+      <title>Flora do Brasil 2020</title>
+      <link>https://lsbjordao.netlify.com/project/external-project-fb2020/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/project/external-project-fb2020/</guid>
+      <description>Author of part of the genus &lt;em&gt;Mimosa&lt;/em&gt; &lt;code&gt;external link&lt;/code&gt;.</description>
+    </item>
+    
+    <item>
+      <title>Catálogo da Flora do Estado do Rio de Janeiro</title>
+      <link>https://lsbjordao.netlify.com/project/external-project/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/project/external-project/</guid>
+      <description>Author of genus &lt;em&gt;Mimosa&lt;/em&gt; along with Drª Marli P. Morim (and Dr. José Fernando A. Baumgratz)  &lt;code&gt;external link&lt;/code&gt;.</description>
+    </item>
+    
+    <item>
+      <title>What is Mimosa?</title>
+      <link>https://lsbjordao.netlify.com/project/what-is-mimosa/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/project/what-is-mimosa/</guid>
+      <description>Meet the megadiverse Neotropical genus.</description>
     </item>
     
   </channel>

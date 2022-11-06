@@ -1,22 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 on Academic</title>
-    <link>/lsbjordao/academic/publication_types/2/</link>
-    <description>Recent content in 2 on Academic</description>
+    <title>2 on Lucas S.B. Jordão</title>
+    <link>https://lsbjordao.netlify.com/publication_types/2/</link>
+    <description>Recent content in 2 on Lucas S.B. Jordão</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 -0300</lastBuildDate>
-    
-	<atom:link href="/lsbjordao/academic/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Lucas S.B. Jordão &amp;copy; `{year}`</copyright>
+    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 -0300</lastBuildDate><atom:link href="https://lsbjordao.netlify.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An example journal article</title>
-      <link>/lsbjordao/academic/publication/journal-article/</link>
+      <link>https://lsbjordao.netlify.com/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0300</pubDate>
       
-      <guid>/lsbjordao/academic/publication/journal-article/</guid>
+      <guid>https://lsbjordao.netlify.com/publication/journal-article/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</description>
     </item>
     

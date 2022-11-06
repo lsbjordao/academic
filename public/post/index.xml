@@ -1,43 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Academic</title>
-    <link>/lsbjordao/academic/post/</link>
-    <description>Recent content in Posts on Academic</description>
+    <title>Posts on Lucas S.B. Jordão</title>
+    <link>https://lsbjordao.netlify.com/post/</link>
+    <description>Recent content in Posts on Lucas S.B. Jordão</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/lsbjordao/academic/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Lucas S.B. Jordão &amp;copy; `{year}`</copyright>
+    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lsbjordao.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/lsbjordao/academic/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Conceito de espécime e principais categorias de tipo</title>
+      <link>https://lsbjordao.netlify.com/post/2022-10-20-conceito-de-especime-e-principais-categorias-de-tipo/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>/lsbjordao/academic/post/jupyter/</guid>
-      <description>Learn how to blog in Academic using Jupyter notebooks</description>
+      <guid>https://lsbjordao.netlify.com/post/2022-10-20-conceito-de-especime-e-principais-categorias-de-tipo/</guid>
+      <description>O conceito de espécime possui mais de um significado.
+No senso comum, espécime é um indivíduo de uma espécie.
+Para um biólogo ou biomédico no laboratório, espécime pode ser um exemplar ou uma amostra de um organismo.
+Para as ciências da Sistemática e Taxonomia, que têm como objetivo organizar a diversidade biológica em sistemas lógicos e úteis, o conceito de espécime é definido nos códigos de nomenclatura biológica.</description>
     </item>
     
     <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>/lsbjordao/academic/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      <title>Nomenclatura Botânica</title>
+      <link>https://lsbjordao.netlify.com/post/2022-10-10-nomenclatura-botanica/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>/lsbjordao/academic/post/getting-started/</guid>
-      <description>Create a beautifully simple website in under 10 minutes.</description>
+      <guid>https://lsbjordao.netlify.com/post/2022-10-10-nomenclatura-botanica/</guid>
+      <description>IntroduçãoHistóricoPrincípiosNíveis taxonômicosNomeaçãoStatus nomenclaturalNovidade nomenclaturalAto nomenclaturalNovidade nomenclatural vs. Mudança nomenclaturalObra originalProtólogoPublicação efetivaPublicação válidaNome válido/inválidoNome legítimo/ilegítimoNome correto (aceito)/incorretoSinônimossinônimo homotípico (sinônimo nomenclatural)sinônimo heterotípico (sinônimo taxonômico)Modificação do nível taxonômicoCombinação novaNome em um novo nível (status novum)Nome substituto (nome novo)Nome de um táxon novoTipificaçãoCategorias de tiposHolótipoIsótipoParátipoLectótipoSíntipoPadronização ortográficaNomeação de táxons de acordo com nível taxonômicoOrtografia de nomesGênero gramaticalBibliografiabody {text-align: justify}pre {white-space: pre-wrap;word-break: keep-all;}IntroduçãoA nomenclatura é parte da taxonomia:</description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/lsbjordao/academic/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Crie apresentações &#39;Ninja&#39; com pacote &#39;Xaringan&#39; para R</title>
+      <link>https://lsbjordao.netlify.com/post/ninja-presentation/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/lsbjordao/academic/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>https://lsbjordao.netlify.com/post/ninja-presentation/</guid>
+      <description>Crie aprentações Ninja com o pacote Xaringan para Veja a apresentação em tela cheia
+</description>
+    </item>
+    
+    <item>
+      <title>Introdução ao R e comandos básicos</title>
+      <link>https://lsbjordao.netlify.com/post/comando-basicos-r/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/post/comando-basicos-r/</guid>
+      <description>AutoresInspiraçãoContribuidoresPrimeiros passos…Primeiras funçõesOperadores simples e funções matemáticasFunções trigonométricasSequênciasRepetiçõesConstantes do ROrdenando valoresCriando um vetor com números inteirosTudo no R é objetoArmazenando dados em objetoConcatenando diversos valores e armazenando-os em um objetoExtraindo um ou mais valores de um objeto a partir da indexaçãoSubstituindo valores de um vetorPRINCIPAIS CLASSES DE OBJETOSnumericcharacterlogicalfactorfunctionPRINCIPAIS TIPOS DE OBJETOSvectormatrixdataframearraylistOperadores de lógicaFunções if e elseFunção forGerando números aleatórios e amostragemGráficos de Análise DescritivaHistogramaGráfico de dispersãoBarplotBoxplotO  é um projeto colaborativo com contribuições de pessoas do mundo todo cujo objetivo é oferecer uma ferramenta estatística moderna para sistema GNU de software livre.</description>
+    </item>
+    
+    <item>
+      <title>Crie mapas com o pacote &#39;Leaflet&#39; do R usando dados do GBIF Maps API</title>
+      <link>https://lsbjordao.netlify.com/post/crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/post/crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api/</guid>
+      <description>2019-05-08-crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api.utf8.md/*! jQuery v1.12.4 | (c) jQuery Foundation | jquery.org/license */!function(a,b){&#34;object&#34;==typeof module&amp;&amp;&#34;object&#34;==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(&#34;jQuery requires a window with a document&#34;);return b(a)}:b(a)}(&#34;undefined&#34;!=typeof window?window:this,function(a,b){var c=[],d=a.document,e=c.slice,f=c.concat,g=c.push,h=c.indexOf,i={},j=i.toString,k=i.hasOwnProperty,l={},m=&#34;1.12.4&#34;,n=function(a,b){return new n.fn.init(a,b)},o=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,p=/^-ms-/,q=/-([\da-z])/gi,r=function(a,b){return b.toUpperCase()};n.fn=n.prototype={jquery:m,constructor:n,selector:&#34;&#34;,length:0,toArray:function(){return e.call(this)},get:function(a){return null!=a?0a?this[a+this.length]:this[a]:e.call(this)},pushStack:function(a){var b=n.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a){return n.each(this,a)},map:function(a){return this.pushStack(n.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(e.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0a?b:0);return this.pushStack(c=0&amp;&amp;bc?[this[c]]:[])},end:function(){return this.prevObject||this.constructor()},push:g,sort:c.sort,splice:c.splice},n.extend=n.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for(&#34;boolean&#34;==typeof g&amp;&amp;(j=g,g=arguments[h]||{},h++),&#34;object&#34;==typeof g||n.isFunction(g)||(g={}),h===i&amp;&amp;(g=this,h--);ih;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&amp;&amp;(j&amp;&amp;c&amp;&amp;(n.isPlainObject(c)||(b=n.isArray(c)))?(b?(b=!1,f=a&amp;&amp;n.isArray(a)?a:[]):f=a&amp;&amp;n.isPlainObject(a)?a:{},g[d]=n.extend(j,f,c)):void 0!==c&amp;&amp;(g[d]=c));return g},n.extend({expando:&#34;jQuery&#34;+(m+Math.random()).replace(/\D/g,&#34;&#34;),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return&#34;function&#34;===n.type(a)},isArray:Array.isArray||function(a){return&#34;array&#34;===n.type(a)},isWindow:function(a){return null!=a&amp;&amp;a==a.window},isNumeric:function(a){var b=a&amp;&amp;a.toString();return!n.isArray(a)&amp;&amp;b-parseFloat(b)+1=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||&#34;object&#34;!==n.type(a)||a.nodeType||n.isWindow(a))return!1;try{if(a.constructor&amp;&amp;!k.call(a,&#34;constructor&#34;)&amp;&amp;!k.call(a.constructor.prototype,&#34;isPrototypeOf&#34;))return!1}catch(c){return!1}if(!l.ownFirst)for(b in a)return k.call(a,b);for(b in a);return void 0===b||k.call(a,b)},type:function(a){return null==a?a+&#34;&#34;:&#34;object&#34;==typeof a||&#34;function&#34;==typeof a?i[j.call(a)]||&#34;object&#34;:typeof a},globalEval:function(b){b&amp;&amp;n.trim(b)&amp;&amp;(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:function(a){return a.replace(p,&#34;ms-&#34;).replace(q,r)},nodeName:function(a,b){return a.</description>
+    </item>
+    
+    <item>
+      <title>Hello world, speaking animals, and some fortunes</title>
+      <link>https://lsbjordao.netlify.com/post/hello-world-animals-and-some-fortunes/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/post/hello-world-animals-and-some-fortunes/</guid>
+      <description>Hi there! I’m glad you here! 😄
+📣 This is my first post!
+✨ It’s fantastic ✨ to use  programming languange in HTML .
+Take a 👀 in these two packages for newbies in …
+Cowsay package - Speaking animals 🐮 🐒say(&amp;quot;Hello world!&amp;quot;, &amp;quot;cow&amp;quot;)## ## ----- ## Hello world! ## ------ ## \ ^__^ ## \ (oo)\ ________ ## (__)\ )\ /\ ## ||------w|## || ||say(&amp;quot;Hello you!</description>
     </item>
     
   </channel>

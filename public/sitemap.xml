@@ -1,212 +1,174 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/lsbjordao/academic/</loc>
-    <lastmod>2030-06-01T13:00:00-03:00</lastmod>
-    <priority>0</priority>
+    <loc>https://lsbjordao.netlify.com/project/external-project-cncflora-coding-and-programming/</loc>
+    <lastmod>2022-11-04T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00-03:00</lastmod>
+    <loc>https://lsbjordao.netlify.com/project/external-project-cncflora/</loc>
+    <lastmod>2022-11-04T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/talk/</loc>
-    <lastmod>2030-06-01T13:00:00-03:00</lastmod>
+    <loc>https://lsbjordao.netlify.com/tags/coding-and-programming/</loc>
+    <lastmod>2022-11-04T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/publication_types/3/</loc>
+    <loc>https://lsbjordao.netlify.com/</loc>
+    <lastmod>2022-11-04T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/tags/plant-conservation/</loc>
+    <lastmod>2022-11-04T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/project/</loc>
+    <lastmod>2022-11-04T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/tags/</loc>
+    <lastmod>2022-11-04T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/post/2022-10-20-conceito-de-especime-e-principais-categorias-de-tipo/</loc>
+    <lastmod>2022-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/tags/nomenclatura-bot%C3%A2nica/</loc>
+    <lastmod>2022-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/post/</loc>
+    <lastmod>2022-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/post/2022-10-10-nomenclatura-botanica/</loc>
+    <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/post/ninja-presentation/</loc>
+    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/post/comando-basicos-r/</loc>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/post/crie-mapas-com-o-pacote-leaflet-do-r-usando-dados-do-gbif-maps-api/</loc>
+    <lastmod>2019-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/project/external-project-fb2020/</loc>
+    <lastmod>2019-05-05T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/tags/genus-mimosa/</loc>
+    <lastmod>2019-05-05T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/tags/list-of-species/</loc>
+    <lastmod>2019-05-05T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/project/external-project/</loc>
+    <lastmod>2019-05-04T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/post/hello-world-animals-and-some-fortunes/</loc>
+    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/project/what-is-mimosa/</loc>
+    <lastmod>2019-05-01T00:00:00-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lsbjordao.netlify.com/publication_types/3/</loc>
     <lastmod>2019-04-07T00:00:00-03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/publication/preprint/</loc>
+    <loc>https://lsbjordao.netlify.com/authors/admin/</loc>
     <lastmod>2019-04-07T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/authors/</loc>
-    <lastmod>2019-04-17T00:00:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/publication/</loc>
+    <loc>https://lsbjordao.netlify.com/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/tags/source-themes/</loc>
+    <loc>https://lsbjordao.netlify.com/authors/</loc>
     <lastmod>2019-04-07T00:00:00-03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/tags/</loc>
-    <lastmod>2019-04-17T00:00:00-03:00</lastmod>
-    <priority>0</priority>
+    <loc>https://lsbjordao.netlify.com/publication_types/</loc>
+    <lastmod>2019-04-07T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/authors/admin/</loc>
-    <lastmod>2019-04-17T00:00:00-03:00</lastmod>
-    <priority>0</priority>
+    <loc>https://lsbjordao.netlify.com/publication/</loc>
+    <lastmod>2019-04-07T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/post/jupyter/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <loc>https://lsbjordao.netlify.com/tags/source-themes/</loc>
+    <lastmod>2019-04-07T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/post/</loc>
-    <lastmod>2019-04-17T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/tutorial/example/</loc>
-    <lastmod>2018-09-09T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/tutorial/</loc>
-    <lastmod>2018-09-09T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/project/</loc>
-    <lastmod>2016-04-27T00:00:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/tags/academic/</loc>
-    <lastmod>2019-04-17T00:00:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/publication_types/2/</loc>
+    <loc>https://lsbjordao.netlify.com/publication_types/2/</loc>
     <lastmod>2015-09-01T00:00:00-03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/publication/journal-article/</loc>
+    <loc>https://lsbjordao.netlify.com/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/categories/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
+    <loc>https://lsbjordao.netlify.com/author/admin/</loc>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>https://lsbjordao.netlify.com/author/</loc>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
+    <loc>https://lsbjordao.netlify.com/categories/</loc>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
+    <loc>https://lsbjordao.netlify.com/talk/</loc>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
+    <loc>https://lsbjordao.netlify.com/slides/</loc>
   </url>
   
   <url>
-    <loc>/lsbjordao/academic/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/publication_types/1/</loc>
-    <lastmod>2013-07-01T00:00:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/authors/robert-ford/</loc>
-    <lastmod>2013-07-01T00:00:00-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/author/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/author/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/slides/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lsbjordao/academic/slides/example/</loc>
+    <loc>https://lsbjordao.netlify.com/slides/example/</loc>
   </url>
   
 </urlset>

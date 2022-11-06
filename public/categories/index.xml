@@ -1,24 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Academic</title>
-    <link>/lsbjordao/academic/categories/</link>
-    <description>Recent content in Categories on Academic</description>
+    <title>Categories on Lucas S.B. Jordão</title>
+    <link>https://lsbjordao.netlify.com/categories/</link>
+    <description>Recent content in Categories on Lucas S.B. Jordão</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
-    
-	<atom:link href="/lsbjordao/academic/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>R</title>
-      <link>/lsbjordao/academic/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/lsbjordao/academic/categories/r/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>Lucas S.B. Jordão &amp;copy; `{year}`</copyright><atom:link href="https://lsbjordao.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

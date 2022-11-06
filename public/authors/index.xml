@@ -1,31 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Academic</title>
-    <link>/lsbjordao/academic/authors/</link>
-    <description>Recent content in Authors on Academic</description>
+    <title>Authors on Lucas S.B. Jordão</title>
+    <link>https://lsbjordao.netlify.com/authors/</link>
+    <description>Recent content in Authors on Lucas S.B. Jordão</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 -0300</lastBuildDate>
-    
-	<atom:link href="/lsbjordao/academic/authors/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Lucas S.B. Jordão &amp;copy; `{year}`</copyright>
+    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 -0300</lastBuildDate><atom:link href="https://lsbjordao.netlify.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>admin</title>
-      <link>/lsbjordao/academic/authors/admin/</link>
+      <link>https://lsbjordao.netlify.com/authors/admin/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 -0300</pubDate>
       
-      <guid>/lsbjordao/academic/authors/admin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robert Ford</title>
-      <link>/lsbjordao/academic/authors/robert-ford/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 -0300</pubDate>
-      
-      <guid>/lsbjordao/academic/authors/robert-ford/</guid>
+      <guid>https://lsbjordao.netlify.com/authors/admin/</guid>
       <description></description>
     </item>
     

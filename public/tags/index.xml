@@ -1,76 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Academic</title>
-    <link>/lsbjordao/academic/tags/</link>
-    <description>Recent content in Tags on Academic</description>
+    <title>Tags on Lucas S.B. Jordão</title>
+    <link>https://lsbjordao.netlify.com/tags/</link>
+    <description>Recent content in Tags on Lucas S.B. Jordão</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 -0300</lastBuildDate>
+    <copyright>Lucas S.B. Jordão &amp;copy; `{year}`</copyright>
+    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 -0300</lastBuildDate><atom:link href="https://lsbjordao.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding and programming</title>
+      <link>https://lsbjordao.netlify.com/tags/coding-and-programming/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/tags/coding-and-programming/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="/lsbjordao/academic/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plant conservation</title>
+      <link>https://lsbjordao.netlify.com/tags/plant-conservation/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 -0300</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/tags/plant-conservation/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Nomenclatura Botânica</title>
+      <link>https://lsbjordao.netlify.com/tags/nomenclatura-bot%C3%A2nica/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/tags/nomenclatura-bot%C3%A2nica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genus Mimosa</title>
+      <link>https://lsbjordao.netlify.com/tags/genus-mimosa/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/tags/genus-mimosa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>List of species</title>
+      <link>https://lsbjordao.netlify.com/tags/list-of-species/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://lsbjordao.netlify.com/tags/list-of-species/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Source Themes</title>
-      <link>/lsbjordao/academic/tags/source-themes/</link>
+      <link>https://lsbjordao.netlify.com/tags/source-themes/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 -0300</pubDate>
       
-      <guid>/lsbjordao/academic/tags/source-themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>/lsbjordao/academic/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
-      
-      <guid>/lsbjordao/academic/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>/lsbjordao/academic/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0300</pubDate>
-      
-      <guid>/lsbjordao/academic/tags/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Academic</title>
-      <link>/lsbjordao/academic/tags/academic/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
-      
-      <guid>/lsbjordao/academic/tags/academic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>/lsbjordao/academic/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/lsbjordao/academic/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>plot</title>
-      <link>/lsbjordao/academic/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/lsbjordao/academic/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>/lsbjordao/academic/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/lsbjordao/academic/tags/regression/</guid>
+      <guid>https://lsbjordao.netlify.com/tags/source-themes/</guid>
       <description></description>
     </item>
     
