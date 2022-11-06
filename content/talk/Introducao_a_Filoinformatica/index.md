@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 abstract: A sistemática filogenética é atualmente um campo científico em plena expansão. As etapas de desenvolvimento dessas pesquisas envolvem a utilização de diversos programas de computadores, muitas vezes sem interface gráfica com usuário, inclusive de linguagens de programação. O tempo de aprendizagem desses programas pode variar dependendo do nível de conhecimento individual em informática. Nesse sentido, o presente curso poderá contribuir para a aceleração do processo de aprendizagem, ao mesmo tempo em que demonstra uma visão geral de todos os processos de uma análise filogenética com dados moleculares.
 all_day: false
 authors: []
