@@ -2,6 +2,6 @@
 header:
   caption: ""
   image: ""
-title: Classes
+title: Courses
 view: 2
 ---
