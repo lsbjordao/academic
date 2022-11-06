@@ -29,12 +29,12 @@
   weight = 50
 
 [[main]]
-  name = "Classes"
+  name = "Courses"
   url = "#talks"
   weight = 60
 
 [[main]]
-  name = "Featured accomplishments"
+  name = "Accomplishments"
   url = "#featured"
   weight = 70
 
