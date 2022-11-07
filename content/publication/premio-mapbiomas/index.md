@@ -10,11 +10,11 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 authors:
 - admin
 - Robert Ford
-date: "2013-07-01T00:00:00-03:00"
+date: "2022-07-01T00:00:00-03:00"
 doi: ""
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: '[**MapBiomas Brasil no YouTube**](https://www.youtube.com/watch?v=Te4FLR2k-bo)'
   focal_point: ""
 links:
 - name: Custom Link
@@ -26,11 +26,10 @@ publication_short: In *STC*
 publication_types:
 - "1"
 slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: O MapBiomas e a avaliação do risco de extinção da flora brasileira.
 tags:
 - Source Themes
-title: Menção honrosa na categoria `Destaque Aplicação em Políticas Públicas` na 4ª Edição do Prêmio MapBiomas (2022)
+title: Menção honrosa na categoria "Destaque Aplicação em Políticas Públicas" na 4ª Edição do Prêmio MapBiomas (2022)
 url_code: '#'
 url_dataset: '#'
 url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
