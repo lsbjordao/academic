@@ -63,7 +63,7 @@ user_groups:
 - Visitors
 ---
 
-Lucas Jordão has experience and interest in teaching and research. He worked as a teacher of Science and Biology in elementary and high school for four years and four months. In addition, he worked as facilitator of environmental education for ten months. Regarding research, he is a specialist in the genus *Mimosa* (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. In his master research, he developed floristic and taxonomic studies of *Mimosa* in the state of Rio de Janeiro/RJ, Brazil. In his PhD research, he carried out phylogenetic studies using molecular data and taxonomical revision of four series within *Mimosa*. Currently, he is an analyst at CNCFLora/JBRJ and teaches environmental law and forensic botany at Bioforense course.
+I have experience and interest in teaching and research. I started my professional career worked as a teacher of Science and Biology in elementary and high school for four years and four months. I also worked as facilitator of environmental education for ten months. Regarding research, I am a expert in the genus *Mimosa* (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. In my master research, I developed floristic and taxonomic studies of *Mimosa* in the state of Rio de Janeiro/RJ, Brazil. In my PhD research, I carried out phylogenetic studies using molecular data and taxonomical revision of four series within *Mimosa*. Currently, I work as an analyst at CNCFLora/JBRJ, and also teach environmental law and forensic botany at [Bioforense course](www.bioforense.com.br).
 
 ---
 
