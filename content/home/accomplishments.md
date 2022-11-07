@@ -67,5 +67,15 @@ date_format = "Jan 2006"
   date_start = "2020-11-01"
   date_end = ""
   description = "Jordão, L.S.B., Morim, M.P. & Baumgratz, J.F.A."
-  
+
+[[item]]
+  organization = "Systematic Botany 46(2): 339-351"
+  organization_url = ""
+  title = "New species of *Mimosa* (Leguminosae) from Brazil"
+  url = "https://doi.org/10.1600/036364421X16231782047271"
+  certificate_url = ""
+  date_start = "2021-08-11"
+  date_end = ""
+  description = "Jordão, L.S.B., Morim, M.P., Simon, M.F. & Baumgratz, J.F.A."
+    
 +++

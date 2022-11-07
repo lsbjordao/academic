@@ -10,7 +10,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 authors:
 - admin
 - Robert Ford
-date: "2022-07-01T00:00:00-03:00"
+date: "2022-08-09T19:00:00-03:00"
 doi: ""
 featured: true
 image:
@@ -22,14 +22,14 @@ links:
 projects:
 - internal-project
 publication: In *Source Themes Conference*
-publication_short: In *STC*
+publication_short: [Evento de premiação](https://www.youtube.com/watch?v=NUIvcXR2HL0&feature=emb_title)
 publication_types:
 - "1"
 slides: example
 summary: O MapBiomas e a avaliação do risco de extinção da flora brasileira.
 tags:
 - Source Themes
-title: Menção honrosa na categoria "Destaque Aplicação em Políticas Públicas" na 4ª Edição do Prêmio MapBiomas (2022)
+title: Menção honrosa na categoria "Destaque Aplicações em Políticas Públicas" na 4ª Edição do Prêmio MapBiomas (2022)
 url_code: '#'
 url_dataset: '#'
 url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
