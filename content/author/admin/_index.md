@@ -28,6 +28,7 @@ interests:
 - Biogeography and Ecology
 - Taxonomy and Nomenclature
 - Biodiversity management
+- Geospatial analysis
 - Philosophy and History
 - Global and Brazilian Environmental history
 - Pedagogy and Environmental education
