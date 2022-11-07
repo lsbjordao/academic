@@ -21,17 +21,21 @@ education:
     year: 2007
 email: ""
 interests:
-- Phylogenetic Systematics and Evolution
-- Phyloinformatics and Bioinformatics
-- Biogeography and Ecology
-- Taxonomy and Nomenclature
-- Niche modelling
+- Coding and programming
+- R, JavaScript, App Script, Google Earth Engine
+- Phylogenetic systematics and evolution
+- Phyloinformatics and bioinformatics
+- Biogeography and ecology
+- Taxonomy and nomenclature
 - Biodiversity management
-- Global and Brazilian Environmental History
-- Environmental Education
-- Brazilian Environmental Legislation
-- Philosophy and Philosophy of law
+- Philosophy and History
+- Global and Brazilian environmental history
+- Pedagogy and environmental education
+- Brazilian laws and wegulations
+- Brazilian environmental legislation
+- Philosophy of law
 - Economy and financial market
+- Blockchain and cryptocurrency
 name: Lucas Jordão
 organizations:
 - name: ""
