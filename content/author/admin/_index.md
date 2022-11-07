@@ -23,15 +23,15 @@ email: ""
 interests:
 - Coding and programming
 - R, JavaScript, App Script, Google Earth Engine
-- Phylogenetic systematics and evolution
-- Phyloinformatics and bioinformatics
-- Biogeography and ecology
-- Taxonomy and nomenclature
+- Phylogenetic systematics, Molecular evolution, and Evolution
+- Phyloinformatics and Bioinformatics
+- Biogeography and Ecology
+- Taxonomy and Nomenclature
 - Biodiversity management
 - Philosophy and History
-- Global and Brazilian environmental history
-- Pedagogy and environmental education
-- Brazilian laws and wegulations
+- Global and Brazilian Environmental history
+- Pedagogy and Environmental education
+- Brazilian laws and regulations
 - Brazilian environmental legislation
 - Philosophy of law
 - Economy and financial market
@@ -67,7 +67,7 @@ user_groups:
 - Visitors
 ---
 
-I have experience and interest in teaching and research. I started my professional career worked as a teacher of Science and Biology in elementary and high school for four years and four months. I also worked as facilitator of environmental education for ten months. Regarding research, I am a expert in the genus *Mimosa* (Leguminosae) and develops taxonomic, nomenclatural, systematics, and biogeographical studies. In my master research, I developed floristic and taxonomic studies of *Mimosa* in the state of Rio de Janeiro/RJ, Brazil. In my PhD research, I carried out phylogenetic studies using molecular data and taxonomical revision of four series within *Mimosa*. Currently, I work as an analyst at CNCFLora/JBRJ, and also teach environmental law and forensic botany at [Bioforense course](www.bioforense.com.br).
+I have experience and interest in teaching and research. I started my professional career worked as a teacher of Science and Biology in elementary and high school for four years and four months. I also worked as facilitator of environmental education for ten months. Later, I taught classes in postgraduate courses, what I continue to do. Regarding research, I'm an expert in the taxonomy of the genus *Mimosa* (Leguminosae) and also interested in the fields of nomenclature, systematics, phylogeny and biogeography. In my master research, I developed floristic and taxonomic studies of *Mimosa* in the state of Rio de Janeiro/RJ, Brazil. In my PhD research, I carried out phylogenetic studies using molecular data and a taxonomic revision of four series within *Mimosa*. I have experience managing biological collections, particularly herbariums, and I have worked with digitization of collections by the [Reflora Project](reflora.jbrj.gov.br). I also have experience in molecular analysis laboratories, performing DNA extraction, electrophoresis, amplification and sanger sequencing. As a technician, I carried out consultancy work for botanical identification, floristic survey and forest inventories. In 2020, I started working as an analyst at CNCFLora/JBRJ, when I started programming in R. Currently, I am interested in programming in R, JavaScript, App Script and Google Earth Engine, as well as cloud computing applications. I also teach environmental law and forensic botany at [Bioforense course](www.bioforense.com.br).
 
 ---
 
