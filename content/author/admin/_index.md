@@ -36,7 +36,7 @@ name: Lucas Jordão
 organizations:
 - name: ""
   url: ""
-role: PhD and Master's in Botany
+role: Biologist, botanist, coder, programmer
 social:
 - icon: envelope
   icon_pack: fas
