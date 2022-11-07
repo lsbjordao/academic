@@ -22,7 +22,7 @@ links:
 projects:
 - internal-project
 publication: In *Source Themes Conference*
-publication_short: [Evento de premiação](https://www.youtube.com/watch?v=NUIvcXR2HL0&feature=emb_title)
+publication_short: Evento de premiação
 publication_types:
 - "1"
 slides: example
