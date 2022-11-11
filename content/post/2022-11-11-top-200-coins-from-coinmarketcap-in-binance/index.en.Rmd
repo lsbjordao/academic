@@ -11,5 +11,5 @@ image:
 ---
 
 ```{r}
-knitr::include_url("./files/topCoins_in_Binance_indicators.html")
+knitr::include_url("https://github.com/lsbjordao/academic/blob/master/static/files/topCoins_in_Binance_indicators.html")
 ```
