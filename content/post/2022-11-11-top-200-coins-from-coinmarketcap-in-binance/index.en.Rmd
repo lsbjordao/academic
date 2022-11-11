@@ -1,0 +1,15 @@
+---
+title: Top 200 coins from CoinMarketCap in Binance with main indicators
+author: Lucas
+date: '2022-11-11'
+slug: []
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+```{r}
+knitr::include_url("./files/topCoins_in_Binance_indicators.html")
+```
