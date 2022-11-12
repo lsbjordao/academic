@@ -12,7 +12,7 @@ image:
 
 # Binance assets at November 12^th^ 2022 - 12:52:52
 
-```{r echo=FALSE, message=TRUE, warning=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(dplyr)
 df <- readRDS("C:/Blogdown/static/files/top200FromCoinMarketCapInBinance_12Nov2022_12+52+52.rds")
 
