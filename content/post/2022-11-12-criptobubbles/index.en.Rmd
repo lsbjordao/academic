@@ -1,0 +1,136 @@
+---
+title: Criptobubbles
+author: Lucas
+date: '2022-11-12'
+slug: []
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+# Top50 coins from CoinMarketCap in Binance
+
+November 12^th^ 2012 - 17:43:00
+
+**Size of bubble:** Volume
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(highcharter)
+chart <- readRDS("C:/Blogdown/static/files/criptobubbles.rds")
+
+
+hc <-
+    hchart(
+
+      chart,
+      "packedbubble",
+      hcaes(
+
+        name = assetSymbol,
+        value = volume,
+        group = PosOrNeg
+
+      )
+
+    ) %>%
+    hc_title(
+      text = sub("$", "", Sys.time()),
+      margin = 20,
+      align = "left",
+      style = list(color = "black")
+    )
+
+  hc2 <- hc %>%
+    hc_colors(c("red", "green")) %>%
+    hc_tooltip(
+
+      useHTML = TRUE,
+      pointFormat = "<b>{point.name}</b><br>{point.value}<br>{point.priceChangePercent}",
+      style = list(
+        zIndex = 99999
+
+      )
+
+    ) %>%
+    hc_plotOptions(
+
+      packedbubble = list(
+
+        #maxSize = "200%",
+        zMin = 0,
+        minSize = '50%',
+        maxSize = '150%',
+        layoutAlgorithm = list(
+
+          gravitationalConstant =  0.05,
+          splitSeries =  TRUE, # TRUE to group points
+          seriesInteraction = TRUE,
+          dragBetweenSeries = TRUE,
+          parentNodeLimit = TRUE,
+          bubblePadding = 10
+
+        ),
+        dataLabels = list(
+
+          useHTML = TRUE,
+          enabled = TRUE,
+          formatter = JS(
+            "function(){
+            //console.log(this.point);
+            return `
+              <div style='
+              display:grid;
+              height:${this.point.graphic.height}px;
+              width:${this.point.graphic.width}px;
+              align-items:center;
+              justify-content:center;
+              z-index:0 !important;'>
+              <div style='
+                display:grid;
+                grid-template-rows: 1fr auto auto;
+                height:${this.point.graphic.height - 5}px;
+                width:${this.point.graphic.width - 5}px;'
+                overflow: none;
+                grid-gap:5px;
+                text-align:center;>
+                <div style='
+                   display:flex;
+                   background-image:url(${this.point.options.usedIcons});
+                   background-size: auto 100%;
+                   background-repeat:no-repeat;
+                   background-position: center;
+                   z-index:0 !important;
+                '>&nbsp;</div>
+              <span
+                style='
+                  display:grid;
+                  justify-content:center;
+                  overflow:hidden;
+                  font-size: ${this.point.graphic.renderer.style.fontSize};'
+                >${this.point.graphic.width < 60 ? '' : this.point.options.assetSymbol}</span>
+              <span style='
+                  display:grid;
+                  justify-content:center;
+                  overflow:hidden;'>
+                ${this.point.graphic.width < 60 ? '' : this.point.options.priceChangePercent}</span>
+              </div>
+            </div>`;
+          }"
+          ),
+          allowOverlap = TRUE,
+          style = list(
+            color = "black",
+            textOutline = "none",
+            fontWeight = "normal",
+            zIndex = 0
+
+          )
+        )
+      )
+    )
+
+  print(hc2)
+
+```
