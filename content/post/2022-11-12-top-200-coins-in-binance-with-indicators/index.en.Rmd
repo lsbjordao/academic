@@ -63,7 +63,7 @@ df <- data.frame(
 )
 ```
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 df %>%
     kable(
