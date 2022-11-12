@@ -69,7 +69,7 @@ df %>%
     kable(
 
       escape = F, align = c("c", "c", "r", "r", "l"),
-      caption = paste0(format(Sys.time(), "%d %b %Y - %X"))
+      caption = "November 12^th^ 2022 - 12:52:52"
 
     ) %>%
     column_spec(1,
