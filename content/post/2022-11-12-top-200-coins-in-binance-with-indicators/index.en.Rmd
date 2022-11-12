@@ -1,0 +1,168 @@
+---
+title: Top 200 coins from CoinMarketCap in Binance with main indicators
+author: Lucas
+date: '2022-11-12'
+slug: []
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+# Binance assets at November 12^th^ 2022 - 12:52:52
+
+```{r echo=FALSE, message=TRUE, warning=FALSE}
+library(dplyr)
+df <- readRDS("C:/Blogdown/static/files/top200FromCoinMarketCapInBinance_12Nov2022_12+52+52.rds")
+
+usedIcons <- sub(
+  
+  "^",
+  "https://raw.githubusercontent.com/lsbjordao/cryptoicons/main/icons/",
+  sub(
+    
+    "$",
+    ".png",
+    tolower(
+      
+      sub(
+        
+        "(BUSD$|USDT$|BRL$)",
+        "",
+        (df %>%
+           select(symbol))[,1]
+        
+      )
+      
+    )
+    
+  )
+  
+)
+
+df$usedIcons<-usedIcons
+
+sp90days<-df$sp90days
+sp60days<-df$sp60days
+sp30days<-df$sp30days
+sp15days<-df$sp15days
+
+df1 <- df[, c(1:4)]
+df2 <- df[, c(9:17)]
+
+df <- data.frame(
+  
+  df1,
+  sp90days = "",
+  sp60days = "",
+  sp30days = "",
+  sp15days = "",
+  df2
+  
+)
+```
+
+```{r echo=FALSE}
+library(kableExtra)
+df %>%
+    kable(
+
+      escape = F, align = c("c", "c", "r", "r", "l"),
+      caption = paste0(format(Sys.time(), "%d %b %Y - %X"))
+
+    ) %>%
+    column_spec(1,
+                image = spec_image(
+                  usedIcons,
+                  80, 80
+                )
+
+    ) %>%
+    column_spec(5,
+                image = spec_plot(sp90days, same_lim = FALSE, col="lightblue", type="l")
+                ) %>%
+    column_spec(6,
+                image = spec_plot(sp60days, same_lim = FALSE, col="lightblue", type="l")
+    ) %>%
+    column_spec(7,
+                image = spec_plot(sp30days, same_lim = FALSE, col="lightblue", type="l")
+    ) %>%
+    column_spec(8,
+                image = spec_plot(sp15days, same_lim = FALSE, col="lightblue", type="l")
+    ) %>%
+    column_spec(9,
+                color = "white",
+                background = spec_color(
+                  df$Bollinger,
+                  option = "H"
+                )
+
+    ) %>%
+    column_spec(10,
+                color = "white",
+                background = spec_color(
+                  df$Keltner,
+                  option = "H"
+                )
+
+    ) %>%
+    column_spec(11,
+                color = "white",
+                background = spec_color(
+                  df$Fibonacci,
+                  option = "H"
+                )
+
+    ) %>%
+    column_spec(12,
+                color = "white",
+                background = spec_color(
+                  df$RSI,
+                  option = "H"
+                )
+
+    ) %>%
+    column_spec(13,
+                color = "white",
+                background = spec_color(
+                  df$MFI,
+                  option = "H"
+                )
+
+    ) %>%
+    column_spec(14,
+                color = "white",
+                background = spec_color(
+                  df$CCI,
+                  option = "H"
+                )
+
+    ) %>%
+    column_spec(15,
+                color = "white",
+                background = spec_color(
+                  df$CMF,
+                  option = "H"
+                )
+
+    ) %>%
+    column_spec(16,
+                color = "white",
+                background = spec_color(
+                  df$OBV,
+                  option = "E"
+                )
+
+    ) %>%
+    column_spec(17,
+                color = "white",
+                background = spec_color(
+                  df$Index,
+                  option = "H"
+                )
+
+    ) %>%
+    kable_material_dark(c("striped", "hover"), full_width = F) %>%
+    row_spec(0, align = "c")
+```
