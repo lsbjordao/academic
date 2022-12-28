@@ -41,6 +41,12 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[params]
+    
+  # Custom favicon param. See layouts/partials/favicon.html for use
+  # Add favicon.png to static/ and it will be copied to public/ on build
+  favicon = "/favicon.png"
+    
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
