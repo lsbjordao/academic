@@ -45,7 +45,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
     
   # Custom favicon param. See layouts/partials/favicon.html for use
   # Add favicon.png to static/ and it will be copied to public/ on build
-  favicon = "/favicon.png"
+  favicon = "/img/favicon.png"
     
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
