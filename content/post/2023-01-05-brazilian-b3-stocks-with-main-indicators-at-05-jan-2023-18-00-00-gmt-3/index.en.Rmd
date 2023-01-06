@@ -1,0 +1,202 @@
+---
+title: Brazilian B3 stocks with main indicators at 05 Jan 2023 - 18:02:13 (GMT-3)
+author: Lucas
+date: '2023-01-05'
+slug: []
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+# Assets
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+df <- readRDS("C:/Blogdown/static/files/B3stocks_05Jan2023_18+02+13.rds")
+
+usedIcons <- sub(
+  
+  "^",
+  "https://pro.clear.com.br/src/assets/symbols_icons/",
+  sub(
+    
+    "$",
+    ".png",
+    toupper(
+      
+      sub(
+        
+        "(3\\.SA$|4\\.SA$)",
+        "",
+        (assetSymbolDataFrame %>%
+           select(symbol))[,1]
+        
+      )
+      
+    )
+    
+  )
+  
+)
+
+df$usedIcons<-usedIcons
+
+sp360days<-df$sp360days
+sp180days<-df$sp180days
+sp90days<-df$sp90days
+sp60days<-df$sp60days
+sp30days<-df$sp30days
+sp15days<-df$sp15days
+
+df1 <- df[, c(1:4)]
+df2 <- df[, c(11:22)]
+
+df <- data.frame(
+  
+  df1,
+  sp360days = "",
+  sp180days = "",
+  sp90days = "",
+  sp60days = "",
+  sp30days = "",
+  sp15days = "",
+  df2
+  
+)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+df %>%
+    kable(
+
+      escape = F, align = c("c", "c", "r", "r", "l"),
+      caption = "January 5^th^ 2023 - 18:02:52"
+
+    ) %>%
+    column_spec(1,
+                image = spec_image(
+                  usedIcons,
+                  80, 80
+                )
+
+    ) %>%
+  column_spec(5,
+              image = spec_plot(sp360days, same_lim = FALSE, col="lightblue", type="l")
+  ) %>%
+  column_spec(6,
+              image = spec_plot(sp180days, same_lim = FALSE, col="lightblue", type="l")
+  ) %>%
+  column_spec(7,
+              image = spec_plot(sp90days, same_lim = FALSE, col="lightblue", type="l")
+  ) %>%
+  column_spec(8,
+              image = spec_plot(sp60days, same_lim = FALSE, col="lightblue", type="l")
+  ) %>%
+  column_spec(9,
+              image = spec_plot(sp30days, same_lim = FALSE, col="lightblue", type="l")
+  ) %>%
+  column_spec(10,
+              image = spec_plot(sp15days, same_lim = FALSE, col="lightblue", type="l")
+  ) %>%
+  column_spec(11,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$Bollinger,
+                option = "H"
+              )
+              
+  ) %>%
+  column_spec(12,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$Keltner,
+                option = "H"
+              )
+              
+  ) %>%
+  column_spec(13,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$Fibonacci,
+                option = "H"
+              )
+              
+  ) %>%
+  column_spec(14,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$RSI,
+                option = "H"
+              )
+              
+  ) %>%
+  column_spec(15,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$MFI,
+                option = "H"
+              )
+              
+  ) %>%
+  column_spec(16,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$ROC,
+                option = "H"
+              )
+              
+  ) %>%
+  column_spec(17,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$CCI,
+                option = "H"
+              )
+              
+  ) %>%
+  column_spec(18,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$CMF,
+                option = "H"
+              )
+              
+  ) %>%
+  column_spec(19,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$ATR,
+                option = "E"
+              )
+              
+  ) %>%
+  column_spec(20,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$ADX,
+                option = "E"
+              )
+              
+  ) %>%
+  column_spec(21,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$OBV,
+                option = "E"
+              )
+              
+  ) %>%
+  column_spec(22,
+              color = "white",
+              background = spec_color(
+                assetSymbolDataFrame$Index,
+                option = "H"
+              )
+              
+  ) %>%
+    kable_material_dark(c("striped", "hover"), full_width = F) %>%
+    row_spec(0, align = "c")
+```
