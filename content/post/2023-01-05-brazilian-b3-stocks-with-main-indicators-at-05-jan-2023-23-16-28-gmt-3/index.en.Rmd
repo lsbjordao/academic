@@ -28,7 +28,7 @@ usedIcons <- sub(
       
       sub(
         
-        "(3\\.SA$|4\\.SA$)",
+        "(3$|4$)",
         "",
         (df %>%
            select(symbol))[,1]
